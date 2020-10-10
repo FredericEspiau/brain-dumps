@@ -8,3 +8,7 @@ Resources of high quality that I enjoy
 ### Productivity
 
 - [Vimium](http://vimium.github.io/)
+
+### Miscellaneous
+
+- [Is a word dirty in any language, or not ?](http://wordsafety.com/)
