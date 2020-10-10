@@ -16,6 +16,10 @@ I have too much bookmarks and I wanted to share them so here it is :)
 - [DI Composition Models: A Primer](https://blogs.cuttingedge.it/steven/posts/2019/di-composition-models-primer/)
 - [Why I Don't Use a DI Container](https://khalilstemmler.com/articles/software-design-architecture/coding-without-di-container/)
 
+Code
+
+- [Exemple en c#](https://github.com/timsommer/cqs-dotnetcurry-sample/tree/master/Cqs.SampleApp.Console/Cqs.SampleApp.Core/IoC)
+
 ### Test Driven Development
 
 - [TDD - La méthode qui promet des logiciels de meilleur qualité est-elle utopique ?](https://www.linkedin.com/pulse/tdd-la-m%25C3%25A9thode-qui-promet-des-logiciels-de-meilleur-lenselle)
