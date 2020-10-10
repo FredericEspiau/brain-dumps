@@ -12,3 +12,7 @@ Resources of high quality that I enjoy
 ### Miscellaneous
 
 - [Is a word dirty in any language, or not ?](http://wordsafety.com/)
+
+### AWS
+
+- [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
