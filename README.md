@@ -20,6 +20,11 @@ Code
 
 - [Exemple en c#](https://github.com/timsommer/cqs-dotnetcurry-sample/tree/master/Cqs.SampleApp.Console/Cqs.SampleApp.Core/IoC)
 
+### Error handling
+
+- [Exceptions for flow control in C#
+](https://enterprisecraftsmanship.com/posts/exceptions-for-flow-control/)
+
 ### Test Driven Development
 
 - [TDD - La méthode qui promet des logiciels de meilleur qualité est-elle utopique ?](https://www.linkedin.com/pulse/tdd-la-m%25C3%25A9thode-qui-promet-des-logiciels-de-meilleur-lenselle)
