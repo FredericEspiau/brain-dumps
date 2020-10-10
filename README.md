@@ -1,6 +1,8 @@
 # Quality ressources
 Resources of high quality that I enjoy
 
+I have too much bookmarks and I wanted to share them so here it is :)
+
 ### Dependency injection
 
 - [Blog with a lot of content about DI](https://blogs.cuttingedge.it/steven/)
