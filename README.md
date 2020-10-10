@@ -20,6 +20,11 @@ Code
 
 - [Exemple en c#](https://github.com/timsommer/cqs-dotnetcurry-sample/tree/master/Cqs.SampleApp.Console/Cqs.SampleApp.Core/IoC)
 
+### DDD
+
+Code
+- [Node.js + TypeScript](https://github.com/stemmlerjs/white-label)
+
 ### Error handling
 
 - [Exceptions for flow control in C#
