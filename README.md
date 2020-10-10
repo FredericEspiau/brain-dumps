@@ -3,6 +3,10 @@ Resources of high quality that I enjoy
 
 I have too much bookmarks and I wanted to share them so here it is :)
 
+### CQS
+
+- [A simple but powerful pattern](https://www.dotnetcurry.com/patterns-practices/1461/command-query-separation-cqs)
+
 ### Dependency injection
 
 - [Blog with a lot of content about DI](https://blogs.cuttingedge.it/steven/)
