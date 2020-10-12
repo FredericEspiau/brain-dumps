@@ -45,3 +45,9 @@ Code
 ### AWS
 
 - [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
+
+### Books
+
+I want to buy
+
+- https://leanpub.com/algebra-driven-design
