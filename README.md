@@ -35,7 +35,7 @@ Code
 ## Tests
 
 - [Property testing with complex inputs](https://www.hillelwayne.com/post/property-testing-complex-inputs/)
-- [Quickchekf, Hedgehog, Validity](https://www.fpcomplete.com/blog/quickcheck-hedgehog-validity/)
+- [Property testing en Haskell et les solutions Quickcheck, Hedgehog, Validity](https://www.fpcomplete.com/blog/quickcheck-hedgehog-validity/)
 
 ### Test Driven Development
 
