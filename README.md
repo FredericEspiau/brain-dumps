@@ -2,6 +2,11 @@
 
 Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
+
+## Traversal system
+
+- [Generalizing 'Jq' And Traversal Systems Using Optics And Standard Monads](https://chrispenner.ca/posts/traversal-systems)
+
 ## Monorepo
 
 - [Easy, step by step guide to Monorepo Architecture using Lerna, Yarn workspace and React Workspace.](https://medium.com/@bijayshrestha/easy-step-by-step-guide-to-monorepo-architecture-using-lerna-yarn-workspace-and-react-workspace-5255d3e9447)
