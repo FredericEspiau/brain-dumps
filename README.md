@@ -51,3 +51,7 @@ Code
 I want to buy
 
 - https://leanpub.com/algebra-driven-design
+
+### Agile
+
+- [The Death of Agile (Allen Holub)](https://www.youtube.com/watch?v=HZyRQ8Uhhmk)
