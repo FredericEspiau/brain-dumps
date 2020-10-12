@@ -27,8 +27,11 @@ Code
 
 ### Error handling
 
-- [Exceptions for flow control in C#
-](https://enterprisecraftsmanship.com/posts/exceptions-for-flow-control/)
+- [Exceptions for flow control in C#](https://enterprisecraftsmanship.com/posts/exceptions-for-flow-control/)
+
+## Tests
+
+- [Property testing with complex inputs](https://www.hillelwayne.com/post/property-testing-complex-inputs/)
 
 ### Test Driven Development
 
