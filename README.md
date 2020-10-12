@@ -63,6 +63,11 @@ Code
 
 ## Books
 
+### Que j'ai et je recommande
+
+- [99 Bottles of OOP](https://sandimetz.com/99bottles)
+99 Bottles of OOP is a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code. 
+
 ### Que je veux acheter
 
 - https://leanpub.com/algebra-driven-design
