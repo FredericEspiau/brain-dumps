@@ -99,3 +99,7 @@ Code
 ## JavaScript
 
 - [Quick Introduction to Lenses with Optics.js](https://www.youtube.com/watch?v=vf3P_i1IMtU)
+
+## Domain Driven Design
+
+- [L’après-midi du DDD 1/3 – Keynote & Test Harness](https://www.youtube.com/watch?v=qzygjKpFSq4)
