@@ -3,11 +3,15 @@ Resources of high quality that I enjoy
 
 I have too much bookmarks and I wanted to share them so here it is :)
 
-### CQS
+## Monorepo
+
+- [Easy, step by step guide to Monorepo Architecture using Lerna, Yarn workspace and React Workspace.](https://medium.com/@bijayshrestha/easy-step-by-step-guide-to-monorepo-architecture-using-lerna-yarn-workspace-and-react-workspace-5255d3e9447)
+
+## CQS
 
 - [A simple but powerful pattern](https://www.dotnetcurry.com/patterns-practices/1461/command-query-separation-cqs)
 
-### Dependency injection
+## Dependency injection
 
 - [Blog with a lot of content about DI](https://blogs.cuttingedge.it/steven/)
 - [What's a composition root?](https://blog.ploeh.dk/2011/07/28/CompositionRoot/)
@@ -25,7 +29,7 @@ Code
 Code
 - [Node.js + TypeScript](https://github.com/stemmlerjs/white-label)
 
-### Error handling
+## Error handling
 
 - [Exceptions for flow control in C#](https://enterprisecraftsmanship.com/posts/exceptions-for-flow-control/)
 
@@ -37,32 +41,32 @@ Code
 
 - [TDD - La méthode qui promet des logiciels de meilleur qualité est-elle utopique ?](https://www.linkedin.com/pulse/tdd-la-m%25C3%25A9thode-qui-promet-des-logiciels-de-meilleur-lenselle)
 
-### Productivity
+## Productivity
 
 - [Vimium](http://vimium.github.io/)
 
-### Miscellaneous
+## Miscellaneous
 
 - [Is a word dirty in any language, or not ?](http://wordsafety.com/)
 
-## Tools
+# Tools
 
 - [Share code in real-time with developers](https://codeshare.io/)
 
-### AWS
+## AWS
 
 - [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
 
-### Books
+## Books
 
 I want to buy
 
 - https://leanpub.com/algebra-driven-design
 
-### Agile
+## Agile
 
 - [The Death of Agile (Allen Holub)](https://www.youtube.com/watch?v=HZyRQ8Uhhmk)
 
-### JavaScript
+## JavaScript
 
 - [Quick Introduction to Lenses with Optics.js](https://www.youtube.com/watch?v=vf3P_i1IMtU)
