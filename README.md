@@ -1,7 +1,6 @@
-# Quality ressources
-Resources of high quality that I enjoy
+# Brain dumps
 
-I have too much bookmarks and I wanted to share them so here it is :)
+Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
 ## Monorepo
 
