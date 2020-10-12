@@ -45,6 +45,10 @@ Code
 
 - [Is a word dirty in any language, or not ?](http://wordsafety.com/)
 
+## Tools
+
+- [Share code in real-time with developers](https://codeshare.io/)
+
 ### AWS
 
 - [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
