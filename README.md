@@ -2,6 +2,10 @@
 
 Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
+## Clean architecture
+
+- [Layers, Onions, Ports, Adapters: it's all the same](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/)
+
 ## Category Theory
 
 - [Functors, Applicatives, And Monads In Pictures](https://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
