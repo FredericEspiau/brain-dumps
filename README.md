@@ -58,9 +58,13 @@ Code
 
 ## Books
 
-I want to buy
+### Que je veux acheter
 
 - https://leanpub.com/algebra-driven-design
+
+### Fiches de lecture
+
+- [Microservice Patterns (Mickaël Wegerich)](https://medium.com/@mickalwegerich/fiche-de-lecture-microservice-patterns-chris-richardson-a622eb139f75)
 
 ## Agile
 
