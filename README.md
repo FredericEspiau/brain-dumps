@@ -55,3 +55,7 @@ I want to buy
 ### Agile
 
 - [The Death of Agile (Allen Holub)](https://www.youtube.com/watch?v=HZyRQ8Uhhmk)
+
+### JavaScript
+
+- [Quick Introduction to Lenses with Optics.js](https://www.youtube.com/watch?v=vf3P_i1IMtU)
