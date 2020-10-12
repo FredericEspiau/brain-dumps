@@ -12,6 +12,10 @@ A Traversal System allows you dive deeply into a piece of data and may allow you
 
 - [Generalizing 'Jq' And Traversal Systems Using Optics And Standard Monads](https://chrispenner.ca/posts/traversal-systems)
 
+Livres
+
+- https://leanpub.com/optics-by-example
+
 ## Monorepo
 
 - [Easy, step by step guide to Monorepo Architecture using Lerna, Yarn workspace and React Workspace.](https://medium.com/@bijayshrestha/easy-step-by-step-guide-to-monorepo-architecture-using-lerna-yarn-workspace-and-react-workspace-5255d3e9447)
