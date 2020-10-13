@@ -2,6 +2,10 @@
 
 Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
+## Cucumber
+
+- [HN post by the creator of Cucumber](https://news.ycombinator.com/item?id=10194242)
+
 ## Clean architecture
 
 - [Layers, Onions, Ports, Adapters: it's all the same](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/)
