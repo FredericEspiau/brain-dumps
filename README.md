@@ -58,8 +58,9 @@ Code
 
 - [Exemple en c#](https://github.com/timsommer/cqs-dotnetcurry-sample/tree/master/Cqs.SampleApp.Console/Cqs.SampleApp.Core/IoC)
 
-### DDD
+## Domain Driven Design
 
+- [L’après-midi du DDD 1/3 – Keynote & Test Harness](https://www.youtube.com/watch?v=qzygjKpFSq4)
 - [Protecting Your Domain-Driven Design from Anemia](https://dzone.com/articles/protecting-your-domain-driven-design-from-anemia)
 
 Code
@@ -85,6 +86,7 @@ Code
 ## Miscellaneous
 
 - [Is a word dirty in any language, or not ?](http://wordsafety.com/)
+- [A methodology for building modern, scalable, maintainable software-as-a-service apps](https://12factor.net/)
 
 # Tools
 
@@ -116,7 +118,3 @@ Code
 ## JavaScript
 
 - [Quick Introduction to Lenses with Optics.js](https://www.youtube.com/watch?v=vf3P_i1IMtU)
-
-## Domain Driven Design
-
-- [L’après-midi du DDD 1/3 – Keynote & Test Harness](https://www.youtube.com/watch?v=qzygjKpFSq4)
