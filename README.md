@@ -9,6 +9,7 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 ## Clean architecture
 
 - [Layers, Onions, Ports, Adapters: it's all the same](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/)
+- [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
 
 ## Category Theory
 
@@ -62,6 +63,7 @@ Code
 
 - [L’après-midi du DDD 1/3 – Keynote & Test Harness](https://www.youtube.com/watch?v=qzygjKpFSq4)
 - [Protecting Your Domain-Driven Design from Anemia](https://dzone.com/articles/protecting-your-domain-driven-design-from-anemia)
+- [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
 
 Code
 - [Node.js + TypeScript](https://github.com/stemmlerjs/white-label)
