@@ -36,10 +36,6 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - [Layers, Onions, Ports, Adapters: it's all the same](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/)
 - [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
 
-## Cucumber
-
-- [HN post by the creator of Cucumber](https://news.ycombinator.com/item?id=10194242)
-
 ## Clojure
 
 - [Guide to starting with Clojure](https://grison.me/2020/04/04/starting-with-clojure/)
@@ -47,6 +43,10 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 ## CQS
 
 - [A simple but powerful pattern](https://www.dotnetcurry.com/patterns-practices/1461/command-query-separation-cqs)
+
+## Cucumber
+
+- [HN post by the creator of Cucumber](https://news.ycombinator.com/item?id=10194242)
 
 ## Dependency injection
 
@@ -106,11 +106,11 @@ Code
 - [Property testing with complex inputs](https://www.hillelwayne.com/post/property-testing-complex-inputs/)
 - [Property testing en Haskell et les solutions Quickcheck, Hedgehog, Validity](https://www.fpcomplete.com/blog/quickcheck-hedgehog-validity/)
 
-### Test Driven Development
+## Test Driven Development
 
 - [TDD - La méthode qui promet des logiciels de meilleur qualité est-elle utopique ?](https://www.linkedin.com/pulse/tdd-la-m%25C3%25A9thode-qui-promet-des-logiciels-de-meilleur-lenselle)
 
-# Tools
+## Tools
 
 - [Share code in real-time with developers](https://codeshare.io/)
 
