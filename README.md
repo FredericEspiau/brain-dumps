@@ -2,32 +2,43 @@
 
 Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
-## Cucumber
+## Agile
 
-- [HN post by the creator of Cucumber](https://news.ycombinator.com/item?id=10194242)
+- [The Death of Agile (Allen Holub)](https://www.youtube.com/watch?v=HZyRQ8Uhhmk)
+- [Arnaud Lemaire - Et si on redémarrait l'agilité ?](https://www.youtube.com/watch?v=sZbmP0JZHBs)
+
+## AWS
+
+- [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
+
+## Books
+
+### Que j'ai et je recommande
+
+- [99 Bottles of OOP](https://sandimetz.com/99bottles)
+
+99 Bottles of OOP is a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code. 
+
+### Que je veux acheter
+
+- https://leanpub.com/algebra-driven-design
+
+### Fiches de lecture
+
+- [Microservice Patterns (Mickaël Wegerich)](https://medium.com/@mickalwegerich/fiche-de-lecture-microservice-patterns-chris-richardson-a622eb139f75)
+
+## Category Theory
+
+- [Functors, Applicatives, And Monads In Pictures](https://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
 
 ## Clean architecture
 
 - [Layers, Onions, Ports, Adapters: it's all the same](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/)
 - [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
 
-## Category Theory
+## Cucumber
 
-- [Functors, Applicatives, And Monads In Pictures](https://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
-
-## Traversal system
-
-A Traversal System allows you dive deeply into a piece of data and may allow you to fetch, query, and edit the structure as you go while maintaining references to other pieces of the structure to influence your work
-
-- [Generalizing 'Jq' And Traversal Systems Using Optics And Standard Monads](https://chrispenner.ca/posts/traversal-systems)
-
-Livres
-
-- https://leanpub.com/optics-by-example
-
-## Monorepo
-
-- [Easy, step by step guide to Monorepo Architecture using Lerna, Yarn workspace and React Workspace.](https://medium.com/@bijayshrestha/easy-step-by-step-guide-to-monorepo-architecture-using-lerna-yarn-workspace-and-react-workspace-5255d3e9447)
+- [HN post by the creator of Cucumber](https://news.ycombinator.com/item?id=10194242)
 
 ## Clojure
 
@@ -73,6 +84,23 @@ Code
 
 - [Exceptions for flow control in C#](https://enterprisecraftsmanship.com/posts/exceptions-for-flow-control/)
 
+## JavaScript
+
+- [Quick Introduction to Lenses with Optics.js](https://www.youtube.com/watch?v=vf3P_i1IMtU)
+
+## Miscellaneous
+
+- [Is a word dirty in any language, or not ?](http://wordsafety.com/)
+- [A methodology for building modern, scalable, maintainable software-as-a-service apps](https://12factor.net/)
+
+## Monorepo
+
+- [Easy, step by step guide to Monorepo Architecture using Lerna, Yarn workspace and React Workspace.](https://medium.com/@bijayshrestha/easy-step-by-step-guide-to-monorepo-architecture-using-lerna-yarn-workspace-and-react-workspace-5255d3e9447)
+
+## Productivity
+
+- [Vimium](http://vimium.github.io/)
+
 ## Tests
 
 - [Property testing with complex inputs](https://www.hillelwayne.com/post/property-testing-complex-inputs/)
@@ -82,44 +110,16 @@ Code
 
 - [TDD - La méthode qui promet des logiciels de meilleur qualité est-elle utopique ?](https://www.linkedin.com/pulse/tdd-la-m%25C3%25A9thode-qui-promet-des-logiciels-de-meilleur-lenselle)
 
-## Productivity
-
-- [Vimium](http://vimium.github.io/)
-
-## Miscellaneous
-
-- [Is a word dirty in any language, or not ?](http://wordsafety.com/)
-- [A methodology for building modern, scalable, maintainable software-as-a-service apps](https://12factor.net/)
-
 # Tools
 
 - [Share code in real-time with developers](https://codeshare.io/)
 
-## AWS
+## Traversal system
 
-- [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
+A Traversal System allows you dive deeply into a piece of data and may allow you to fetch, query, and edit the structure as you go while maintaining references to other pieces of the structure to influence your work
 
-## Books
+- [Generalizing 'Jq' And Traversal Systems Using Optics And Standard Monads](https://chrispenner.ca/posts/traversal-systems)
 
-### Que j'ai et je recommande
+Livres
 
-- [99 Bottles of OOP](https://sandimetz.com/99bottles)
-
-99 Bottles of OOP is a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code. 
-
-### Que je veux acheter
-
-- https://leanpub.com/algebra-driven-design
-
-### Fiches de lecture
-
-- [Microservice Patterns (Mickaël Wegerich)](https://medium.com/@mickalwegerich/fiche-de-lecture-microservice-patterns-chris-richardson-a622eb139f75)
-
-## Agile
-
-- [The Death of Agile (Allen Holub)](https://www.youtube.com/watch?v=HZyRQ8Uhhmk)
-- [Arnaud Lemaire - Et si on redémarrait l'agilité ?](https://www.youtube.com/watch?v=sZbmP0JZHBs)
-
-## JavaScript
-
-- [Quick Introduction to Lenses with Optics.js](https://www.youtube.com/watch?v=vf3P_i1IMtU)
+- https://leanpub.com/optics-by-example
