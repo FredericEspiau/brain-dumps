@@ -10,6 +10,7 @@ Articles
 
 - [Clarified CQRS](https://udidahan.com/2009/12/09/clarified-cqrs/)
 - [Creating IDs with CQRS and Event Sourcing in Java and .NET](https://thomasjaeger.wordpress.com/2016/01/09/creating-ids-with-cqrs-and-event-sourcing-in-java-and-net/)
+- [CQS versus server generated IDs](https://blog.ploeh.dk/2014/08/11/cqs-versus-server-generated-ids/)
 
 Code
 
