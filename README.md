@@ -86,7 +86,7 @@ Code
 
 ## Functional programming
 
-- [Demistify FP (mostly F#)](https://www.demystifyfp.com/)
+- [Demistify FP (mostly F#/Clojure)](https://www.demystifyfp.com/)
 
 ## JavaScript
 
