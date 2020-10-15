@@ -7,6 +7,13 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - [The Death of Agile (Allen Holub)](https://www.youtube.com/watch?v=HZyRQ8Uhhmk)
 - [Arnaud Lemaire - Et si on redémarrait l'agilité ?](https://www.youtube.com/watch?v=sZbmP0JZHBs)
 
+## API Design
+
+- [Designing REST APIs: Intent API Pattern](https://dzone.com/articles/rest-api-design-intent-api-pattern)
+- [Intent-based RESTful APIs](https://blog.ecitele.com/intent-based-restful-apis)
+- [Resource Modeling](https://www.thoughtworks.com/insights/blog/rest-api-design-resource-modeling)
+- [Zalando RESTful API and Event Scheme Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
+
 ## AWS
 
 - [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
