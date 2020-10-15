@@ -8,6 +8,11 @@ Articles
 Code
 
 - [Simple CQRS example](https://github.com/gregoryyoung/m-r)
+- [CQRS Front-end](https://github.com/OpenCircleEndy/cqrs-frontend)
+
+Tips
+
+- [Why do commands include the entity id when creating entities?](https://github.com/gregoryyoung/m-r/issues/17)
 
 Vidéo
 
