@@ -84,6 +84,10 @@ Code
 
 - [Exceptions for flow control in C#](https://enterprisecraftsmanship.com/posts/exceptions-for-flow-control/)
 
+## Functional programming
+
+- [Demistify FP (mostly F#)](https://www.demystifyfp.com/)
+
 ## JavaScript
 
 - [Quick Introduction to Lenses with Optics.js](https://www.youtube.com/watch?v=vf3P_i1IMtU)
