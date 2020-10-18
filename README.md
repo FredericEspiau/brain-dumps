@@ -14,10 +14,6 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - [Resource Modeling](https://www.thoughtworks.com/insights/blog/rest-api-design-resource-modeling)
 - [Zalando RESTful API and Event Scheme Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
 
-## AWS
-
-- [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
-
 ## Books
 
 ### Que j'ai et je recommande
