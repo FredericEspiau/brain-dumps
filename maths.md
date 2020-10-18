@@ -1,3 +1,14 @@
 # Mathématique
 
 - [Introduction to Sets](https://www.mathsisfun.com/sets/sets-introduction.html)
+- [Discussions HN pour apprendre les Maths](https://news.ycombinator.com/item?id=22401198)
+- [AlgebraicStructuresandDiscreteMathematics](http://nicolas.thiery.name/macs358/Notes/AlgebraicStructures.pdf)
+- [An Intuitive Guide to Linear Algebra](https://betterexplained.com/articles/linear-algebra-guide/)
+- [Calculus Explained with pics and gifs](https://0a.io/chapter1/calculus-explained.html)
+- [Discrete Mathematics Introduction](http://discrete.openmathbooks.org/dmoi3.html)
+- [Discussion sur Discrete Mathematics Introduction](https://news.ycombinator.com/item?id=23214961)
+- [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/)
+- [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
+- [HN: Self Studying the MIT Applied Math Curriculum](https://news.ycombinator.com/item?id=19811715)
+- [Set Theory and Foundations of Mathematics](http://settheory.net/)
+_ [The Map of Maths](https://www.quantamagazine.org/the-map-of-mathematics-20200213/)
