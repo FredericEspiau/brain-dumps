@@ -12,6 +12,7 @@ Articles
 - [Creating IDs with CQRS and Event Sourcing in Java and .NET](https://thomasjaeger.wordpress.com/2016/01/09/creating-ids-with-cqrs-and-event-sourcing-in-java-and-net/)
 - [CQS versus server generated IDs](https://blog.ploeh.dk/2014/08/11/cqs-versus-server-generated-ids/)
 - [Command Handlers](https://buildplease.com/pages/fpc-10/)
+- [Answer to the article CQRS Is an Anti-Pattern for DDD](https://sylvainleroy.com/2020/09/24/answer-to-the-article-cqrs-is-an-anti-pattern-for-ddd/)
 
 Code
 
@@ -48,6 +49,19 @@ Code
 - [Matthew Renze](https://github.com/matthewrenze)
 - [C#](https://github.com/matthewrenze/clean-architecture-demo/tree/repo-and-uow)
 - [Wealcome](https://github.com/mica16/wealcome-restaurants-tdd-clean-archi-demo)
-- [React](https://github.com/dimitridumont/hexagonal-architecture-react)
 - [TDD & Hexagonal](https://github.com/PCreations/real-world-tdd/tree/hexagonal)
 - [Haskell](https://github.com/thma/PolysemyCleanArchitecture)
+- [NestJs](https://github.com/damienbeaufils/nestjs-clean-architecture-demo)
+- [BDD, ATTD and Clean Architecture](https://gitlab.com/bbohec/atdd-clean-architecture-casino/-/tree/master)
+- [Hexagonal Architecture + DDD + CQRS in PHP](https://github.com/CodelyTV/php-ddd-example)
+- [TypeScript DDD & Hexa](https://github.com/CodelyTV/typescript-ddd-skeleton)
+- [React](https://github.com/dimitridumont/hexagonal-architecture-react)
+- [React](https://github.com/eduardomoroni/react-clean-architecture)
+
+Vidéo
+
+- [Je vous montre ce que j'apprends #01 : Architecture Hexagonale](https://www.youtube.com/watch?v=_jR8eUlNqK0)
+
+# Autre
+
+- [Fullstack React GraphQL TypeScript Tutorial](https://www.youtube.com/watch?v=I6ypD7qv3Z8&feature=youtu.be)
