@@ -11,6 +11,7 @@ Articles
 - [Clarified CQRS](https://udidahan.com/2009/12/09/clarified-cqrs/)
 - [Creating IDs with CQRS and Event Sourcing in Java and .NET](https://thomasjaeger.wordpress.com/2016/01/09/creating-ids-with-cqrs-and-event-sourcing-in-java-and-net/)
 - [CQS versus server generated IDs](https://blog.ploeh.dk/2014/08/11/cqs-versus-server-generated-ids/)
+- [Command Handlers](https://buildplease.com/pages/fpc-10/)
 
 Code
 
@@ -26,3 +27,27 @@ Vidéo
 Tips
 
 - [Why do commands include the entity id when creating entities?](https://github.com/gregoryyoung/m-r/issues/17) - 2020-10-15
+
+# Clean architecture
+
+Articles
+
+- [JavaScript: Using use-case interactors](https://medium.com/@dtinth/clean-javascript-using-use-case-interactors-f3a50c138154)
+- [Command Handlers](https://buildplease.com/pages/fpc-10/)
+- [Hexagonal Architecture - A guide](https://beyondxscratch.com/2017/08/19/hexagonal-architecture-the-practical-guide-for-a-clean-architecture/)
+- [Très bonne explication - Juan Manuel Garrido de Paz](https://jmgarridopaz.github.io/content/hexagonalarchitecture.html)
+- [How to implement the Clean Architecture?](http://www.plainionist.net/Implementing-Clean-Architecture/)
+- [What is a use case?](http://www.plainionist.net/Implementing-Clean-Architecture-UseCases/)
+- [Clean Architecture : Part 1](https://crosp.net/blog/software-architecture/clean-architecture-part-1-databse-vs-domain/)
+- [Usecase dependencies](https://stackoverflow.com/questions/40458666/the-clean-architecture-usecase-dependencies)
+- [The Domain](https://buildplease.com/pages/fpc-1/)
+- [Why you need Use Cases/Interactors](https://proandroiddev.com/why-you-need-use-cases-interactors-142e8a6fe576)
+
+Code
+
+- [Matthew Renze](https://github.com/matthewrenze)
+- [C#](https://github.com/matthewrenze/clean-architecture-demo/tree/repo-and-uow)
+- [Wealcome](https://github.com/mica16/wealcome-restaurants-tdd-clean-archi-demo)
+- [React](https://github.com/dimitridumont/hexagonal-architecture-react)
+- [TDD & Hexagonal](https://github.com/PCreations/real-world-tdd/tree/hexagonal)
+- [Haskell](https://github.com/thma/PolysemyCleanArchitecture)
