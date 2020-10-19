@@ -101,6 +101,7 @@ Code
 - [A methodology for building modern, scalable, maintainable software-as-a-service apps](https://12factor.net/)
 - [Programming with Linear Logic](https://www.cs.cmu.edu/~cmartens/thesis/)
 - [Beginner’s Guide To Abstraction](https://jesseduffield.com/beginners-guide-to-abstraction/)
+- [Awesome by Sindre](https://github.com/sindresorhus/awesome)
 
 ## Monorepo
 
