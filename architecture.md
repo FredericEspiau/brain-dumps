@@ -57,6 +57,7 @@ Code
 - [TypeScript DDD & Hexa](https://github.com/CodelyTV/typescript-ddd-skeleton)
 - [React](https://github.com/dimitridumont/hexagonal-architecture-react)
 - [React](https://github.com/eduardomoroni/react-clean-architecture)
+- [Explicit architecture - PHP](https://github.com/hgraca/explicit-architecture-php)
 
 Vidéo
 
@@ -65,3 +66,4 @@ Vidéo
 # Autre
 
 - [Fullstack React GraphQL TypeScript Tutorial](https://www.youtube.com/watch?v=I6ypD7qv3Z8&feature=youtu.be)
+- [Architecture Playbook](https://nocomplexity.com/documents/arplaybook/introduction.html)
