@@ -5,3 +5,5 @@
 - [GraphQL Nexus](https://nexusjs.org/)
 
 Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
+
+- [Type Fest](https://github.com/sindresorhus/type-fest)
