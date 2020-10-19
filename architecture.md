@@ -67,3 +67,9 @@ Vidéo
 
 - [Fullstack React GraphQL TypeScript Tutorial](https://www.youtube.com/watch?v=I6ypD7qv3Z8&feature=youtu.be)
 - [Architecture Playbook](https://nocomplexity.com/documents/arplaybook/introduction.html)
+- [The Software Architecture Chronicles](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/)
+
+Histoire de l'architecture logicielle
+
+- [Systems design for advanced beginners](https://news.ycombinator.com/item?id=23904000)
+- [ORMless; a Memento-like pattern for object persistence](https://matthiasnoback.nl/2018/03/ormless-a-memento-like-pattern-for-object-persistence/)
