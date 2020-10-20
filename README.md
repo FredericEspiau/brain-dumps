@@ -2,6 +2,14 @@
 
 Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
+## A trier
+
+- https://blog.engineering.publicissapient.fr/category/craftsmanship/
+- https://blog.engineering.publicissapient.fr/category/agilite/
+- https://blog.engineering.publicissapient.fr/category/woa/
+- https://blog.engineering.publicissapient.fr/category/back/
+- 
+
 ## Agile
 
 - [The Death of Agile (Allen Holub)](https://www.youtube.com/watch?v=HZyRQ8Uhhmk)
