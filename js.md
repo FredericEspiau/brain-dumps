@@ -7,3 +7,5 @@
 Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
 
 - [Type Fest](https://github.com/sindresorhus/type-fest)
+
+- [Higher Kinded Types in TS](https://dev.to/matechs/encoding-hkts-in-ts4-1-1fn2)
