@@ -6,3 +6,4 @@
 - [An attempt to get better at functional programming by writing solutions to famous Katas ](https://github.com/Madmous/Kata)
 - [Clean Code Kata Repositories ](https://github.com/cleancode-katas)
 - [Awesome Katas](https://github.com/gamontal/awesome-katas)
+- [Count Coins Kata](https://github.com/sodper/count-coins-kata)
