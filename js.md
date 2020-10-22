@@ -28,3 +28,7 @@ Outils
 Programmation fonctionnelle
 
 - [Managing side effects with monads in JavaScript](https://www.7urtle.com/javascript-applicative-functor-monads)
+
+Code
+
+- [Yarn Workspaces exemple](https://github.com/HugoDF/yarn-workspaces-simple-monorepo)
