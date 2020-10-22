@@ -13,3 +13,7 @@ Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
 Vidéos
 
 - [Functional TypeScript](https://www.youtube.com/watch?v=ftBH_KvEq7M&feature=youtu.be)
+
+Outils
+
+- [Analyser les dépendances NPM](https://depchecker.com/blog/analyze-project-deps/)
