@@ -7,3 +7,5 @@
 - [Clean Code Kata Repositories ](https://github.com/cleancode-katas)
 - [Awesome Katas](https://github.com/gamontal/awesome-katas)
 - [Count Coins Kata](https://github.com/sodper/count-coins-kata)
+- [Le MiniPricer](https://ingdevfi.wordpress.com/2015/02/27/kata-finance-le-minipricer/)
+- [String Calculator step by step](https://osherove.com/tdd-kata-1)
