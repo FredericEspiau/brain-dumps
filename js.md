@@ -32,3 +32,8 @@ Programmation fonctionnelle
 Code
 
 - [Yarn Workspaces exemple](https://github.com/HugoDF/yarn-workspaces-simple-monorepo)
+
+Cours
+
+- [jsComplete](https://jscomplete.com/)
+
