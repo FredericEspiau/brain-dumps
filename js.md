@@ -23,3 +23,7 @@ Vidéos
 Outils
 
 - [Analyser les dépendances NPM](https://depchecker.com/blog/analyze-project-deps/)
+
+Programmation fonctionnelle
+
+- [Managing side effects with monads in JavaScript](https://www.7urtle.com/javascript-applicative-functor-monads)
