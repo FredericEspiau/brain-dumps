@@ -1,5 +1,6 @@
 # JavaScript/TypeScript
 
+- [Mastering Hard Parts of JavaScript](https://dev.to/ryanameri/mastering-hard-parts-of-javascript-callbacks-i-3aj0)
 - [Type-Safe Errors for JS & TypeScript](https://github.com/supermacro/neverthrow)
 - [Using ESLint and Prettier in a TypeScript Project](https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project)
 - [GraphQL Nexus](https://nexusjs.org/)
