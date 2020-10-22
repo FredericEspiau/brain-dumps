@@ -8,7 +8,7 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - https://blog.engineering.publicissapient.fr/category/agilite/
 - https://blog.engineering.publicissapient.fr/category/woa/
 - https://blog.engineering.publicissapient.fr/category/back/
-- 
+- https://www.semicolonandsons.com/
 
 ## Agile
 
