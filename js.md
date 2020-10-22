@@ -23,6 +23,7 @@ Vidéos
 Outils
 
 - [Analyser les dépendances NPM](https://depchecker.com/blog/analyze-project-deps/)
+- [ESLint Hardcore](https://github.com/EvgenyOrekhov/eslint-config-hardcore)
 
 Programmation fonctionnelle
 
