@@ -37,3 +37,7 @@ Cours
 
 - [jsComplete](https://jscomplete.com/)
 
+Book
+
+- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+
