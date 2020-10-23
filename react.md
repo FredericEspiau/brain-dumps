@@ -7,5 +7,4 @@ Code
 
 Cheatsheet
 
-- [With TS](https://github.com/typescript-cheatsheets/react)
-- [With TS again](https://react-typescript-cheatsheet.netlify.app/)
+- [With TS](https://react-typescript-cheatsheet.netlify.app/)
