@@ -1,7 +1,7 @@
 # Microservices
 
 - [Site complet sur le sujet](https://microservices.io/index.html)
-- http://chrisrichardson.net/
+- [Blog du même auteur](http://chrisrichardson.net/blog.html)
 
 Articles
 
