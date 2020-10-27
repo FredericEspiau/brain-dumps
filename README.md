@@ -13,6 +13,8 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - https://github.com/jwasham/coding-interview-university
 - https://news.ycombinator.com/item?id=24837898
 - [The mother of all demo apps](https://github.com/gothinkster/realworld)
+- https://dmitrysoshnikov.teachable.com/
+- https://craftinginterpreters.com/
 
 ## Agile
 
