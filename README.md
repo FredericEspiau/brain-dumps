@@ -15,6 +15,7 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - [The mother of all demo apps](https://github.com/gothinkster/realworld)
 - https://dmitrysoshnikov.teachable.com/
 - https://craftinginterpreters.com/
+- https://www.hectorkitchen.com/foire-aux-questions-alimentation-chien
 
 ## Agile
 
