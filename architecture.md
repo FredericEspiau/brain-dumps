@@ -13,6 +13,7 @@ Articles
 - [CQS versus server generated IDs](https://blog.ploeh.dk/2014/08/11/cqs-versus-server-generated-ids/)
 - [Command Handlers](https://buildplease.com/pages/fpc-10/)
 - [Answer to the article CQRS Is an Anti-Pattern for DDD](https://sylvainleroy.com/2020/09/24/answer-to-the-article-cqrs-is-an-anti-pattern-for-ddd/)
+- [The Grand Unified Theory of Software Architecture](https://danuker.go.ro/the-grand-unified-theory-of-software-architecture.html)
 
 Code
 
