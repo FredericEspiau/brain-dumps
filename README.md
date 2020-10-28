@@ -16,7 +16,8 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - https://dmitrysoshnikov.teachable.com/
 - https://craftinginterpreters.com/
 - https://www.hectorkitchen.com/foire-aux-questions-alimentation-chien
-- https://www.youtube.com/watch?v=uXebwLDJkxw&feature=youtu.be
+- https://www.youtube.com/watch?v=uXebwLDJkxw
+- https://cheatsheets.joshuatz.com/
 
 ## Agile
 
