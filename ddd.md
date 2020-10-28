@@ -8,3 +8,4 @@
 Code
 
 - [Node](https://github.com/node-ts/ddd)
+- https://github.com/kgrzybek/modular-monolith-with-ddd
