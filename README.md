@@ -77,7 +77,66 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - https://github.com/thoughtbot/guides
 - https://github.com/viatsko/awesome-vscode
 - https://github.com/linpengcheng/PurefunctionPipelineDataflow
-- 
+- https://github.com/open-guides/og-aws
+- https://github.com/volta-cli/volta
+- https://github.com/brunopulis/awesome-a11y
+- https://github.com/webhintio/hint
+- https://github.com/sdmg15/Best-websites-a-programmer-should-visit
+- https://github.com/kongware/scriptum
+- https://github.com/florinpop17/app-ideas
+- https://github.com/sinonjs/sinon
+- https://github.com/munificent/craftinginterpreters
+- https://github.com/benjamn/recast
+- https://github.com/benjamn/ast-types
+- https://github.com/neoclide/coc.nvim
+- https://github.com/kdeldycke/awesome-falsehood
+- https://github.com/goldbergyoni/nodebestpractices
+- https://github.com/gothinkster/realworld
+- https://github.com/Asabeneh/30-Days-Of-React
+- https://github.com/stefanbuck/awesome-browser-extensions-for-github
+- Learn Vim (the Smart Way) https://news.ycombinator.com/item?id=24287566
+- Scaling Your Project with Micro-Frontends https://www.infoq.com/presentations/dazn-microfrontend/
+- https://github.com/project-nodalis/workspaces-starter-legacy
+- http://ravimohan.blogspot.com/2007/04/learning-from-sudoku-solvers.html?m=1
+- https://owasp.org/www-project-top-ten/
+- https://www.learnstorybook.com/
+- https://www.youtube.com/watch?v=BDYa71bCJpU&feature=youtu.be
+- https://documentation.divio.com/
+- https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+- https://v5.chriskrycho.com/journal/things-i-was-wrong-about/1-types/
+- https://github.com/timurrustamov/rescript-presentation
+- https://enterprisecraftsmanship.com/
+- https://emojipedia.org/
+- https://www.manomano.fr/
+- https://boffinism.com/why-you-cant-run-a-software-project-like-a-house-building-project/
+- https://www.bookofproofs.org/
+- http://villemin.gerard.free.fr/Referenc/Outils/Outils/Structur/IndexSA.htm
+- http://cleancoder.com/products
+- https://medium.com/walmartglobaltech/building-domain-driven-microservices-af688aa1b1b8
+- https://blog.avanscoperta.it/2020/08/04/domain-driven-design-in-2020
+- https://medium.com/@naveennegi/thoughts-on-domain-driven-design-in-functional-languages-83c43ec518d
+- https://gitlab.com/mickaelw/simple-cqrs/-/tree/master
+- https://github.com/PacktPublishing/Hands-On-Domain-Driven-Design-with-.NET-Core
+- https://patricsteiner.github.io/state-machine-in-a-ddd-context/
+- https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/
+- https://www.jamesmichaelhickey.com/domain-driven-design-aggregates/
+- https://www.tonymarston.net/php-mysql/dont-do-domain-driven-design.html#comment-4727181796
+- https://anthonysciamanna.com/2016/10/30/the-clean-code-kata.html
+- https://katas.softwarecraftsmanship.org/archive
+- https://codingdojo.org/
+- https://achievements-kata.firebaseapp.com/
+- https://github.com/davelosert/clean-code-kata
+- https://ingdevfi.wordpress.com/tag/kata/
+- https://kata-log.rocks/starter
+- https://www.arolla.fr/blog/2019/10/man-vs-legacy-gilded-rose-1/
+- https://blog.soat.fr/2018/05/cleancode-videostore-cs-ts-analyse/
+- http://danieldyba.com/blog/2011/11/23/string-calculator-kata-without-if
+- https://github.com/xapn/katas
+- https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
+- https://osherove.com/tdd-kata-1
+- https://www.youtube.com/watch?v=qkblc5WRn-U
+
+
 
 ## Agile
 
