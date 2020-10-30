@@ -4,22 +4,6 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 
 ## A trier
 
-- https://blog.engineering.publicissapient.fr/category/craftsmanship/
-- https://blog.engineering.publicissapient.fr/category/agilite/
-- https://blog.engineering.publicissapient.fr/category/woa/
-- https://blog.engineering.publicissapient.fr/category/back/
-- https://www.semicolonandsons.com/
-- https://www.jesuisundev.com/
-- https://github.com/jwasham/coding-interview-university
-- https://news.ycombinator.com/item?id=24837898
-- [The mother of all demo apps](https://github.com/gothinkster/realworld)
-- https://dmitrysoshnikov.teachable.com/
-- https://craftinginterpreters.com/
-- https://www.hectorkitchen.com/foire-aux-questions-alimentation-chien
-- https://www.youtube.com/watch?v=uXebwLDJkxw
-- https://cheatsheets.joshuatz.com/
-- https://github.com/philsturgeon/awesome-earth
-- https://github.com/kgrzybek/modular-monolith-with-ddd
 - https://github.com/micromata/awesome-css-learning
 - https://github.com/FbN/iodio
 - https://github.com/heynickc/awesome-ddd
@@ -392,3 +376,7 @@ Livres
 
 - [Secure Your SPA using Authorization Code Flow with PKCE](https://espressocoder.com/2019/10/28/secure-your-spa-with-authorization-code-flow-with-pkce/)
 - [Authorization Code Flow with Proof Key for Code Exchange (PKCE)](https://auth0.com/docs/flows/authorization-code-flow-with-proof-key-for-code-exchange-pkce)
+
+## Liens morts
+
+Je doute que ça serve un jour mais bon
