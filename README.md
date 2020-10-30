@@ -226,6 +226,34 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - https://www.youtube.com/watch?v=rCKPgu4DvcE
 - https://jrsinclair.com/articles/2019/what-i-wish-someone-had-explained-about-functional-programming/
 - https://kimmosaaskilahti.fi/blog/2019-08-29-fp-ts/
+- https://arxiv.org/pdf/0903.0340.pdf
+- https://www.reddit.com/r/math/comments/ap25mr/a_monad_is_a_monoid_in_the_category_of/
+- https://www.youtube.com/watch?v=Ss149MsZluI
+- https://github.com/hmemcpy/milewski-ctfp-pdf
+- https://about.chatroulette.com/posts/algebraic-data-types/
+- http://brendanfong.com/programmingcats.html
+- https://twitchard.github.io/posts/2020-07-26-monads.html
+- https://mikhail.io/2018/07/monads-explained-in-csharp-again/
+- https://news.ycombinator.com/item?id=24353976
+- https://news.ycombinator.com/item?id=23957388
+- https://www.futurelearn.com/courses/functional-programming-haskell
+- https://www.joachim-breitner.de/blog/775-Learn_Haskell_on_CodeWorld_writing_Sokoban
+- https://kowainik.github.io/projects/learn4haskell
+- http://dev.stephendiehl.com/hask/
+- https://github.com/AIRTucha/amonad
+- https://gist.github.com/laughinghan/31e02b3f3b79a4b1d58138beff1a2a89
+- https://dev.to/gillchristian/enough-fp-ts-to-work-with-io-ts-20ip
+- https://github.com/evilsoft/crocks
+- https://github.com/fluture-js/Fluture
+- https://meeshkan.com/blog/functional-programming-for-frontend-pipe/
+- https://hvalls.dev/posts/intro-functional-fpts
+- https://dev.to/gcanti
+- https://dev.to/gcanti/interoperability-with-non-functional-code-using-fp-ts-432e
+- https://zanza00.gitbook.io/learn-fp-ts/
+- https://paulgray.net/
+- https://dev.to/ryanleecode/practical-guide-to-fp-ts-pipe-and-flow-4e9n
+- https://www.reddit.com/r/typescript/comments/f2kokc/typeclasses_in_typescript_with_fpts/
+- https://xreact.oyanglul.us/typeclass.html
 
 
 ## Agile
