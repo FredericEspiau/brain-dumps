@@ -8,4 +8,6 @@
 Code
 
 - [Node](https://github.com/node-ts/ddd)
-- https://github.com/kgrzybek/modular-monolith-with-ddd
+- [Monolithe modulaire](https://github.com/kgrzybek/modular-monolith-with-ddd)
+
+Full Modular Monolith application with Domain-Driven Design approach.
