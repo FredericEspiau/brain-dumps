@@ -6,3 +6,8 @@
 - [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/)
 - [Tutoriel](https://www.tutorialspoint.com/haskell/index.htm)
 - [Advent of Haskell](https://adventofhaskell.com/)
+
+Article
+
+- [An opiniotated guide](https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/)
+- [Another opiniotated guide](https://github.com/typesanitizer/not-a-blog/blob/master/opinionated-haskell-guide-2019.md)
