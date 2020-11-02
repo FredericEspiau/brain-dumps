@@ -6,3 +6,4 @@
 - [Music Theory: An Education from First Principles (lightnote.co)](https://news.ycombinator.com/item?id=12792063)
 - [Music theory for nerds](https://news.ycombinator.com/item?id=12528144)
 - [Music Theory for Musicians and Normal People](https://news.ycombinator.com/item?id=21297462)
+- [Ask HN: How Can I Learn Music Theory?](https://news.ycombinator.com/item?id=21822225)
