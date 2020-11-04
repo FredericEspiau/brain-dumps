@@ -7,6 +7,7 @@
 - [Tutoriel](https://www.tutorialspoint.com/haskell/index.htm)
 - [Advent of Haskell](https://adventofhaskell.com/)
 - https://ihp.digitallyinduced.com/
+- [Serokell Blog](https://serokell.io/blog)
 
 Article
 
