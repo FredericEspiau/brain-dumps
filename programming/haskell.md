@@ -8,6 +8,7 @@
 - [Advent of Haskell](https://adventofhaskell.com/)
 - https://ihp.digitallyinduced.com/
 - [Serokell Blog](https://serokell.io/blog)
+- [MOOC Functional Programming in Haskell: Supercharge Your Coding](https://www.futurelearn.com/courses/functional-programming-haskell)
 
 Article
 
