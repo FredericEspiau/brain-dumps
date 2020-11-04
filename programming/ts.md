@@ -6,3 +6,5 @@
 - [The never Type](https://mariusschulz.com/blog/the-never-type-in-typescript)
 - [Narrow Interface Type](https://jaketrent.com/post/narrow-interface-type-typescript/)
 - [Conditional Types](https://mariusschulz.com/blog/conditional-types-in-typescript)
+
+- [Utilities](https://github.com/typescript-cheatsheets/utilities)
