@@ -9,3 +9,7 @@
 Vidéo
 
 - [Outside in TDD](https://www.youtube.com/watch?v=XHnuMjah6ps)
+
+Article
+
+- https://mickalwegerich.medium.com/un-test-peut-en-cacher-un-autre-un-peu-de-th%C3%A9orie-6df532424edd
