@@ -2,14 +2,12 @@
 
 Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
+# Un peu pareil que moi
+
+- https://github.com/andonary/my-bookmarks
+
 ## A trier
 
-- https://github.com/micromata/awesome-css-learning
-- https://github.com/FbN/iodio
-- https://github.com/heynickc/awesome-ddd
-- https://github.com/andonary/my-bookmarks
-- https://github.com/k88hudson/git-flight-rules
-- https://github.com/stemmlerjs/khalilstemmler-blog
 - https://github.com/kutyel/optics.js
 - https://github.com/norvig/paip-lisp
 - https://github.com/ryanmcdermott/clean-code-javascript
