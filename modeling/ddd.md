@@ -5,6 +5,7 @@
 - [Some design approaches to enforcing a business rule requiring no duplicates](https://github.com/ardalis/DDD-NoDuplicates)
 - [Strategic Domain-Driven Design](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design)
 - [Le Domain Driven Design sous l’angle stratégique, une introduction](https://www.lilobase.me/le-domain-driven-design-sous-langle-strategique-une-introduction/)
+- [Awesome DDD](https://github.com/heynickc/awesome-ddd)
 
 Code
 
