@@ -11,3 +11,9 @@ Payant
 - [Advanced engineering](https://dmitrysoshnikov.teachable.com/)
 
 Garbage collection algo, building a RegExp machine, building an interpreter, parsing algorithms
+
+Blog
+
+- [Khalil Stemmler](https://khalilstemmler.com/)
+
+TypeScript & Node.js best practices for large-scale applications. Learn to write flexible, maintainable software.
