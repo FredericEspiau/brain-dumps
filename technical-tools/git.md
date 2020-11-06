@@ -1,5 +1,9 @@
 # Git
 
+- [Flight rules for git](https://github.com/k88hudson/git-flight-rules)
+
+What to do when things go wrong.
+
 Cours
 
 - [Learn & practice Git](https://gitexercises.fracz.com/)
