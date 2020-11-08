@@ -3,6 +3,7 @@
 Les contenus qui brassent beaucoup de sujets différents
 
 - [Joshua](https://cheatsheets.joshuatz.com/)
+- https://github.com/papers-we-love/papers-we-love
 
 Beaucoup de choses, JWT, TS, JS, CLI, Databases, ...
 
