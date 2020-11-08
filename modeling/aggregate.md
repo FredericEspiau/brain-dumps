@@ -44,4 +44,5 @@ Exemple:
 
 # A traiter
 
-https://khalilstemmler.com/articles/typescript-domain-driven-design/aggregate-design-persistence/
+- https://khalilstemmler.com/articles/typescript-domain-driven-design/aggregate-design-persistence/
+- https://khalilstemmler.com/articles/typescript-domain-driven-design/updating-aggregates-in-domain-driven-design/
