@@ -18,3 +18,5 @@ Blog
 - [Khalil Stemmler](https://khalilstemmler.com/)
 
 TypeScript & Node.js best practices for large-scale applications. Learn to write flexible, maintainable software.
+
+- [Foundations of Software Engineering](https://cmu-313.github.io/)

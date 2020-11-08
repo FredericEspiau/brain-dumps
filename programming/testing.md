@@ -13,3 +13,10 @@ Vidéo
 Article
 
 - https://mickalwegerich.medium.com/un-test-peut-en-cacher-un-autre-un-peu-de-th%C3%A9orie-6df532424edd
+-
+
+# Improving your Test Driven Development in 45 minutes
+
+Source: https://www.youtube.com/watch?v=2vEoL3Irgiw&feature=youtu.be
+
+Voir "Does TDD really lead to good design ?"
