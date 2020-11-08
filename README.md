@@ -8,16 +8,6 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 
 ## A trier
 
-- https://github.com/kutyel/optics.js
-- https://github.com/norvig/paip-lisp
-- https://github.com/ryanmcdermott/clean-code-javascript
-- https://github.com/papers-we-love/papers-we-love
-- https://github.com/webpro/reveal-md
-- https://github.com/nas5w/typeofnan-javascript-quizzes
-- https://github.com/FengShangWuQi/to-vim-tmux-zsh
-- https://github.com/w3c/wai-tutorials
-- https://github.com/dustinspecker/awesome-eslint
-- https://github.com/MaximAbramchuck/awesome-interview-questions
 - https://github.com/andrew--r/channels
 - https://github.com/mtdvio/every-programmer-should-know
 - https://github.com/donnemartin/system-design-primer
