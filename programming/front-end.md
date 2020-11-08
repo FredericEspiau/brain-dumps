@@ -7,3 +7,7 @@
 Blogs
 
 - [publicis sapient](https://blog.engineering.publicissapient.fr/category/woa/)
+
+A11Y
+
+- [Accessibility Tutorials](https://github.com/w3c/wai-tutorials)
