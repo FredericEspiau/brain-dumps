@@ -41,3 +41,7 @@ Exemple:
 - https://martinfowler.com/bliki/DDD_Aggregate.html
 - https://blog.engineering.publicissapient.fr/2018/06/25/craft-les-patterns-tactiques-du-ddd/
 - https://dzone.com/articles/domain-driven-design-aggregate
+
+# A traiter
+
+https://khalilstemmler.com/articles/typescript-domain-driven-design/aggregate-design-persistence/
