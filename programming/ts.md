@@ -13,3 +13,4 @@ Outils
 
 - [Utilities](https://github.com/typescript-cheatsheets/utilities)
 - [A collection of essential TypeScript types](https://github.com/sindresorhus/type-fest)
+- [Type-Safe Error](https://github.com/supermacro/neverthrow)
