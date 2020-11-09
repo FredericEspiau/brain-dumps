@@ -5,25 +5,10 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 # Un peu pareil que moi
 
 - https://github.com/andonary/my-bookmarks
+- https://github.com/dwyl/start-here
 
 ## A trier
 
-- https://github.com/andrew--r/channels
-- https://github.com/mtdvio/every-programmer-should-know
-- https://github.com/donnemartin/system-design-primer
-- https://github.com/sindresorhus/type-fest
-- https://github.com/mateusortiz/webcomponents-the-right-way
-- https://github.com/jsdom/jsdom
-- https://github.com/LappleApple/awesome-leading-and-managing
-- https://github.com/andrew--r/frontend-case-studies
-- https://github.com/yangshun/front-end-interview-handbook
-- https://github.com/minimaxir/big-list-of-naughty-strings
-- https://github.com/elsewhencode/project-guidelines
-- https://trunkbaseddevelopment.com/
-- https://github.com/vvscode/js--interview-questions
-- https://github.com/dwyl/start-here
-- https://github.com/webcomponents/gold-standard/wiki
-- https://github.com/supermacro/neverthrow
 - https://github.com/sdras/awesome-actions
 - https://github.com/ai/nanoid
 - https://github.com/zero-to-mastery/resources
