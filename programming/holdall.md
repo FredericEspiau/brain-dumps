@@ -20,3 +20,4 @@ Blog
 TypeScript & Node.js best practices for large-scale applications. Learn to write flexible, maintainable software.
 
 - [Foundations of Software Engineering](https://cmu-313.github.io/)
+- [A collection of (mostly) technical things every software developer should know about](https://github.com/mtdvio/every-programmer-should-know)
