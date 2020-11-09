@@ -3,6 +3,7 @@
 - [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) 
 - [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 - https://ihp.digitallyinduced.com/
+- [A curated list of technical talks and articles about real world enterprise frontend development](https://github.com/andrew--r/frontend-case-studies)
 
 Blogs
 
