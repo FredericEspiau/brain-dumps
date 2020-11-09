@@ -14,3 +14,4 @@ Article
 
 - [An opiniotated guide](https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/)
 - [Another opiniotated guide](https://github.com/typesanitizer/not-a-blog/blob/master/opinionated-haskell-guide-2019.md)
+- [Haskell: The Bad Parts](https://www.snoyman.com/blog/2020/10/haskell-bad-parts-1)
