@@ -1,6 +1,7 @@
 # Architecture
 
 - [The Grand Unified Theory of Software Architecture](https://news.ycombinator.com/item?id=24915497)
+- [Simple patterns for building complex applications](https://www.cosmicpython.com/)
 
 # CQRS
 
