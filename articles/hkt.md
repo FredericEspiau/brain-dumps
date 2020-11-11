@@ -254,6 +254,9 @@ Tous les constructeur nullaires, et par conséquent tous les types monomorphique
 # A traiter
 
 https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala
+https://medium.com/@jnkrtech/what-is-higher-kinded-polymorphism-6fb2bff183f9
+Programming with Types
+https://medium.com/@patxi/intro-to-higher-kinded-types-in-haskell-df6b719e7a69
 
 # Sources:
 
