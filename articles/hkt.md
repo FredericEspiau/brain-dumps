@@ -2,7 +2,7 @@
 
 Il existe plusieurs couches pour le typage, on définit au moins 3 niveaux
 
-# Niveau 0: les `value types
+# Niveau 0: les `value types`
 
 On entend aussi type simple ou type plat
 
@@ -102,9 +102,20 @@ def stringify_iterable_items(arg):
     return type(arg)(str(item) for item in arg)
 ```
 
+Mais le jour où on veut prendre en compte `Tuple`, il va falloir créer une nouvelle signature
+
 # Le niveau 2 et au dessus: les `higher-kinded types`
 
-Quand les arguments de types sont aussi des génériques
+Quand un argument de type est de niveau 1, sans préciser la valeur de l'argument de niveau 0
+
+```python
+T = TypeVar('T', bound=Iterable)
+
+def stringify_iterable_items(arg: T[int]) -> T[str]:
+    return type(arg)(str(item) for item in arg)
+```
+
+Ici ,le type `Iterable` est abstrait en tant que tel
 
 ```scala
 // the Cats library uses this A LOT
@@ -145,6 +156,8 @@ class Formatter[F[_], T] // type constructor avec 1 argument de niveau 1 et un a
 val aFormatter = new Formatter[List, String]
 ```
 
+---
+
 # Value constructor
 
 Une valeur qui permet d'appliquer un ou des arguments pour construire une valeur
@@ -176,7 +189,76 @@ Un type constructor est un type qu'on peut appliquer pour typer les arguments po
 
 Un value constructor est une valeur qu'on peut appliquer pour typer les arguments pour construire une valeur
 
+# DAns le livre
+
+Les HKT permettent d'utiliser un constructeur de type comme paramètre de type
+
+On écrit ça `C[_]`
+
+
+```scala
+trait Foo[C[_]] {
+  def create(i: Int): C[Int] // on peut donner un type de niveau 0 au HKT
+}
+```
+
+`List` est un constructeur de type car il prend un type (ici `Int`) et va construire un type `List[Int]`
+
+On peut ainsi implémenter `Foo` en utilisant `List`
+
+
+```scala
+object FooList extends Foo[List] {
+   def create(i: Int): List[Int] = List(i)
+}
+```
+
+# Constructeur de type
+
+Un constructeur de type permet de construire de nouveaux types depuis des types déjà existants
+
+Les types basiques sont considérés comme construits avec des constructeurs de type nullaire
+
+Certains constructeurs de type prennent en revanche des arguments, qui sont des types
+
+De manière abstraite, un constructeur de type est un opérateur de type n-aire prenant comme argument zéro ou plus de types, et renvoyant un autre type
+
+En utilisant le curry, les opérateurs de type n-aire peuvent être (ré)écrits comme une séquence d'applications d'opérateurs de type unaire
+
+Therefore, we can view the type operators as a simply typed lambda calculus, which has only one basic type, usually denoted {\displaystyle *}*, and pronounced "type", which is the type of all types in the underlying language, which are now called proper types in order to distinguish them from the types of the type operators in their own calculus, which are called kinds.
+
+# Un genre/une espèce
+
+Un genre est le type d'un constructeur de type, on peut même dire le type d'un opérateur de type de plus haut niveau (higher-order type operator)
+
+`*`, appelé `type` est le genre de n'importe quel type de données qui n'a pas besoin de paramètre de type
+
+Un genre est un spécificateur d'arité
+
+Un constructeur de type sont des types polymorphiques
+
+Par conséquent, les types non-polymorphiques sont des constructeur de type nullaire
+
+Tous les constructeur nullaires, et par conséquent tous les types monomorphiques, ont le même genre, le plus simple, `*`
+
+## Exemple
+
+`*`, appelé `type`, est le genre de tous les types de données avec un constructeur de type nullaire. C'est normalement le type des fonctions en FP
+
+`* -> *` est le genre du constructeur de type unaire, par exemple `List[T]`
+
+`* -> * -> *` pour les constructeurs de type binaires (grâce au currying), par exemple `Dict[K, V]`
+
+`(* -> *) -> *` est le genre des opérations des types de plus haut niveau pour prendre un constructeur de type unaire et en faire un type concret
+
+# A traiter
+
+https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala
+
 # Sources:
 
 - https://blog.rockthejvm.com/scala-types-kinds/
 - https://sobolevn.me/2020/10/higher-kinded-types-in-python
+- Functional Programming for Mortals
+- https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala
+- https://en.wikipedia.org/wiki/Kind_(type_theory)
