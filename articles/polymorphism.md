@@ -21,6 +21,8 @@ La bonne implémentation à appliquer sera déterminée en fonction du type des 
 
 # Parametric polymorphism
 
+Les génériques
+
 Capacité à définir des fonctions ou types qui nécessitent au moins un type en paramètre
 
 Afin de pouvoir appliquer la fonction ou le type, il faudra d'abord fournir le ou les types
