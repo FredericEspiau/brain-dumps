@@ -9,6 +9,7 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 
 ## A trier
 
+- https://tsdx.io/
 - https://12factor.net/
 
  Methodology for building software-as-a-service apps
