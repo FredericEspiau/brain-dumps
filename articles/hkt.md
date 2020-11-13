@@ -1,5 +1,16 @@
 # Higher-kinded types
 
+Il existe deux espèces de types
+
+- les types qui peuvent être utilisés tels quels
+- les types qui ont besoin qu'on fournisse des données en plus pour être utilisés
+
+# Notes
+
+
+
+# Autre source
+
 Il existe plusieurs couches pour le typage, on définit au moins 3 niveaux
 
 # Niveau 0: les `value types`
@@ -253,10 +264,13 @@ Tous les constructeur nullaires, et par conséquent tous les types monomorphique
 
 # A traiter
 
-https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala
-https://medium.com/@jnkrtech/what-is-higher-kinded-polymorphism-6fb2bff183f9
-Programming with Types
-https://medium.com/@patxi/intro-to-higher-kinded-types-in-haskell-df6b719e7a69
+- https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala
+- https://medium.com/@jnkrtech/what-is-higher-kinded-polymorphism-6fb2bff183f9
+- Programming with Types
+- https://medium.com/@patxi/intro-to-higher-kinded-types-in-haskell-df6b719e7a69
+- https://typelevel.org/blog/2016/08/21/hkts-moving-forward.html
+- https://adriaanm.github.io/files/higher.pdf
+
 
 # Sources:
 
