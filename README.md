@@ -9,6 +9,10 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 
 ## A trier
 
+- https://12factor.net/
+
+ Methodology for building software-as-a-service apps
+ 
 - https://www.youtube.com/watch?v=azlX-KU6guA
 - https://github.com/sdras/awesome-actions
 - https://github.com/ai/nanoid
