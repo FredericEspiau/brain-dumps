@@ -2,29 +2,19 @@
 
 Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
+# Autres
+
+- [About
+A huge list of alternatives to Google products](https://github.com/tycrek/degoogle)
+
 # Un peu pareil que moi
 
 - https://github.com/andonary/my-bookmarks
 - https://github.com/dwyl/start-here
 
 ## A trier
-
-- https://people.howstuffworks.com/anarchism.htm
-- https://theanarchistlibrary.org/library/peter-gelderloos-anarchy-works/
-- https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships
-- https://tsdx.io/
-- https://12factor.net/
-
- Methodology for building software-as-a-service apps
  
-- https://www.youtube.com/watch?v=azlX-KU6guA
-- https://github.com/sdras/awesome-actions
-- https://github.com/ai/nanoid
-- https://github.com/zero-to-mastery/resources
-- https://github.com/junegunn/fzf.vim
-- https://github.com/iggredible/Learn-Vim
-- https://github.com/hmemcpy/milewski-ctfp-pdf
-- https://github.com/tycrek/degoogle
+- 
 - https://github.com/denysdovhan/wtfjs
 - https://github.com/30-seconds/30-seconds-of-code
 - https://github.com/ffoodd/a11y.css
