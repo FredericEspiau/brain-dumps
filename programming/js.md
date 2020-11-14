@@ -35,6 +35,7 @@ Programmation fonctionnelle
 Code
 
 - [Yarn Workspaces exemple](https://github.com/HugoDF/yarn-workspaces-simple-monorepo)
+- [Short snippets of code](https://github.com/30-seconds/30-seconds-of-code)
 
 Cours
 
