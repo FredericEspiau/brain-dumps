@@ -3,8 +3,6 @@
 Blogs
 
 - [2ality](https://2ality.com/)
-
-
 - [Mastering Hard Parts of JavaScript](https://dev.to/ryanameri/mastering-hard-parts-of-javascript-callbacks-i-3aj0)
 - [Type-Safe Errors for JS & TypeScript](https://github.com/supermacro/neverthrow)
 - [Using ESLint and Prettier in a TypeScript Project](https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project)
@@ -46,3 +44,6 @@ Book
 
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 
+Articles
+
+- [Funny and tricky examples](https://github.com/denysdovhan/wtfjs)
