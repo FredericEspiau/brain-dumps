@@ -4,8 +4,7 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 
 # Autres
 
-- [About
-A huge list of alternatives to Google products](https://github.com/tycrek/degoogle)
+- [A huge list of alternatives to Google products](https://github.com/tycrek/degoogle)
 
 # Un peu pareil que moi
 
@@ -14,11 +13,6 @@ A huge list of alternatives to Google products](https://github.com/tycrek/degoog
 
 ## A trier
  
-- 
-- https://github.com/denysdovhan/wtfjs
-- https://github.com/30-seconds/30-seconds-of-code
-- https://github.com/ffoodd/a11y.css
-- https://github.com/juicycleff/ultimate-backend
 - https://github.com/jwasham/coding-interview-university
 - https://github.com/sindresorhus/awesome-nodejs
 - https://github.com/dwmkerr/hacker-laws
