@@ -15,3 +15,7 @@
 Blogs
 
 - [publicis sapient](https://blog.engineering.publicissapient.fr/category/craftsmanship/)
+
+Vidéos
+
+- [BDD ATDD TDD Clean Architecture - Débutant FR](https://www.youtube.com/watch?v=azlX-KU6guA)
