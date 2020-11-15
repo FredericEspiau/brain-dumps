@@ -17,6 +17,7 @@ Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
 Libraries
 
 - [Unique string ID generator](https://github.com/ai/nanoid)
+- [Prompts](https://github.com/terkelg/prompts)
 
 Vidéos
 
