@@ -29,6 +29,7 @@ Outils
 - [Analyser les dépendances NPM](https://depchecker.com/blog/analyze-project-deps/)
 - [ESLint Hardcore](https://github.com/EvgenyOrekhov/eslint-config-hardcore)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [Install and run any JS tools](https://github.com/volta-cli/volta)
 
 Programmation fonctionnelle
 
