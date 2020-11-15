@@ -5,6 +5,7 @@
 - https://ihp.digitallyinduced.com/
 - [A curated list of technical talks and articles about real world enterprise frontend development](https://github.com/andrew--r/frontend-case-studies)
 - [Front-end Job Interview Questions](https://github.com/yangshun/front-end-interview-handbook)
+- [Front-end Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 
 Blogs
 
