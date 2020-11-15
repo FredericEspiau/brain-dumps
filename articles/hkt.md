@@ -7,6 +7,173 @@ Il existe deux espèces de types
 
 # Notes
 
+# De http://blog.rcard.in/functional/programming/types/2019/02/17/it-s-a-kind-of-magic-kinds-in.i-type-theory.html
+
+En Java on peut définir un type (une calsse) qui prend un paramètre de type
+
+On appelle ça une classe générique
+
+```java
+List<T> // paramètre de type T pour obenir des types concrets et utilisables
+List<Integer>
+List<String>
+```
+
+Si on ne donne pas un type concret, le compilateur va transformer en `List<Object>`
+
+En Scala en revanche on peut faire
+
+```scala
+trait Functor[F[_]] {
+  def map[A, B](fa: F[A])(f: A => B): F[B]
+}
+```
+
+Ce code signifie
+
+- `Functor` est un `type class`
+- qui prend un paramètre de type
+- qui peut être n'importe quel autre type générique
+- qui accepte un paramètre
+
+Par exemple `List[T]` ou `Option[T]`
+
+En Haskell on aurait écrit
+
+```haskell
+class Functor f where  
+  fmap :: (a -> b) -> f a -> f b 
+```
+
+## Une valeur
+
+Information ou données qu'un programme évalue
+
+Exemples: `1`, `"hello"`, `true`
+
+Une valeur peut être associée à nom, c'est une variable
+
+Toutes les valeurs ont un type
+
+## Un type
+
+Donne des informations sur comment évaluer une valeur
+
+Ils définissent des contraintes aux valeurs
+
+Ex: le type `bool` indique qu'une valeur peut valoir soit `true`, soit `false`
+
+```haskell
+sum :: Int -> Int -> Int
+sum a b -> a + b
+```
+
+La fonction `sum` prend deux paramètres de types `Int` et retourne un `Int`
+
+Un constructeur de type prend en entrée un ou plusieurs types en entrée pour créer de nouveaux types
+
+`List[T]`, `Map[K, V]`, `Option[T]` sont des constructeurs de types
+
+## Les genres
+
+Type d'objets reliés aux types
+
+C'est un spécificateur d'arité
+
+On utilise le charactère `*` pour faire référence aux genres
+
+`*` est le genre des types concrets
+
+Un type concret ne prend pas de paramètres
+
+Un constructeur de valeur est une fonction qui prendre un tuple de valeurs en entrée et retourne une nouvelle valeur
+
+```scala
+class Person(name: String, surname: String) = {
+    //...
+}
+```
+
+C'est une fonction de types `(String, String) => Person`
+
+De manière analogue, un constructeur de type prend un tuple de types en entrée et produit un nouveau type
+
+`List` a le genre `* -> *` car en lui donnant un type en entrée on obtient un type en sortie
+
+`Map[K, V]` a le genre `* -> * -> *` car en lui donnant deux types en entrées on obtient un type en sortie
+
+Mais à quoi servent les genres ? Ils servent pour les classes de type
+
+## Classes de type (Type classes)
+
+Définit un certains comportements
+
+Les types qui respectent ces comportements sont des instances de cette classe de type
+
+Ainsi, lorsque nous disons qu'un type est une instance d'une classe de types, nous voulons dire que nous pouvons utiliser les fonctions que la classe de types définit avec ce type
+
+Ressemble beaucoup aux `interface` en Java
+
+En `Scala` on les obtient avec le mot clé `Trait`
+
+En `Haskell` on les obtient avec le mot clé `class`
+
+Ex: la classe de type `Eq` marque tous les types qui peuvent effectuer des tests d'égalité
+
+`Ord` marque tous les types qui peuvent être comparés
+
+`Show` tous les types qui peuvent être affiché dans la sortie standard
+
+`Functor` est une classe de type. La fonction `fmap` définit les comportements des types de cette classe
+
+Il n'y a pas de classes de types en Scala, mais on peut les émuler
+
+```scala
+trait Show[A] {
+  def show(a: A): String
+}
+```
+
+Le problème est que les classes de types peuvent nécessiter des déclarations de paramètres de type bizarres
+
+C'est à ça que servent les genres, à simplifier la raisonnement sur les paramètres de types à fournir à un constructeur de type
+
+Reprenont l'exemple de Functor
+
+
+```scala
+class Functor f where  
+  fmap :: (a -> b) -> f a -> f b 
+```
+
+Le type `f`  doit avoir le genre `* -> *`
+
+La fonction `fmap` applique `f` au type `a` et au type `b`
+
+`f` peut par exemple être de type `List`, `Maybe`
+
+Et si on veut utiliser `Functor` sur un `Either[L, R]` ?
+
+Le genre de `Either` est `* -> * -> *`
+
+On ne peut donc pas l'utiliser pour fournir à `Functor` qui s'attend à un `* -> *`
+
+La solution est d'appliquer partiellement `Either` pour obtenir un `* -> *`
+
+En Haskell ça donnerait
+
+```haskell
+instance Functor (Either a) where  
+    fmap f (Right x) = Right (f x)  
+    fmap f (Left x) = Left x  
+```
+
+## Constructeur de type
+
+Certains types sont paramétriques
+
+On peut définir un type comme utilisant un paramètre de type comme `List[T]` où `T` peut être n'importe quel type concret
+
 
 
 # Autre source
@@ -270,7 +437,7 @@ Tous les constructeur nullaires, et par conséquent tous les types monomorphique
 - https://medium.com/@patxi/intro-to-higher-kinded-types-in-haskell-df6b719e7a69
 - https://typelevel.org/blog/2016/08/21/hkts-moving-forward.html
 - https://adriaanm.github.io/files/higher.pdf
-
+- https://dotty.epfl.ch/docs/reference/contextual/type-classes.html
 
 # Sources:
 
