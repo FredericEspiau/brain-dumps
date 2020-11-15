@@ -32,6 +32,7 @@ Outils
 - [Install and run any JS tools](https://github.com/volta-cli/volta)
 - [Slonik](https://github.com/gajus/slonik)
 - [Iodio](https://github.com/FbN/iodio)
+- [Sinon - Test spies, stubs and mocks](https://github.com/sinonjs/sinon)
 
 Programmation fonctionnelle
 
