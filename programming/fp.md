@@ -1,6 +1,7 @@
 # Functional programming
 
 - https://impurepics.com/
+- [Scriptum](https://github.com/kongware/scriptum)
 
 JavaScript
 
