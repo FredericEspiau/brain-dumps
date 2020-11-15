@@ -19,3 +19,5 @@ Magazine about how teams build and operate software systems at scale
 SCALE YOUR ENGINEERING POWER.
 
 We enable deep tech startups to achieve their vision, from research to product delivery.
+
+- [The Grand Unified Programming Theory](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
