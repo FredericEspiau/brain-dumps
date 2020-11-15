@@ -30,6 +30,7 @@ Outils
 - [ESLint Hardcore](https://github.com/EvgenyOrekhov/eslint-config-hardcore)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [Install and run any JS tools](https://github.com/volta-cli/volta)
+- [Slonik](https://github.com/gajus/slonik)
 
 Programmation fonctionnelle
 
