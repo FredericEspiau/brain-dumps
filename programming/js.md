@@ -48,3 +48,4 @@ Book
 Articles
 
 - [Funny and tricky examples](https://github.com/denysdovhan/wtfjs)
+- [Question et explications](https://github.com/lydiahallie/javascript-questions)
