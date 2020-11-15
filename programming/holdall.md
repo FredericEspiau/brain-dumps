@@ -2,6 +2,7 @@
 
 Les contenus qui brassent beaucoup de sujets différents
 
+- [Laws, Theories, Principles and Patterns](https://github.com/dwmkerr/hacker-laws)
 - [Joshua](https://cheatsheets.joshuatz.com/)
 - https://github.com/papers-we-love/papers-we-love
 
