@@ -20,3 +20,6 @@ Libraries
 - https://tsdx.io/
 
 Zero-config CLI for TypeScript package development
+
+- [Purify](https://github.com/gigobyte/purify)
+
