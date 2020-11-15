@@ -7,6 +7,7 @@ Blogs
 - [Type-Safe Errors for JS & TypeScript](https://github.com/supermacro/neverthrow)
 - [Using ESLint and Prettier in a TypeScript Project](https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project)
 - [GraphQL Nexus](https://nexusjs.org/)
+- [Beaucoup d'articles sur des concepts de JS](https://github.com/leonardomso/33-js-concepts)
 
 Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
 
