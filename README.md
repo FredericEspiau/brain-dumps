@@ -5,36 +5,16 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 # Autres
 
 - [A huge list of alternatives to Google products](https://github.com/tycrek/degoogle)
+- [App ideas](https://github.com/florinpop17/app-ideas)
 
 # Un peu pareil que moi
 
 - https://github.com/andonary/my-bookmarks
 - https://github.com/dwyl/start-here
+- https://github.com/sdmg15/Best-websites-a-programmer-should-visit
 
 ## A trier
- 
-- https://github.com/jwasham/coding-interview-university
-- https://github.com/sindresorhus/awesome-nodejs
-- https://github.com/dwmkerr/hacker-laws
-- https://github.com/lydiahallie/javascript-questions
-- https://github.com/terkelg/prompts
-- https://github.com/EvgenyOrekhov/eslint-config-hardcore
-- https://github.com/gigobyte/purify
-- https://github.com/h5bp/Front-end-Developer-Interview-Questions
-- https://github.com/yangshun/tech-interview-handbook
-- https://github.com/leonardomso/33-js-concepts
-- https://github.com/binhnguyennus/awesome-scalability
-- https://github.com/thoughtbot/guides
-- https://github.com/viatsko/awesome-vscode
-- https://github.com/linpengcheng/PurefunctionPipelineDataflow
-- https://github.com/open-guides/og-aws
-- https://github.com/volta-cli/volta
-- https://github.com/brunopulis/awesome-a11y
-- https://github.com/webhintio/hint
-- https://github.com/sdmg15/Best-websites-a-programmer-should-visit
-- https://github.com/kongware/scriptum
-- https://github.com/florinpop17/app-ideas
-- https://github.com/sinonjs/sinon
+
 - https://github.com/munificent/craftinginterpreters
 - https://github.com/benjamn/recast
 - https://github.com/benjamn/ast-types
