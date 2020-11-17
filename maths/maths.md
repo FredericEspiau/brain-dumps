@@ -14,3 +14,4 @@
 _ [The Map of Maths](https://www.quantamagazine.org/the-map-of-mathematics-20200213/)
 - [Better Explained](https://betterexplained.com/)
 - [Interactive Mathematics](https://www.intmath.com/)
+- [What Gödel Discovered](https://stopa.io/post/269)
