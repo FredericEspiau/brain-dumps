@@ -127,3 +127,120 @@ f(3) // 15
 
 `andThen` a aussi I et A, comme `Functor`, du coup les fonctions Scala composées avec `andThen` sont des functors
 
+C'est juste qu'il s'appelle pas `map`
+
+```scala
+def add(x: Int): Int => Int = _ + x
+val f = add(2) andThen (_ * 3)
+f(3) // 15
+```
+
+Mais on peut pas faire
+
+```scala
+val f = add(2) map (_ * 3)
+```
+
+Du coup on peut pas faire de `for comprehension`
+
+## The Reader Monad
+
+C'est un wrapper sur une fonction unaire avec `andThen` comme `map` et qui définit un `flatMap`
+
+```scala
+case class Reader[A, B](run: A => B) {
+  def apply(x: A): B = run(x)
+  
+  def map[C](f: B => C): Reader[A, C] = Reader(run andThen f)
+  
+  def flatMap[C](f: B => Reader[A, C]): Reader[A, C] = Reader(x => map(f)(x)(x))
+}
+```
+
+`scala` a déjà un bon reader de base
+
+```scala
+import scalaz.Reader
+
+val f = Reader[Int, Int](_ + 2)
+
+val g = f map (_ * 3)
+
+g(3) // 15
+```
+
+Ca nous permet de faire des `map` et ainsi d'utiliser les `for comprehensions`
+
+```scala
+val g = for (x <- f) yield x * 3
+
+g(3) // 15
+```
+
+## Dep injection
+
+Un autre reader:
+
+```scala
+def getUser(userId: Int) =
+  Reader[UserRepo, User](_.get(userId))
+```
+
+se wrap autour d'une fonction qui à partir d'un UserRepo obtient un User
+
+le UserRepo est une dépendance, avec Reader on peut injecter cette dépendance
+
+Comme Reader est une monade, elle est composable
+
+```scala
+def getEmail(userId: Int) =
+  for (user <- getUser(userId))
+    yield user.email
+```
+
+et avec le `flatMap` on peut même imbriquer et obtenir un User du repo et obtenir un autre user du repo
+
+```scala
+def getSupervisor(userId: Int) =
+  for {
+    user <- getUser(userId)
+    supervisor <- getUser(user.supervisorId)
+  } yield supervisor
+```
+
+On peut avoir une dépendance avec un certains nombre d'opérations et définir des Readers pour chaque opérations
+
+```scala
+trait UserRepo {
+  def get(userId: Int): User
+  def find(email: String): User
+  def update(user: User): User
+}
+
+object UserRepo {
+  def getUser(userId: Int) =
+    Reader[UserRepo, User](_.get(userId))
+    
+  def findUser(email: String) =
+    Reader[UserRepo, User](_.find(email))
+    
+  def updateUser(user: User) =
+    Reader[UserRepo, User](_.update(user))
+}
+
+// on aurait pu écrire
+
+object UserRepo {
+  var userRepo = 
+    Reader[UserRepo, User](identity)
+    
+  def getUser(userId: Int) =
+    userRepo map (_.get(userId))
+    
+  def findUser(email: String) =
+   userRepo map (_.find(email))
+    
+  def updateUser(user: User) =
+    userRepo map (_.update(user))
+}
+```
