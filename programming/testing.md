@@ -5,6 +5,7 @@
 - [Most Organizations are Overtesting Software — and Also Undertesting](https://thenewstack.io/most-organizations-are-overtesting-software-and-also-undertesting/)
 - [Test Data Builders: an alternative to the Object Mother pattern](http://www.natpryce.com/articles/000714.html)
 - [https://www.youtube.com/watch?v=2vEoL3Irgiw](https://www.youtube.com/watch?v=2vEoL3Irgiw&feature=youtu.be)
+- [Wiki about testing](https://github.com/testdouble/contributing-tests/wiki/Test-Driven-Development)
 
 Vidéo
 
