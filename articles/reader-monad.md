@@ -244,3 +244,75 @@ object UserRepo {
     userRepo map (_.update(user))
 }
 ```
+
+# Other dependencies ?
+
+En général on a pas qu'un seul repository
+
+Il est courant de les aggréger ensemble
+
+```scala
+trait Repositories {
+  def userRepo: UserRepo
+  def addressRepo: AddressRepo
+}
+
+object Repositories {
+  val repositories =
+    Reader[Repositories, Repositories](identity)
+    
+  val userRepo =
+    repositories map (_.userRepo)
+   
+  val addressRepo =
+    repositories map (_.addressRepo)
+}
+```
+
+Du coup, la seule chose à changer dans notre UserRepository est de ne rien déclarer et d'importer le repository
+
+```scala
+object UserRepo {
+  import Repositories.userRepo
+  
+  def getUser(userId: Int) =
+    userRepo map (_.get(userId))
+    
+  def findUser(email: String) =
+   userRepo map (_.find(email))
+    
+  def updateUser(user: User) =
+    userRepo map (_.update(user))
+}
+```
+
+On peut aller encore plus loin et déclarer toutes nos dépendances dans un trait environnemental
+
+```scala
+trait Env {
+  def config: Configuration
+  def emailService: EmailService
+  def repositories: Repositories
+}
+
+object Env {
+  val env = Reader[Env, Env](identity)
+  
+  val config =
+    env map (_.config)
+    
+  val emailService =
+    env map (_.emailService)
+    
+  val repositories =
+    env map (_.repositories)
+}
+```
+
+On a plus qu'un seul `Reader` pour tout l'environement qui va nous permettre de créer des `Reader` pour chaque dépendance
+
+Nos services ressemblent désormais à ça
+
+```scala
+```
+On a plus qu'un seul `Reader` pour tout l'environement qui va nous permettre de créer des `Reader` pour chaque dépendance
