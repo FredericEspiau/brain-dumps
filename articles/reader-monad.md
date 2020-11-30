@@ -14,7 +14,7 @@ Du coup changement dans la layer de bas niveau implique changement layer haut ni
 
 La couche de service ne peut pas exister sans la couche de persistence
 
-Bob Martin a inventé une oslution, le DIP
+Bob Martin a inventé une solution, le DIP
 
 - High level modules should not depend upon low level modules
 
@@ -309,10 +309,296 @@ object Env {
 }
 ```
 
-On a plus qu'un seul `Reader` pour tout l'environement qui va nous permettre de créer des `Reader` pour chaque dépendance
+On a plus qu'un seul `Reader` pour tout l'environnement qui va nous permettre de créer des `Reader` pour chaque dépendance
 
 Nos services ressemblent désormais à ça
 
 ```scala
+object UserService {
+  def getEmail(userId: Int) =
+    for {
+      user <- UserRepo.getUser(userId)
+    } yield user.email
+    
+  def findAddress(email: String) =
+    for {
+      user <- UserRepo.findUser(email)
+      address <- AddressRepo.getAddress(user.id)
+    } yield address
+}
 ```
-On a plus qu'un seul `Reader` pour tout l'environement qui va nous permettre de créer des `Reader` pour chaque dépendance
+
+On a plus qu'un seul `Reader` pour tout l'environnement qui va nous permettre de créer des `Reader` pour chaque dépendance
+
+On peut mettre toutes les dépendances et leurs composants ainsi, afin de pouvoir définir la nature de l'environnement en mixant des traits
+
+```scala
+trait ConfigurationComponent {
+  def config: Configuration
+}
+
+trait EmailServiceComponent {
+  def emailService: EmailService
+}
+
+trait Env extends
+ ConfigurationComponent with
+ EmailServiceComponent with
+ RepositoriesCompoent
+ 
+trait RepositoriesComponent extends
+  UserRepoComponent with
+  AddressRepoComponent
+```
+
+permet de définir des implémentations des composants dans des traits différents en fonction de l'environnement
+
+```scala
+object productionEnv extends Env
+  with PlayConfigComponent
+  with PlayEmailServiceComponent
+  with MongoRepositoriesComponent
+  
+object testEnv extends Env
+  with MockConfigComponent
+  with MockEmailServiceComponent
+  with MockRepositoriesComponent
+```
+
+## Other monades
+
+Avec le framework Scala Play, tout est asyncho du coup un repo ressemble à ça
+
+```scala
+trait UserRepo {
+  def get(userId: Int): Future[User]
+  def find(email: String): Future[User]
+  def update(user: User): Future[User]
+}
+```
+
+`Future` est une monade, du coup avec `Reader` on peut avoir un bordel entrelacé avec `flatMap` pour l'un et `map` pour l'autre
+
+Par exemple,
+
+```scala
+def getEmail(userId: Int) =
+  for (user <- getUser(userId))
+    yield userFuture map (_.email)
+```
+
+comme `getUser` retourne un `Future`, il faut faire un map sur le Reader pour avoir le Future et map sur le Futur pour savoir l'email
+
+Et quand on a un multi-level comprehension on doit faire des flatMap c'est encore plus compliqué
+
+```scala
+def findAddress(email: String) =
+  Env.env map { env =>
+    for {
+      user <- UserRepo.findUser(email).run(env)
+      address <- AddressRepo.getAddress(user.id).run(env)
+    } yield address
+  }
+```
+
+Trop de boilerplate, la solution s'appelle
+
+## Monade transformer
+
+Le problème c'est que notre méthode a une signature `Reader[Env, Future[User]]`, par exemple
+
+```scala
+def findUser(email: String): Reader[Env, Future[User]]
+```
+
+ce qui donne une `class` telle que
+
+```scala
+class Reader[Env, Future[A]] {
+  def map[B](f: Future[A] => B):
+    Reader[Env, Future[B]]
+    
+ def flatMap[B](f: Future[A] => Reader[Future[B]]):
+   Reader[Env, Future[B]]
+}
+```
+
+Le problème c'est le paramètre de type `Future[A]`
+
+on voudrait plutôt avoir ça
+
+```scala
+class Something[A] {
+  def map[B](f: A => B):
+   Something[B]
+   
+ def flatMap[B](f: A => Something[B]):
+   Something[B]
+}
+```
+
+On peut faire ça en changeant `Reader[Env, Future[User]]` en `ReaderT[Future, Env, User]` dans notre méthode
+
+```scala
+class ReaderT[Future, Env, A] {
+  def map[B](f: A => B):
+    ReaderT[Future, Env, B]
+    
+  def flatMap[B](f: A => ReaderT[Future, Env, B]):
+    ReaderT[Future, Env, B]
+}
+```
+
+ce qui nous permet d'avoir une implem comme ça
+
+```scala
+def findAddress(email: String) =
+  for {
+    user <- UserRepo.findUser(email)
+    address <- AddressRepo.getAddress(user.id)
+  } yield address
+```
+
+Avec Scalaz ça donne
+
+```scala
+import scalaz.{Kleisli, ReaderT}
+
+type Query[A] = ReaderT[Future, Env, A]
+
+object Query {
+  def apply[A](run: Env => Future[A]): Query[A] =
+    Kleisli[Future, Env, A](run)
+    
+  def lift[A](reader: Reader[Env, Future[A]] =
+    Query(reader.run)
+}
+```
+
+On peut ainsi définir notre répo comme ça
+
+```scala
+object UserService {
+  import scalaz.contrib.std.scalaFuture._
+  
+  def getEmail(userId: Int)(implicit ec: ExecutionContext) =
+    for {
+      user <- UserRepo.getUser(userId)
+    } yield user.email
+}
+```
+
+Ce serait encore mieux d'avoir l'ExecuteContext dans l'environnement et utiliser la Reader monade
+
+## Dependency injection ?
+
+Comment on met les dépendances dans le Reader dans une vrai app ?
+
+Exemple
+
+```scala
+import scalaz.Reader
+
+abstract class EnvController(env: Env) extends Controller {
+  def run[A](r: Reader[Env, A]): A = r.run(env)
+  def run[A](query: Query[A]): Future[A] = query.run(env)
+}
+```
+
+On a un controller abtrait qui prend l'environnement dans le constructeur et a des fonctions run qui executent le reader sans environnement
+
+Du coup on applique juste l'environnement à la fonction de la monade qui est englobée (wrapped)
+
+```scala
+class Users(env: Env) extends EnvController(env) {
+  import scalaz.contrib.std.scalaFuture._
+  import Execution.Implicit.defaultContext
+  
+  def show(id: String) = Action.async { request =>
+    for (user <- run(UserService.getUser(id)))
+      yield Ok(views.html.user(user))
+  }
+}
+```
+
+Le vrai controller va étendre ce controller abstrait et va exécuter la fonction `run` 
+
+On n'élimine pas l'appel à `run` parce qu'on n'essaie pas d'avoir uniquement de la logique applicative dans le controller
+
+Le framework Play a des features sympas pour utiliser l'injection de dépendance, par exemple
+
+```scala
+object Global extends GlobalSettings {
+  private object env extends Env 
+    with PlayConfigComponent
+    with PlayEmailServiceComponent
+    with MongoRepositoriesComponent
+    
+  override def getControllerInstance[A](c: Class[A]) =
+    c.getConstrustor(classOf[Env]).newInstance(env)
+}
+```
+
+on a juste à override `getControllerInstance` en utilisant la réflexion 
+
+Dans les routes, on peut juste ajouter un `@` pour indiquer qu'il faut utiliser l'injection de dépendance
+
+```scala
+GET /users/:id @controllers.Users.show(id: String)
+```
+
+## Testing
+
+Une motivation de l'injection de dépendance est de faciliter les tests
+
+```scala
+trait MockerRepositoriesComponent extends RepositoriesComponent {
+  object repos extends Repos
+    with MockUserRepoComponent
+    with MockAddressRepoComponent
+}
+
+trait MockUserRepoComponent extends UserRepoComponent {
+  val userRepo = mock[UserRepo]
+}
+```
+
+On peut ensuite créer un environnement de mock
+
+```scala
+class MockEnv extends Env
+  with MockConfigComponent
+  with MockEmailServiceComponent
+  with MockRepositoriesComponent
+  
+trait MockConfigComponent extends ConfigComponent {
+  val config = mock[Config]
+}
+```
+
+On peut créer un environnement de test ainsi
+
+```scala
+trait TraitEnv {
+  import Helpers._
+  
+  def env: Env
+  
+  def config = env.config
+  def emailService = env.emailService
+  def repositories = env.repositories
+  def userRepo = repositories.userRepo
+  def addressRepo = repositories.addressRepo
+  
+  def await[A](query: Query[A]): A =
+    Helpers.await(query.run(env))
+}
+```
+
+## To read
+
+https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/
+http://anttih.com/articles/2018/07/05/purely-functional-di
+https://medium.com/rahasak/dependency-injection-with-reader-monad-in-scala-fe05b29e04dd
+https://softwaremill.com/reader-monad-constructor-dependency-injection-friend-or-foe/
+https://www.google.com/search?ei=JKnEX6ioDY-9lwSK5KyQDw&q=reader-monad-for-dependency-injection&oq=reader-monad-for-dependency-injection&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1DPC1jPC2C4DGgAcAJ4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwioypPv6KntAhWP3oUKHQoyC_IQ4dUDCA0&uact=5
