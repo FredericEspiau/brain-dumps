@@ -576,13 +576,13 @@ trait MockConfigComponent extends ConfigComponent {
 }
 ```
 
-On peut créer un environnement de test ainsi
+On peut créer un helper d'environnement de test ainsi
 
 ```scala
 trait TraitEnv {
   import Helpers._
   
-  def env: Env
+  def env: Env // abstract env
   
   def config = env.config
   def emailService = env.emailService
@@ -594,6 +594,47 @@ trait TraitEnv {
     Helpers.await(query.run(env))
 }
 ```
+
+Comme ça, dans mes tests, je peux faire ça
+
+```scala
+class UserServiceSpec extends FreeSpec {
+  trait UserServiceTesting extends TestEnv {
+    val env = new MockEnv
+    
+    val testEmail = //
+    val testUser = //
+    val testAddress = //
+  }
+}
+```
+
+j'ai un scope trait pour l'environnement et j'instancie un nouveal environneemnt de test pour chaque test
+
+Ainsi je peux avoir un test comme ça
+
+```scala
+"UserService" - {
+  "findAddress finds an address" in new UserServiceTesting {
+    when(userRepo.findUser(email))
+      .thenReturn(testUser)
+      
+    when(addressRepo.getAddress(testUser.id))
+      .thenReturn(testAddress)
+      
+    assert(
+      await(UserService.findAddress(testEmail))
+        == testAddress
+    )
+  }
+}
+```
+
+## Questions
+
+- En quoi c'est mieux que de passer des arguments à une fonction ?
+
+C'est pareil, c'est juste caché
 
 ## To read
 
