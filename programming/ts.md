@@ -8,6 +8,7 @@ Articles
 - [The never Type](https://mariusschulz.com/blog/the-never-type-in-typescript)
 - [Narrow Interface Type](https://jaketrent.com/post/narrow-interface-type-typescript/)
 - [Conditional Types](https://mariusschulz.com/blog/conditional-types-in-typescript)
+- [Monads simplified with Generators in TypeScript: Part 1](https://medium.com/flock-community/monads-simplified-with-generators-in-typescript-part-1-33486bf9d887)
 
 Outils
 
