@@ -1,7 +1,8 @@
 # Functional programming
 
-- https://impurepics.com/
+- [Impure Pics](https://impurepics.com/)
 - [Scriptum](https://github.com/kongware/scriptum)
+- [The Science of Functional Programming](https://github.com/winitzki/sofp)
 
 JavaScript
 
