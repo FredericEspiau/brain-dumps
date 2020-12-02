@@ -5,3 +5,7 @@
 - [Pattern matching & functional composition](https://twitter.github.io/scala_school/pattern-matching-and-functional-composition.html)
 - [Scala School](https://twitter.github.io/scala_school/)
 - [Scala with Cats](https://www.scalawithcats.com/)
+
+Libraries
+
+- [ZIO](https://zio.dev/)
