@@ -15,3 +15,29 @@ Article
 - [An opiniotated guide](https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/)
 - [Another opiniotated guide](https://github.com/typesanitizer/not-a-blog/blob/master/opinionated-haskell-guide-2019.md)
 - [Haskell: The Bad Parts](https://www.snoyman.com/blog/2020/10/haskell-bad-parts-1)
+
+## Snippets
+
+There are lots of interesting introductory books. These days, the go-to one seems to be the Haskell Book. While I haven’t read it, I’ve seen that it’s written in a very welcoming style, and the highlights are Property Based Testing with the QuickCheck library, monad transformers, lambda calculus, with lots of examples and exercises.
+
+https://haskellbook.com/
+
+I remember reading somewhere that when it comes to intermediate or advanced Haskell, all knowledge is scattered around in blogposts. There are people working very hard to change this. But when it comes to blogposts on Haskell, content coming from these authors (in no particular order) has helped me understand things a little (actually, a lot) better:
+
+https://www.stephendiehl.com/
+http://www.haskellforall.com/
+https://www.parsonsmatt.org/
+https://kowainik.github.io/
+https://williamyaoh.com/
+https://lexi-lambda.github.io/
+https://chrispenner.ca/
+https://typeclasses.com/
+
+Podcasts are a great way to get into new programming stuff too, the ones I’m normally up to date with are:
+
+http://corecursive.com/
+https://haskellweekly.news/podcast.html
+http://www.haskellcast.com/
+
+Sources:
+- https://gustavofranke.github.io/posts/2020-12-01-my-journey-into-haskell.html
