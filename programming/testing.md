@@ -18,7 +18,7 @@ Vidéo
 Article
 
 - https://mickalwegerich.medium.com/un-test-peut-en-cacher-un-autre-un-peu-de-th%C3%A9orie-6df532424edd
--
+- [TDD or not TDD](https://www.linkedin.com/pulse/tdd-la-m%25C3%25A9thode-qui-promet-des-logiciels-de-meilleur-lenselle/?trackingId=nT4XviI2y1FVdswevM0Oyw%3D%3D)
 
 # Improving your Test Driven Development in 45 minutes
 
