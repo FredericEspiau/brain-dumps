@@ -13,6 +13,7 @@ JavaScript
 Article
 
 - [Kinds in Type Theory](http://blog.rcard.in/functional/programming/types/2019/02/17/it-s-a-kind-of-magic-kinds-in.i-type-theory.html)
+- [The Reader Monad — Part 1](https://medium.com/hackernoon/the-reader-monad-part-1-1e4d947983a8)
 
 Video
 
