@@ -7,6 +7,10 @@
 - [https://www.youtube.com/watch?v=2vEoL3Irgiw](https://www.youtube.com/watch?v=2vEoL3Irgiw&feature=youtu.be)
 - [Wiki about testing](https://github.com/testdouble/contributing-tests/wiki/Test-Driven-Development)
 
+Cours
+
+- [Advanced Unit Testing](https://www.pluralsight.com/courses/advanced-unit-testing)
+
 Vidéo
 
 - [Outside in TDD](https://www.youtube.com/watch?v=XHnuMjah6ps)
