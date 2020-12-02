@@ -2,6 +2,10 @@
 - [Ingénieurerie logicielle](https://stevemcconnell.com/articles/)
 - [Flavio Copes](https://flaviocopes.com/)
 
+Articles
+
+- [Complicated Haskell Words - Isomorphism](https://juliu.is/complicated-haskell-words-isomorphism/)
+
 Linux, JavaScript, Network
 
 - [HackDoor](https://www.hackdoor.io/)
