@@ -11,5 +11,6 @@ Code
 
 - [Node](https://github.com/node-ts/ddd)
 - [Monolithe modulaire](https://github.com/kgrzybek/modular-monolith-with-ddd)
+- [White label](https://github.com/stemmlerjs/white-label)
 
 Full Modular Monolith application with Domain-Driven Design approach.
