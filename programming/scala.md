@@ -6,6 +6,10 @@
 - [Scala School](https://twitter.github.io/scala_school/)
 - [Scala with Cats](https://www.scalawithcats.com/)
 
+Examples
+
+- [ScalaZ and Cats](https://github.com/fosskers/scalaz-and-cats)
+
 Libraries
 
 - [ZIO](https://zio.dev/)
