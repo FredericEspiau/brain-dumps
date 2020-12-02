@@ -48,6 +48,7 @@ Articles
 - [Usecase dependencies](https://stackoverflow.com/questions/40458666/the-clean-architecture-usecase-dependencies)
 - [The Domain](https://buildplease.com/pages/fpc-1/)
 - [Why you need Use Cases/Interactors](https://proandroiddev.com/why-you-need-use-cases-interactors-142e8a6fe576)
+- [Clean Architecture - Et si on passait à côté ?](https://jordanchapuy.com/posts/2020/11/clean-architecture-et-si-on-passait-a-cote/)
 
 Code
 
