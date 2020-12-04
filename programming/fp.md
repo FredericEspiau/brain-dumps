@@ -16,6 +16,7 @@ Article
 - [The Reader Monad — Part 1](https://medium.com/hackernoon/the-reader-monad-part-1-1e4d947983a8)
 - [The Functional Programming Triad of Folding, Scanning and Iteration](https://www.slideshare.net/pjschwarz/the-functional-programming-triad-of-folding-scanning-and-iteration-a-first-example-in-scala-and-haskell-polyglot-fp-for-fun-and-profit)
 - [FP for Sceptics: Intuitive guide to map/flatmap](https://last-ent.com/posts/intuitive-map-flatmap/)
+- [HK: Objects in Functional Languages](https://news.ycombinator.com/item?id=25258354)
 
 Video
 
