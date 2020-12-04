@@ -10,6 +10,8 @@ Examples
 
 - [ScalaZ and Cats](https://github.com/fosskers/scalaz-and-cats)
 
+Usage examples and benchmarks between Scalaz and Cats (w/ Haskell ground-truth)
+
 Libraries
 
 - [ZIO](https://zio.dev/)
