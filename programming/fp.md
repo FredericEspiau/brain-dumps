@@ -19,6 +19,8 @@ Article
 - [HK: Objects in Functional Languages](https://news.ycombinator.com/item?id=25258354)
 - [Parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)
 - [Parse, don’t type-check](https://neilmadden.blog/2020/11/25/parse-dont-type-check)
+- [Polymorphic Effects in Scala](https://timwspence.github.io/blog/posts/2020-11-22-polymorphic-effects-in-scala.html)
+- [Purely functional dependency injection in TypeScript](http://anttih.com/articles/2018/07/05/purely-functional-di)
 
 Video
 
