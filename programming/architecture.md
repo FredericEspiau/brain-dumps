@@ -66,6 +66,7 @@ Code
 - [React](https://github.com/dimitridumont/hexagonal-architecture-react)
 - [React](https://github.com/eduardomoroni/react-clean-architecture)
 - [Explicit architecture - PHP](https://github.com/hgraca/explicit-architecture-php)
+- [White label](https://github.com/stemmlerjs/white-label)
 
 Vidéo
 
