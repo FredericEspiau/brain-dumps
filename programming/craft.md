@@ -19,3 +19,4 @@ Blogs
 Vidéos
 
 - [BDD ATDD TDD Clean Architecture - Débutant FR](https://www.youtube.com/watch?v=azlX-KU6guA)
+- [Codemanship](https://www.youtube.com/channel/UCH6iK78WQAwlK1g-z_dYxHA)
