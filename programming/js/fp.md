@@ -15,3 +15,5 @@
 - [Funktion](http://boris-marinov.github.io/funktion/)
 
 An easy-to-use JavaScript functional library
+
+- [monad-transformers](https://github.com/boris-marinov/monad-transformers)
