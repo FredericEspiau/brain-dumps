@@ -9,7 +9,8 @@
 ## Articles
 
 - [La fin des estimations ?](https://recruiter.beastiejob.com/beastieprez/beastie_prez_10)
-- [Shifting from “product” to “people” centric practices](https://scrum-master-toolbox.org/2020/11/podcast/bonus-peter-oliver-krueger-and-michael-dougherty-on-shifting-from-product-to-people-centric-practices-in-your-agile-adoption/?utm_campaign=meetedgar&utm_medium=social&utm_source=meetedgar.com)
+- [Shifting from “product” to “people” centric practices](https://scrum-master-toolbox.org/2020/11/podcast/bonus-peter-oliver-krueger-and-michael-dougherty-on-shifting-from-product-to-people-centric-practices-in-your-agile-adoption)
+- [The Land that Scrum Forgot](https://titanwolf.org/Network/Articles/Article?AID=0158245a-67c0-4c7e-afec-d257b91602f3#gsc.tab=0)
 
 ## Blogs
 
