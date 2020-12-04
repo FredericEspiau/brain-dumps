@@ -9,3 +9,9 @@
 - https://dev.to/anthonyjoeseph/why-is-redux-observable-like-that-2g4e
 - https://dev.to/gnomff_65/fp-ts-and-beautiful-api-calls-1f55
 - https://github.com/kutyel/optics.js
+
+## Libraries
+
+- [Funktion](http://boris-marinov.github.io/funktion/)
+
+An easy-to-use JavaScript functional library
