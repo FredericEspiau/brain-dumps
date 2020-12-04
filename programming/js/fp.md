@@ -23,3 +23,7 @@ An easy-to-use JavaScript functional library
 - [monad-transformers](https://github.com/boris-marinov/monad-transformers)
 
 - [Folktale](https://github.com/origamitower/folktale)
+
+- [Crocks](https://github.com/evilsoft/crocks)
+
+A collection of well known Algebraic Data Types
