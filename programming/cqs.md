@@ -1,5 +1,7 @@
 # Command–query separation (CQS)
 
+- [A simple but powerful pattern](https://www.dotnetcurry.com/patterns-practices/1461/command-query-separation-cqs)
+
 ## Problème
 
 Un système a souvent besoin d'effectuer des effets de bord pour fonctionner (par exemple modifier une valeur en base de données)
