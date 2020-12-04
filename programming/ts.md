@@ -33,3 +33,5 @@ Zero-config CLI for TypeScript package development
 - [Pattern Matching in Typescript](https://github.com/nrdlab/pattern-matching-ts)
 
 - [monad-transformers](https://github.com/boris-marinov/monad-transformers)
+
+- [utility-types](https://github.com/piotrwitek/utility-types)
