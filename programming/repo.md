@@ -7,3 +7,4 @@
 - https://github.com/dsherret/ts-nameof
 - https://shawnmc.cool/2015-01-08_the-repository-pattern
 - https://www.smashingmagazine.com/2020/10/understanding-typescript-generics/
+- [Awesome Advent of Code](https://github.com/Bogdanp/awesome-advent-of-code)
