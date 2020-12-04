@@ -8,6 +8,7 @@
 - [Wiki about testing](https://github.com/testdouble/contributing-tests/wiki/Test-Driven-Development)
 - [Property testing with complex inputs](https://www.hillelwayne.com/post/property-testing-complex-inputs/)
 - [Property testing en Haskell et les solutions Quickcheck, Hedgehog, Validity](https://www.fpcomplete.com/blog/quickcheck-hedgehog-validity/)
+- [TDD - La méthode qui promet des logiciels de meilleur qualité est-elle utopique ?](https://www.linkedin.com/pulse/tdd-la-m%25C3%25A9thode-qui-promet-des-logiciels-de-meilleur-lenselle)
 
 ## Cours
 
