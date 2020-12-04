@@ -6,3 +6,7 @@
 - [A set of best practices for JavaScript projects](https://github.com/elsewhencode/project-guidelines)
 - [Notes from technical interviews](https://github.com/vvscode/js--interview-questions)
 - [Operator Lookup](https://www.joshwcomeau.com/operator-lookup/)
+
+## Vidéos
+
+- [Netflix JavaScript Talks - RxJS + Redux + React](https://www.youtube.com/watch?v=8aB1imnWfJQ)
