@@ -12,6 +12,7 @@
 - [Understanding TypeScript Generics](https://www.smashingmagazine.com/2020/10/understanding-typescript-generics/)
 - [Introducing List Comprehension](https://itnext.io/introducing-list-comprehension-for-typescript-6204d9b1003e)
 - [Purely functional dependency injection](http://anttih.com/articles/2018/07/05/purely-functional-di)
+- [Performances](https://github.com/microsoft/TypeScript/wiki/Performance)
 
 ## Outils
 
