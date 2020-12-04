@@ -6,6 +6,10 @@
 - [Coach Agile](https://coach-agile.com/)
 - [Agile radical](https://agileradical.org/)
 
-Blogs
+## Articles
+
+- [La fin des estimations ?](https://recruiter.beastiejob.com/beastieprez/beastie_prez_10)
+
+## Blogs
 
 - [publicis sapient](https://blog.engineering.publicissapient.fr/category/agilite/)
