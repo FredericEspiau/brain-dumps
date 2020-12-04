@@ -17,6 +17,7 @@
 ## FP 
 
 - https://dev.to/gcanti
+- [Interoperability with non functional code using fp-ts](https://dev.to/gcanti/interoperability-with-non-functional-code-using-fp-ts-432e)
 
 ## Outils
 
