@@ -5,3 +5,4 @@
 - https://github.com/dustinspecker/awesome-eslint
 - [A set of best practices for JavaScript projects](https://github.com/elsewhencode/project-guidelines)
 - [Notes from technical interviews](https://github.com/vvscode/js--interview-questions)
+- [Operator Lookup](https://www.joshwcomeau.com/operator-lookup/)
