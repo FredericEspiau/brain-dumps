@@ -8,6 +8,7 @@
 
 ## Cours
 
+- [Jennifer Widom sur edx](https://www.edx.org/bio/jennifer-widom)
 - [Relational Databases and SQL](https://www.edx.org/course/databases-5-sql)
 
 ## Librairie
