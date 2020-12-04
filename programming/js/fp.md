@@ -17,3 +17,5 @@
 An easy-to-use JavaScript functional library
 
 - [monad-transformers](https://github.com/boris-marinov/monad-transformers)
+
+- [Folktale](https://github.com/origamitower/folktale)
