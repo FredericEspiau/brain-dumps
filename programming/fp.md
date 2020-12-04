@@ -21,6 +21,7 @@ Article
 - [Parse, don’t type-check](https://neilmadden.blog/2020/11/25/parse-dont-type-check)
 - [Polymorphic Effects in Scala](https://timwspence.github.io/blog/posts/2020-11-22-polymorphic-effects-in-scala.html)
 - [Purely functional dependency injection in TypeScript](http://anttih.com/articles/2018/07/05/purely-functional-di)
+- [Monad transformers](http://book.realworldhaskell.org/read/monad-transformers.html)
 
 Video
 
