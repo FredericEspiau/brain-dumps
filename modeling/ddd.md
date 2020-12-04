@@ -7,6 +7,10 @@
 - [Le Domain Driven Design sous l’angle stratégique, une introduction](https://www.lilobase.me/le-domain-driven-design-sous-langle-strategique-une-introduction/)
 - [Awesome DDD](https://github.com/heynickc/awesome-ddd)
 - [C# 9 Records as DDD Value Objects](https://enterprisecraftsmanship.com/posts/csharp-records-value-objects)
+- [L’après-midi du DDD 1/3 – Keynote & Test Harness](https://www.youtube.com/watch?v=qzygjKpFSq4)
+- [Protecting Your Domain-Driven Design from Anemia](https://dzone.com/articles/protecting-your-domain-driven-design-from-anemia)
+- [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
+- [CQRS, Fonctionnel, Event Sourcing & Domain Driven Design - Arnaud Lemaire](https://www.youtube.com/watch?v=qBLtZN3p3FU)
 
 Code
 
