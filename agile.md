@@ -15,3 +15,8 @@
 ## Blogs
 
 - [publicis sapient](https://blog.engineering.publicissapient.fr/category/agilite/)
+
+## Vidéos
+
+- [The Death of Agile (Allen Holub)](https://www.youtube.com/watch?v=HZyRQ8Uhhmk)
+- [Arnaud Lemaire - Et si on redémarrait l'agilité ?](https://www.youtube.com/watch?v=sZbmP0JZHBs)
