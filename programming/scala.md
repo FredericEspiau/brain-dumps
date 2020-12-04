@@ -15,3 +15,7 @@ Usage examples and benchmarks between Scalaz and Cats (w/ Haskell ground-truth)
 Libraries
 
 - [ZIO](https://zio.dev/)
+
+## Articles
+
+- [Polymorphic Effects in Scala](https://timwspence.github.io/blog/posts/2020-11-22-polymorphic-effects-in-scala.html)
