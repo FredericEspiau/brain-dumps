@@ -50,6 +50,7 @@ Articles
 - [Why you need Use Cases/Interactors](https://proandroiddev.com/why-you-need-use-cases-interactors-142e8a6fe576)
 - [Clean Architecture - Et si on passait à côté ?](https://jordanchapuy.com/posts/2020/11/clean-architecture-et-si-on-passait-a-cote/)
 - [The "right" boundary](https://twitter.com/JuanMGarridoPaz/status/1332420424257449985)
+- [use case driven](http://tpierrain.blogspot.com/)
 
 Code
 
