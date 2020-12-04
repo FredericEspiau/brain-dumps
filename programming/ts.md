@@ -14,6 +14,10 @@
 - [Purely functional dependency injection](http://anttih.com/articles/2018/07/05/purely-functional-di)
 - [Performances](https://github.com/microsoft/TypeScript/wiki/Performance)
 
+## FP 
+
+- https://dev.to/gcanti
+
 ## Outils
 
 - [Utilities](https://github.com/typescript-cheatsheets/utilities)
