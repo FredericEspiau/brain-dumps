@@ -16,3 +16,7 @@
 - [iodio](https://github.com/FbN/iodio)
 
 Pure Functional Monadic Lazy Query Builder
+
+## Livres
+
+- [Refactoring Databases](https://www.amazon.com/Refactoring-Databases-Evolutionary-Addison-Wesley-Signature-ebook/dp/B001QAP36E)
