@@ -438,6 +438,8 @@ Tous les constructeur nullaires, et par conséquent tous les types monomorphique
 - https://typelevel.org/blog/2016/08/21/hkts-moving-forward.html
 - https://adriaanm.github.io/files/higher.pdf
 - https://dotty.epfl.ch/docs/reference/contextual/type-classes.html
+- https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555#higher-kinded-type-hkt
+
 
 # Sources:
 
