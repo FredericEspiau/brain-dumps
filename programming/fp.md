@@ -15,6 +15,7 @@ Article
 - [Kinds in Type Theory](http://blog.rcard.in/functional/programming/types/2019/02/17/it-s-a-kind-of-magic-kinds-in.i-type-theory.html)
 - [The Reader Monad — Part 1](https://medium.com/hackernoon/the-reader-monad-part-1-1e4d947983a8)
 - [The Functional Programming Triad of Folding, Scanning and Iteration](https://www.slideshare.net/pjschwarz/the-functional-programming-triad-of-folding-scanning-and-iteration-a-first-example-in-scala-and-haskell-polyglot-fp-for-fun-and-profit)
+- [FP for Sceptics: Intuitive guide to map/flatmap](https://last-ent.com/posts/intuitive-map-flatmap/)
 
 Video
 
