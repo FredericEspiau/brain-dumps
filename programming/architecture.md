@@ -51,6 +51,8 @@ Articles
 - [Clean Architecture - Et si on passait à côté ?](https://jordanchapuy.com/posts/2020/11/clean-architecture-et-si-on-passait-a-cote/)
 - [The "right" boundary](https://twitter.com/JuanMGarridoPaz/status/1332420424257449985)
 - [use case driven](http://tpierrain.blogspot.com/)
+- [Layers, Onions, Ports, Adapters: it's all the same](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/)
+- [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
 
 Code
 
