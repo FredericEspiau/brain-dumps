@@ -18,7 +18,3 @@ Blog
 Payant
 
 - [Semicolong & Sons](https://www.semicolonandsons.com/)
-
-Articles
-
-- [How I created my own programming language based on JavaScript](https://dev.to/sergeyshpadyrev/why-i-wrote-my-own-programming-language-based-on-javascript-435g)
