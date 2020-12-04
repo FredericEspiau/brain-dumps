@@ -27,3 +27,5 @@ Zero-config CLI for TypeScript package development
 - [Purify](https://github.com/gigobyte/purify)
 
 - [ts-pattern](https://github.com/gvergnaud/ts-pattern)
+
+- [Pattern Matching in Typescript](https://github.com/nrdlab/pattern-matching-ts)
