@@ -35,3 +35,5 @@ Zero-config CLI for TypeScript package development
 - [monad-transformers](https://github.com/boris-marinov/monad-transformers)
 
 - [utility-types](https://github.com/piotrwitek/utility-types)
+
+- [Higher Type Safety](https://github.com/millsp/ts-toolbelt)
