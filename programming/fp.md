@@ -17,6 +17,8 @@ Article
 - [The Functional Programming Triad of Folding, Scanning and Iteration](https://www.slideshare.net/pjschwarz/the-functional-programming-triad-of-folding-scanning-and-iteration-a-first-example-in-scala-and-haskell-polyglot-fp-for-fun-and-profit)
 - [FP for Sceptics: Intuitive guide to map/flatmap](https://last-ent.com/posts/intuitive-map-flatmap/)
 - [HK: Objects in Functional Languages](https://news.ycombinator.com/item?id=25258354)
+- [Parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)
+- [Parse, don’t type-check](https://neilmadden.blog/2020/11/25/parse-dont-type-check)
 
 Video
 
