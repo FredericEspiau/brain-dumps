@@ -18,6 +18,8 @@
 
 - https://dev.to/gcanti
 - [Interoperability with non functional code using fp-ts](https://dev.to/gcanti/interoperability-with-non-functional-code-using-fp-ts-432e)
+- [Functional programming with fp-ts](https://hvalls.dev/posts/intro-functional-fpts)
+- [Learn fp-ts](https://zanza00.gitbook.io/learn-fp-ts/)
 
 ## Outils
 
