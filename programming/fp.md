@@ -3,6 +3,7 @@
 - [Impure Pics](https://impurepics.com/)
 - [Scriptum](https://github.com/kongware/scriptum)
 - [The Science of Functional Programming](https://github.com/winitzki/sofp)
+- [Demistify FP (mostly F#/Clojure)](https://www.demystifyfp.com/)
 
 JavaScript
 
