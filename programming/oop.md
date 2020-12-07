@@ -7,6 +7,10 @@ Article
 - [Making Your C# Code More Object-oriented](https://www.pluralsight.com/courses/c-sharp-code-more-object-oriented)
 - [Getters/Setters. Evil. Period.](https://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html)
 
+## Blogs
+
+- https://www.yegor256.com/
+
 ## Vidéos
 
 https://www.youtube.com/watch?v=KHowUWvhSws&list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hSNpe
