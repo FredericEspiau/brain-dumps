@@ -13,7 +13,8 @@ https://www.youtube.com/watch?v=KHowUWvhSws&list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hS
 
 ## Livres
 
-
 - [99 Bottles of OOP](https://sandimetz.com/99bottles)
 
 99 Bottles of OOP is a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code. 
+
+- [Elegant Objects](https://www.elegantobjects.org/)
