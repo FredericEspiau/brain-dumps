@@ -182,7 +182,29 @@ const isOver = (boundary: number) => (toTest: number): boolean => toTest > bound
 
 Les fonctions `increment`, `isOver` et `isOver(0)` sont très faciles à réutiliser dans d'autres contextes
 
-Ce ne serait pas le cas avec une fonction qui prend deux 
+Ce ne serait pas le cas avec une fonction qui prend plus d'un argument
+
+## L'autocurryfication
+
+Ecrire manuellement des fonctions unaires pour curryfier une fonction peut être chronophage
+
+```ts
+const addFiveNumbers = (a: number) => (b: number) => (c: number) => (d: number) => (e: number): number => a + b + c + d + e
+```
+
+Il existe des bibliothèques qui se chargent d'effectuer cette action manuellement, par exemple `Ramda`
+
+```ts
+const addFiveNumbers = R.curry(a: number, b: number, c: number, d: number, e: number): number => a + b + c + d + e)
+const addTenToNumber = addFiveNumbers(1, 2, 3, 6);
+const twelve = addTenToNumber(2);
+```
+
+A noter que cette fonction renvoie une nouvelle fonction qui permet l'application partielle de manière très libre
+
+```ts
+const addTenToNumber = addFiveNumbers(1, 2)(3, 6);
+```
 
 ## La curryfication dans d'autres langages
 
@@ -212,7 +234,10 @@ let add a =
 Il est ensuite possible d'utiliser la fonction ainsi
 
 ```fsharp
-let inc = add 1
+let inc b = add 1 b // création d'une fonction "add" avec deux arguments
+let incOther = add 1 // on peut aussi écrire la déclaration de "incOther" ainsi, le "b" est implicite
+let three = add 1 2
+let four = inc 3
 ```
 
 Le même raisonnement s'applique en `Haskell`
@@ -226,7 +251,3 @@ inc b = add 1 b -- création d'une nouvelle fonction "inc" en appliquant partiel
 
 inc = add 1 -- on peut aussi écrire la déclaration de "inc" ainsi, le "b" est implicite
 ```
-
-Sources: 
-- https://wiki.haskell.org/Currying
-- https://blog.bitsrc.io/understanding-currying-in-javascript-ceb2188c339
