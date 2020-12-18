@@ -167,6 +167,8 @@ Le calcul qui prend du temps n'est effectué qu'une seule fois
 
 On pourrait passer par une variable intermédiaire qui contiendrait le résultat mais ce serait se priver de la composabilité des fonctions
 
+Ainsi, l'intérêt principal de l'application partielle est de permettre de créer des fonctions qui vont permettre de créer d'autres fonctions
+
 ## Définition du terme `curryfication`
 
 Prenons l'exemple de la fonction suivante
@@ -208,7 +210,10 @@ Une fonction curryfiée est une fonction appliquée partiellement dont vous save
 
 Pas besoin d'avoir à vous préoccuper s'il faut lui donner un, deux ou trois arguments, elle prendra toujours un seul argument et renverra une fonction qui en prendra un aussi
 
-Ainsi, si vous créez une fonction currifiée, vous savez qu'elle est en attente d'un argument pour soit retourner une fonction currifiée, soit qu'elle s'exécute
+Ainsi, si vous créez une fonction currifiée, vous savez qu'elle est en attente d'un argument
+
+- soit pour retourner une fonction currifiée
+- soit pour qu'elle s'exécute
 
 En informatique, savoir à quoi ressemble quelque chose de manière certaine, c'est pouvoir effectuer des actions très puissante sur cette chose
 
@@ -248,6 +253,8 @@ const add = (a: number, b: number): number => a + b
 [-2, 2, 3]
   .map(/* je ne peux pas utiliser "add" directement ici */)
 ```
+
+Ainsi, l'intérêt principal de la currification est de permettre de créer des fonctions qui vont permettre de créer d'autres fonctions, faciles à utiliser sans les connaître à l'avance
 
 ## L'autocurryfication
 
