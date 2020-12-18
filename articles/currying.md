@@ -56,7 +56,7 @@ increment(5);
 `a` est un paramètre
 `5` est un argument
 
-## Définition du terme *Arité*
+## Définition du terme `arité`
 
 Nombre d'arguments dont une fonction a besoin pour être executée
 
@@ -72,7 +72,7 @@ const six = addThree(1, 2, 3);
 
 Son arité est donc `3`
 
-## Définition du terme *Unaire*
+## Définition du terme `unaire`
 
 Fonction dont l'arité est `1`
 
@@ -88,7 +88,7 @@ const two = increment(1);
 
 Son arité est donc `1`
 
-## Définition du terme *Application partielle*
+## Définition du terme `application partielle`
 
 Produire une nouvelle fonction `B` à partir d'une fonction `A`. L'arité de la fonction `B` doit être inférieure à l'arité de la fonction `A`
 
@@ -167,7 +167,7 @@ Le calcul qui prend du temps n'est effectué qu'une seule fois
 
 On pourrait passer par une variable intermédiaire qui contiendrait le résultat mais ce serait se priver de la composabilité des fonctions
 
-## Définition du terme *Curryfication*
+## Définition du terme `curryfication`
 
 Prenons l'exemple de la fonction suivante
 
