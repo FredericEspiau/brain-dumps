@@ -54,6 +54,7 @@ increment(5);
 ```
 
 `a` est un paramètre
+
 `5` est un argument
 
 ## Définition du terme `arité`
@@ -80,7 +81,7 @@ Fonction dont l'arité est `1`
 const increment = (n: number): number => n + 1;
 ```
 
-La fonction `increment` a besoin qu'on attribue une valeur à son argument `n` pour être executée
+La fonction `increment` a besoin qu'on attribue une valeur à son paramètre `n` pour être executée
 
 ```ts
 const two = increment(1);
@@ -103,7 +104,7 @@ La fonction `addTenToTwoNumbers`, créée à partir de `addThreeNumbers`, a une 
 
 Il s'agit donc d'application partielle
 
-Le fait de donner une valeur à un argument afin d'effectuer une application partielle s'appelle un `fix` ou un `bind`
+Le fait de donner une valeur à un paramètre afin d'effectuer une application partielle s'appelle un `fix` ou un `bind`
 
 En `JavaScript` et `TypeScript`, il est possible d'appliquer partiellement une fonction avec `bind`
 
@@ -113,18 +114,20 @@ const addTenToTwoNumbers = (b: number, c: number): number => addThreeNumbers.bin
 
 Cette technique a le désavantage de vous obliger à fournir un contexte pour votre nouvelle fonction (`null` dans l'exemple précédent) et ne fonctionne qu'avec le premier argument de votre fonction (il n'aurait pas été possible de créer un application partielle sur `b` ou `c`)
 
+C'est pourquoi en `JavaScript` et `TypeScript`, on trouve plus souvent des fonctions qui retournent d'autres fonctions pour effectuer une application partielle
+
 ## A quoi ça sert ?
 
-Une fonction appliquée partiellement a certains de ses arguments fixés et est en attente d'un ou de plusieurs arguments pour pouvoir s'exécuter
+Une fonction appliquée partiellement a certains de ses paramètres fixés et est en attente d'un ou de plusieurs arguments pour pouvoir s'exécuter
 
 Par conséquent, une fonction appliquée partiellement est une fonction qui contient de l'information
 
 Cette fonction peut ensuite être utilisée pour créer de nouvelles fonctions, avec les informations déjà fixée en argument
 
-Par conséquent, une fonction appliquée partiellement est capable de créer de nouvelles fonctions qui partageront de l'information
+Par conséquent, une fonction appliquée partiellement est capable de créer de nouvelles fonctions qui contiennent déjà de l'information
 
 ```ts
-const buildUrl = (procotol: string, domain: string, path: string) => protocol + "://" + domain + / + path;
+const buildUrl = (procotol: string, domain: string, path: string) => protocol + "://" + domain + "/" + path;
 const buildSecureUrl = (domain: string, path: string): string => buildUrl("https", domain, path);
 ```
 
@@ -165,7 +168,7 @@ const thirdFunction = alreadyDone(2);
 
 Le calcul qui prend du temps n'est effectué qu'une seule fois
 
-On pourrait passer par une variable intermédiaire qui contiendrait le résultat mais ce serait se priver de la composabilité des fonctions
+On pourrait passer par une variable intermédiaire qui contiendrait le résultat mais ce serait se priver de la composabilité des fonctions, un vaste sujet qui dépasse le cadre de cet article
 
 Ainsi, l'intérêt principal de l'application partielle est de permettre de créer des fonctions qui vont permettre de créer d'autres fonctions
 
@@ -193,7 +196,7 @@ const addCurried = (a: number) => (b: number): number => a + b
 
 La fonction `addCurried` est une fonction unaire, elle a pour seul argument `a`
 
-Elle retourne une fonction unaire, elle a pour seul argument `b` et elle effectue le calcul initial
+Elle retourne une fonction anonyme unaire, qui a pour seul argument `b` et qui effectue le calcul initial
 
 ```ts
 const five = addCurried(2)(5);
@@ -208,7 +211,7 @@ Ainsi, une fonction currifiée
 
 Une fonction curryfiée est une fonction appliquée partiellement dont vous savez à l'avance le fonctionnement
 
-Pas besoin d'avoir à vous préoccuper s'il faut lui donner un, deux ou trois arguments, elle prendra toujours un seul argument et renverra une fonction qui en prendra un aussi
+Pas besoin d'avoir à vous préoccuper du nombre d'arguments à fournir, elle prendra toujours un seul argument et renverra une fonction qui en prendra un aussi, ou un résultat final
 
 Ainsi, si vous créez une fonction currifiée, vous savez qu'elle est en attente d'un argument
 
@@ -222,15 +225,17 @@ const rawIds = ["id-35", "id-53", "id-657"]
 const numericPartOfMyIds = rawIds.map(id => id.split("-")[1];
 ```
 
-Comme je sais à l'avance à quoi ressemblent mes identifiants, je peux facilement en extraire la partie numérique
+Je sais à l'avance à quoi ressemblent mes identifiants, ce sont des chaînes de caractères qui commencent par `id-` et qui contiennent ensuite un chiffre
+
+Je peux ainsi facilement extraire la partie numérique avec un simple `split`
 
 ```ts
-const rawIds = ["29437", "%3%4%5%1%2%3", "id-15"]
+const rawIds = ["29437", 32, "id-15"]
 ```
 
 Avec cette convention d'identifiants là, il m'est beaucoup plus compliqué d'extraire la partie numérique
 
-Le même principe s'applique pour les fonctions
+Le même principe de prédictibilité s'applique pour les fonctions
 
 Comme une fonction ne retourne qu'une seule valeur, si une autre fonction ne prend qu'un argument, alors je peux facilement enchaîner le résultat d'une fonction pour le fournir en paramètre à une autre fonction
 
@@ -245,7 +250,7 @@ const isOver = (boundary: number) => (toTest: number): boolean => toTest > bound
 
 Les fonctions `increment`, `isOver` et `isOver(0)` sont très faciles à réutiliser dans d'autres contextes
 
-Ce ne serait pas le cas avec une fonction qui prend plus d'un argument, comme il me faudrait une valeur pour les arguments qui ne sont pas le premier
+Ce ne serait pas le cas avec une fonction qui prend plus d'un argument, comme il me faudrait une valeur pour les paramètres qui ne sont pas le premier
 
 ```ts
 const add = (a: number, b: number): number => a + b
@@ -284,15 +289,15 @@ Les langages orientés fonctionnels essaient de reproduire le comportement des f
 
 Or, une fonction mathématique ne peut avoir qu'un seul argument
 
-Par conséquent, les fonctions dans certains langages fonctionnels ne peuvent avoir qu'un seul argument
+Par conséquent, les fonctions dans certains langages fonctionnels ne peuvent avoir qu'un seul paramètre
 
-Il est possible de déclarer des fonctions avec plusieurs arguments mais le compilateur curryfiera automatiquement la fonction
+Il est possible de déclarer des fonctions avec plusieurs paramètre mais le compilateur curryfiera automatiquement la fonction
 
 ```fsharp
 let add a b = a + b
 ```
 
-Cet exemple en `F#` montre une fonction appelée `add` qui prend deux arguments `a` et `b` pour les additionner
+Cet exemple en `F#` montre une fonction appelée `add` qui a deux paramètres `a` et `b` pour les additionner
 
 Au moment de la compilation, la fonction générée ressemblera à quelque chose comme
 
