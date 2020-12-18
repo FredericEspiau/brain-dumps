@@ -8,7 +8,7 @@ Nombre d'arguments dont une fonction a besoin pour être executée
 const addThree = (a: number, b: number, c: number): number => a + b + c
 ```
 
-Comme la fonction `addThree` a besoin qu'on attribue des valeurs à ses `3` arguments `a`, `b` et `c` pour être executée
+La fonction `addThree` a besoin qu'on attribue des valeurs à ses `3` arguments `a`, `b` et `c` pour être executée
 
 ```ts
 const six = addThree(1, 2, 3);
