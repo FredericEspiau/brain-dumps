@@ -32,8 +32,6 @@ const two = increment(1);
 
 Son arité est donc `1`
 
-Elle est donc dite `unaire`
-
 ## Définition du terme *Application partielle*
 
 Produire une nouvelle fonction *B* à partir d'un fonction *A*
