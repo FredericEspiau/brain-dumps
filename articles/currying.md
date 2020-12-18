@@ -35,6 +35,13 @@ Cette instruction
 - le paramètre `b` est de type `string`
 - la fonction anonyme retourne un `boolean`
 
+Les deux fonctions peuvent être appliquées ainsi
+
+```ts
+const theyAreTheSame = areTheSame(1, "1");
+const theyAreNotTheSame = areTheSameInTwoFunctions(1)("2")
+```
+
 ## Définition du terme *Arité*
 
 Nombre d'arguments dont une fonction a besoin pour être executée
