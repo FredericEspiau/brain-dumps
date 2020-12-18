@@ -151,6 +151,49 @@ Les fonctions `increment`, `isOver` et `isOver(0)` sont très faciles à réutil
 
 Ce ne serait pas le cas avec une fonction qui prend deux 
 
+## La curryfication dans d'autres langages
+
+Les langages orientés fonctionnels essaient de reproduire le comportement des fonctions mathématiques
+
+Or, une fonction mathématique ne peut avoir qu'un seul argument
+
+Par conséquent, les fonctions dans certains langages fonctionnels ne peuvent avoir qu'un seul argument
+
+Il est possible de déclarer des fonctions avec plusieurs arguments mais le compilateur curryfiera automatiquement la fonction
+
+```fsharp
+let add a b = a + b
+```
+
+Cet exemple en `F#` montre une fonction appelée `add` qui prend deux arguments `a` et `b` pour les additionner
+
+Au moment de la compilation, la fonction générée ressemblera à quelque chose comme
+
+```fsharp
+let add a =
+  let addSubFuction b =
+    a + b
+  addSubFuction // retourne la fonction interne
+```
+
+Il est ensuite possible d'utiliser la fonction ainsi
+
+```fsharp
+let inc = add 1
+```
+
+Le même raisonnement s'applique en `Haskell`
+
+```hs
+add :: Num a => a -> a -> a
+add a b = a + b -- création d'une fonction "add" avec deux arguments
+
+inc :: Num a => a -> a
+inc b = add 1 b -- création d'une nouvelle fonction "inc" en appliquant partiellement "add"
+
+inc = add 1 -- on peut aussi écrire la déclaration de "inc" ainsi, le "b" est implicite
+```
+
 Sources: 
 - https://wiki.haskell.org/Currying
 - https://blog.bitsrc.io/understanding-currying-in-javascript-ceb2188c339
