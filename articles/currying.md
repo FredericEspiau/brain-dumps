@@ -34,9 +34,7 @@ Son arité est donc `1`
 
 ## Définition du terme *Application partielle*
 
-Produire une nouvelle fonction *B* à partir d'un fonction *A*
-
-L'arité de la fonction *B* doit être inférieure à l'arité de la fonction *A*
+Produire une nouvelle fonction `B` à partir d'une fonction `A`. L'arité de la fonction `B` doit être inférieure à l'arité de la fonction `A`
 
 ```ts
 const addThreeNumbers = (a: number, b: number, c: number): number => a + b + c
