@@ -53,6 +53,14 @@ Il s'agit donc d'application partielle
 
 Le fait de donner une valeur à un argument afin d'effectuer une application partielle s'appelle un `fix` ou un `bind`
 
+En `JavaScript` et `TypeScript`, il est possible d'appliquer partiellement une fonction avec `bind`
+
+```ts
+const addTenToTwoNumbers = (b: number, c: number): number => add.bind(null, 10);
+```
+
+Cette technique a le désavantage de vous obliger à fournir un contexte pour votre nouvelle fonction (`null` dans l'exemple précédent) et ne fonctionne qu'avec le premier argument de votre fonction (il n'aurait pas été possible de créer un application partielle sur `b` ou `c`)
+
 ## A quoi ça sert ?
 
 Une fonction appliquée partiellement a certains de ses arguments fixés et est en attente d'un ou de plusieurs arguments pour pouvoir s'exécuter
@@ -77,6 +85,35 @@ const urlTointernshipOffer = buildSecureUrl("careers.website.com", "offer?id=10"
 ```
 
 On utilise ainsi l'application partielle pour éviter de se répéter ou pour éviter d'effectuer des calculs coûteux plusieurs fois
+
+```ts
+const myFunction = (arg1, arg2) => {
+  const complexResult = functionThatTakesTime(arg1);
+  
+  return complexResult + arg2;
+}
+
+const otherFunction = myFunction(1, 3);
+const thirdFunction = myFunction(1, 2);
+```
+
+Le calcul qui prend du temps est effectué deux fois alors qu'avec de l'application partielle, on pourrait ne l'effectuer qu'une seule fois
+
+```ts
+const myFunction = (arg1) => {
+  const complexResult = functionThatTakesTime(arg1);
+  
+  return (arg2) => complexResult + arg2;
+}
+
+const alreadyDone = myFunction(1);
+const otherFunction = alreadyDone(3);
+const thirdFunction = alreadyDone(2);
+```
+
+Le calcul qui prend du temps n'est effectué qu'une seule fois
+
+On pourrait passer par une variable intermédiaire qui contiendrait le résultat mais ce serait se priver de la composabilité des fonctions
 
 ## Définition du terme *Curryfication*
 
