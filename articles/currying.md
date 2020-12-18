@@ -1,5 +1,40 @@
 # Application partielle et curryfication
 
+## Préambule
+
+Cet article utilise `TypeScript` mais les concepts abordés sont applicables à de nombreux langages
+
+Voici une courte explication de la syntaxe de `TypeScript``
+
+```ts
+const areTheSame = (a: number, b: string): boolean => a.toString() === b
+```
+
+Cette instruction
+
+- crée une fonction appelée `areTheSame`
+- la fonction `areTheSame` déclare deux paramètres `a` et  `b`
+- le paramètre `a` est de type `number`
+- le paramètre `b` est de type `string`
+- la fonction `areTheSame` retourne un `boolean`
+- la partie derrière le `=>` est le corps de la fonction
+
+Il est possible de créer des fonctions qui renvoient des fonctions de cette manière
+
+```ts
+const areTheSameInTwoFunctions = (a: number) => (b: string): boolean => a.toString() === b
+```
+
+Cette instruction
+
+- crée une fonction appelée `areTheSameInTwoFunctions`
+- la fonction `areTheSameInTwoFunctions` déclare un paramètres `a`
+- le paramètre `a` est de type `number`
+- le corps de `areTheSameInTwoFunctions` va renvoyer une nouvelle fonction anonyme (qui n'a pas de nom)
+- cette fonction anonyme déclare un paramètre `b`
+- le paramètre `b` est de type `string`
+- la fonction anonyme retourne un `boolean`
+
 ## Définition du terme *Arité*
 
 Nombre d'arguments dont une fonction a besoin pour être executée
