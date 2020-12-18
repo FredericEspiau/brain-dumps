@@ -169,7 +169,9 @@ const rawIds = ["29437", "%3%4%5%1%2%3", "id-15"]
 
 Avec cette convention d'identifiants là, il m'est beaucoup plus compliqué d'extraire la partie numérique
 
-Le même principe s'applique pour les fonctions, si je sais que ma fonction est pure et qu'elle prend un seul argument, je peux l'utiliser à tous les endroits qui attendent des fonctions pures et avec un seul argument
+Le même principe s'applique pour les fonctions
+
+Comme une fonction ne retourne qu'une seule valeur, si une autre fonction ne prend qu'un argument, alors je peux facilement enchaîner le résultat d'une fonction pour le fournir en paramètre à une autre fonction
 
 ```ts
 const increment = (_: number): number => _ + 1;
@@ -182,7 +184,14 @@ const isOver = (boundary: number) => (toTest: number): boolean => toTest > bound
 
 Les fonctions `increment`, `isOver` et `isOver(0)` sont très faciles à réutiliser dans d'autres contextes
 
-Ce ne serait pas le cas avec une fonction qui prend plus d'un argument
+Ce ne serait pas le cas avec une fonction qui prend plus d'un argument, comme il me faudrait une valeur pour les arguments qui ne sont pas le premier
+
+```ts
+const add = (a: number, b: number): number => a + b
+
+[-2, 2, 3]
+  .map(/* je ne peux pas utiliser "add" directement ici */)
+```
 
 ## L'autocurryfication
 
