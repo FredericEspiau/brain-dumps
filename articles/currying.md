@@ -77,7 +77,7 @@ Je peux réutiliser `buildSecureUrl` pour construire des valeurs ou des fonction
 ```ts
 const buildWebsiteUrl = (path: string): string => buildSecureUrl("website.com", path);
 const buildAppUrl = (path: string): string => buildSecureUrl("app.website.com", path);
-const urlTointernshipOffer = buildSecureUrl("careers.website.com", "offer?id=10");
+const urlToInternshipOffer = buildSecureUrl("careers.website.com", "offer?id=10");
 ```
 
 On utilise ainsi l'application partielle pour éviter de se répéter ou pour éviter d'effectuer des calculs coûteux plusieurs fois
