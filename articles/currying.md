@@ -34,6 +34,25 @@ Son arité est donc `1`
 
 Elle est donc dite `unaire`
 
+## Définition du terme *Application partielle*
+
+Produire une nouvelle fonction *B* à partir d'un fonction *A*
+
+L'arité de la fonction *B* doit être inférieure à l'arité de la fonction *A*
+
+```ts
+const addThreeNumbers = (a: number, b: number, c: number): number => a + b + c
+const addTenToTwoNumbers = (b: number, c: number): number => add(10, b, c);
+```
+
+La fonction `addThreeNumbers` a une arité de `3`
+
+La fonction `addTenToTwoNumbers`, créée à partir de `addThreeNumbers`, a une arité de `2`
+
+Il s'agit donc d'application partielle
+
+Le fait de donner une valeur à un argument afin d'effectuer une application partielle s'appelle un `fix` ou un `bind`
+
 ## Définition du terme *Curryfication*
 
 Prenons l'exemple de la fonction suivante
@@ -60,10 +79,21 @@ La fonction `addCurried` est une fonction unaire, elle a pour seul argument `a`
 
 Elle retourne une fonction unaire, elle a pour seul argument `b` et elle effectue le calcul initial
 
-
 ```ts
 const five = addCurried(2)(5);
 ```
+
+## A quoi ça sert ?
+
+Une fonction appliquée partiellement est en attente d'un ou de plusieurs arguments pour pouvoir s'exécuter
+
+Une fonction curryfiée est une fonction appliquée partiellement dont vous savez à l'avance le fonctionnement
+
+Pas besoin d'avoir à vous préoccuper s'il faut lui donner un, deux ou trois arguments, elle prendra toujours un seul argument et renverra une fonction qui en prendra un aussi
+
+Ainsi, si vous créez une fonction currifiée, vous savez qu'elle est en attente d'un argument pour soit retourner une fonction currifiée, soit qu'elle s'exécute
+
+En informatique, savoir à quoi ressemble quelque chose de manière certaine, c'est pouvoir effectuer des actions très puissante sur cette chose
 
 Sources: 
 - https://wiki.haskell.org/Currying
