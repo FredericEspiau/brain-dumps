@@ -332,7 +332,6 @@ inc = add 1 -- on peut aussi écrire la déclaration de "inc" ainsi, le "b" est 
 ## Sources
 
 - https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch3.md/#why-currying-and-partial-application
-- http://www.phyast.pitt.edu/~micheles/scheme/scheme14.html
 - http://markmahieu.blogspot.com/2007/12/currying-and-partial-application-with.html
 - https://web.archive.org/web/20161023205431/http://www.uncarved.com/articles/not_currying
 - https://www.youtube.com/watch?v=m3svKOdZijA
