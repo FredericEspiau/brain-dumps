@@ -35,12 +35,26 @@ Cette instruction
 - le paramètre `b` est de type `string`
 - la fonction anonyme retourne un `boolean`
 
-Les deux fonctions peuvent être appliquées ainsi
+Les deux fonctions peuvent être exécutées ainsi
 
 ```ts
 const theyAreTheSame = areTheSame(1, "1");
 const theyAreNotTheSame = areTheSameInTwoFunctions(1)("2")
 ```
+
+## Différence entre `paramètre` et `argument`
+
+Un `paramètre` se trouve dans la déclaration d'une fonction pour indiquer de quoi elle a besoin pour être exécutée
+
+Un `argument` est une valeur concrète passée à un `paramètre`
+
+```ts
+const increment = (a: number): number => a + 1
+increment(5);
+```
+
+`a` est un paramètre
+`5` est un argument
 
 ## Définition du terme *Arité*
 
@@ -50,7 +64,7 @@ Nombre d'arguments dont une fonction a besoin pour être executée
 const addThree = (a: number, b: number, c: number): number => a + b + c
 ```
 
-La fonction `addThree` a besoin qu'on attribue des valeurs à ses `3` arguments `a`, `b` et `c` pour être executée
+La fonction `addThree` a besoin qu'on attribue des valeurs à ses `3` paramètres `a`, `b` et `c` pour être executée
 
 ```ts
 const six = addThree(1, 2, 3);
