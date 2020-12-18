@@ -52,7 +52,7 @@ Le fait de donner une valeur à un argument afin d'effectuer une application par
 En `JavaScript` et `TypeScript`, il est possible d'appliquer partiellement une fonction avec `bind`
 
 ```ts
-const addTenToTwoNumbers = (b: number, c: number): number => add.bind(null, 10);
+const addTenToTwoNumbers = (b: number, c: number): number => addThreeNumbers.bind(null, 10);
 ```
 
 Cette technique a le désavantage de vous obliger à fournir un contexte pour votre nouvelle fonction (`null` dans l'exemple précédent) et ne fonctionne qu'avec le premier argument de votre fonction (il n'aurait pas été possible de créer un application partielle sur `b` ou `c`)
