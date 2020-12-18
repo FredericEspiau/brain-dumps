@@ -83,6 +83,11 @@ Elle retourne une fonction unaire, elle a pour seul argument `b` et elle effectu
 const five = addCurried(2)(5);
 ```
 
+Ainsi, une fonction currifiée
+
+- prend un seul argument
+- retourne soit une fonction currifiée, soit le résultat attendu
+
 ## A quoi ça sert ?
 
 Une fonction appliquée partiellement est en attente d'un ou de plusieurs arguments pour pouvoir s'exécuter
