@@ -95,6 +95,34 @@ Ainsi, si vous créez une fonction currifiée, vous savez qu'elle est en attente
 
 En informatique, savoir à quoi ressemble quelque chose de manière certaine, c'est pouvoir effectuer des actions très puissante sur cette chose
 
+```ts
+const rawIds = ["id-35", "id-53", "id-657"]
+const numericPartOfMyIds = rawIds.map(id => id.split("-")[1];
+```
+
+Comme je sais à l'avance à quoi ressemblent mes identifiants, je peux facilement en extraire la partie numérique
+
+```ts
+const rawIds = ["29437", "%3%4%5%1%2%3", "id-15"]
+```
+
+Avec cette convention d'identifiants là, il m'est beaucoup plus compliqué d'extraire la partie numérique
+
+Le même principe s'applique pour les fonctions, si je sais que ma fonction est pure et qu'elle prend un seul argument, je peux l'utiliser à tous les endroits qui attendent des fonctions pures et avec un seul argument
+
+```ts
+const increment = (_: number): number => _ + 1;
+const isOver = (boundary: number) => (toTest: number): boolean => toTest > boundary;
+
+[-2, 2, 3]
+  .map(increment)
+  .filter(isOver(0))
+```
+
+Les fonctions `increment`, `isOver` et `isOver(0)` sont très faciles à réutiliser dans d'autres contextes
+
+Ce ne serait pas le cas avec une fonction qui prend deux 
+
 Sources: 
 - https://wiki.haskell.org/Currying
 - https://blog.bitsrc.io/understanding-currying-in-javascript-ceb2188c339
