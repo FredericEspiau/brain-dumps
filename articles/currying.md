@@ -1,4 +1,4 @@
-# Curryfication
+# Application partielle et curryfication
 
 ## Définition du terme *Arité*
 
@@ -53,6 +53,31 @@ Il s'agit donc d'application partielle
 
 Le fait de donner une valeur à un argument afin d'effectuer une application partielle s'appelle un `fix` ou un `bind`
 
+## A quoi ça sert ?
+
+Une fonction appliquée partiellement a certains de ses arguments fixés et est en attente d'un ou de plusieurs arguments pour pouvoir s'exécuter
+
+Par conséquent, une fonction appliquée partiellement est une fonction qui contient de l'information
+
+Cette fonction peut ensuite être utilisée pour créer de nouvelles fonctions, avec les informations déjà fixée en argument
+
+Par conséquent, une fonction appliquée partiellement est capable de créer de nouvelles fonctions qui partageront de l'information
+
+```ts
+const buildUrl = (procotol: string, domain: string, path: string) => protocol + "://" + domain + / + path;
+const buildSecureUrl = (domain: string, path: string): string => buildUrl("https", domain, path);
+```
+
+Je peux réutiliser `buildSecureUrl` pour construire des valeurs ou des fonctions qui partageront le fait que le protocole à utiliser est `https`
+
+```ts
+const buildWebsiteUrl = (path: string): string => buildSecureUrl("website.com", path);
+const buildAppUrl = (path: string): string => buildSecureUrl("app.website.com", path);
+const urlTointernshipOffer = buildSecureUrl("careers.website.com", "offer?id=10");
+```
+
+On utilise ainsi l'application partielle pour éviter de se répéter ou pour éviter d'effectuer des calculs coûteux plusieurs fois
+
 ## Définition du terme *Curryfication*
 
 Prenons l'exemple de la fonction suivante
@@ -89,8 +114,6 @@ Ainsi, une fonction currifiée
 - retourne soit une fonction currifiée, soit le résultat attendu
 
 ## A quoi ça sert ?
-
-Une fonction appliquée partiellement est en attente d'un ou de plusieurs arguments pour pouvoir s'exécuter
 
 Une fonction curryfiée est une fonction appliquée partiellement dont vous savez à l'avance le fonctionnement
 
