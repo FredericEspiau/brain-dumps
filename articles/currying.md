@@ -4,7 +4,7 @@
 
 Cet article utilise `TypeScript` mais les concepts abordés sont applicables à de nombreux langages
 
-Voici une courte explication de la syntaxe de `TypeScript``
+Voici une courte explication de la syntaxe de `TypeScript`
 
 ```ts
 const areTheSame = (a: number, b: string): boolean => a.toString() === b
