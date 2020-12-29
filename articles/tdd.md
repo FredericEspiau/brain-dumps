@@ -79,3 +79,8 @@ dans les tests, on peut copier-coller quelques lignes de code mais un gros setup
 Defect injection: intentionally writing incorrect code to ensure a test fails
 
 Si en changeant le code les tests failent, alors on sait que le test fonctionne
+
+---
+
+Test until fear becomes boredom -> une fois qu'on est sûr de notre code, pas besoin d'écrire les tests supplémentaires
+
