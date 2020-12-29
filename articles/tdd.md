@@ -84,3 +84,63 @@ Si en changeant le code les tests failent, alors on sait que le test fonctionne
 
 Test until fear becomes boredom -> une fois qu'on est sûr de notre code, pas besoin d'écrire les tests supplémentaires
 
+
+# Source 2
+
+https://app.pluralsight.com/guides/test-driven-development-research
+
+Deux raisons pour ne pas utiliser TDD
+
+- dur à apprendre et maîtriser
+- ne voit pas l'intérêt
+
+Prend plus de temps pour développer
+
+Processus pour permettre aux tests de guider l'implémentation, afin d'avoir un code plus maintenable et de meilleure qualité
+
+Résultats des études
+
+Mesures
+
+- qualité interne
+
+Conception du système. Code plus facile à comprendre et travialler avec ? Plus maintenable ?
+
+- qualité externe
+
+Réduit le nombre de bugs ?
+
+- Qualité de test
+
+les tests sont plus efficaces ?
+
+- productivité
+
+on délivre plus rapidement ?
+
+
+## Types d'études
+
+- expériences contrôlées
+
+laboratoires académiques ou environnements industriels controlés avec rigueur scientifique
+
+- études pilotées
+
+moins structuré
+
+- semi-industrielle
+
+dev pro bossent sur projets expérimentaux ou étudiants
+
+- études instrustrielles
+
+Dans le vrai monde, travail de tous les jours
+
+## conclusion
+
+Controlled: + pour test qualité et productivité
+Pilot: + pour external et test qualité
+Semi: + pour external et test qualité
+Industry: + internal, external et productivité sur le long terme
+
