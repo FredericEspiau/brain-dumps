@@ -10,7 +10,11 @@
 - [Serokell Blog](https://serokell.io/blog)
 - [MOOC Functional Programming in Haskell: Supercharge Your Coding](https://www.futurelearn.com/courses/functional-programming-haskell)
 - [Pleins d'articles sur la conception en HK](https://github.com/graninas/software-design-in-haskell)
-- [Haskell doesn't have macros](https://www.reddit.com/r/haskell/comments/kmgf4k/haskell_doesnt_have_macros/
+- [Haskell doesn't have macros](https://www.reddit.com/r/haskell/comments/kmgf4k/haskell_doesnt_have_macros/)
+
+## Vidéos
+
+- [Linear Haskell](https://www.youtube.com/watch?v=t0mhvd3-60Y)
 
 ## Cours
 
