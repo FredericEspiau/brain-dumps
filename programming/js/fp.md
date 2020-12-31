@@ -8,6 +8,7 @@
 - https://dev.to/anthonyjoeseph/should-i-use-redux-observable-also-what-is-it-also-let-s-be-honest-what-s-redux-2hba
 - https://dev.to/anthonyjoeseph/why-is-redux-observable-like-that-2g4e
 - https://dev.to/gnomff_65/fp-ts-and-beautiful-api-calls-1f55
+- [Functional JS](https://medium.com/dailyjs/functional-js-5-partial-application-currying-da30da4e0cc3)
 
 # Optics.js
 
