@@ -16,3 +16,4 @@
 ## Articles
 
 - [Vaccin](https://m.facebook.com/story.php?story_fbid=431866641557294&id=108816580528970)
+- [How Whole Foods, yoga, and NPR became the hallmarks of the modern elite](https://www.vox.com/podcasts/2019/11/14/20964420/whole-foods-yoga-npr-elite-ezra-klein-elizabeth-currid-halkett-inequality)
