@@ -22,6 +22,7 @@
 - [Functional programming with fp-ts](https://hvalls.dev/posts/intro-functional-fpts)
 - [Learn fp-ts](https://zanza00.gitbook.io/learn-fp-ts/)
 - [Purely functional dependency injection](http://anttih.com/articles/2018/07/05/purely-functional-di)
+- [Optics](https://medium.com/pleasework/optics-in-typescript-c1a190fb3963)
 
 ## Outils
 
