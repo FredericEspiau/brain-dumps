@@ -9,6 +9,7 @@
 - https://ihp.digitallyinduced.com/
 - [Serokell Blog](https://serokell.io/blog)
 - [MOOC Functional Programming in Haskell: Supercharge Your Coding](https://www.futurelearn.com/courses/functional-programming-haskell)
+- [Pleins d'articles sur la conception en HK](https://github.com/graninas/software-design-in-haskell)
 
 ## Cours
 
