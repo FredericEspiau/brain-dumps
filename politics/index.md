@@ -10,3 +10,4 @@
 - https://fr.theanarchistlibrary.org/library/emma-goldman-le-communisme-n-existe-pas-en-urss
 - [Conspiracy Watch](https://www.conspiracywatch.info/)
 - [Locked Up](https://theanarchistlibrary.org/library/alfredo-m-bonanno-locked-up)
+- [Théorie sociale Bourdieu](https://www.youtube.com/watch?v=coxcEYaFvJc)
