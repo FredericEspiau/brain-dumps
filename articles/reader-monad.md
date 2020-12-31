@@ -638,8 +638,9 @@ C'est pareil, c'est juste caché
 
 ## To read
 
-https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/
-http://anttih.com/articles/2018/07/05/purely-functional-di
-https://medium.com/rahasak/dependency-injection-with-reader-monad-in-scala-fe05b29e04dd
-https://softwaremill.com/reader-monad-constructor-dependency-injection-friend-or-foe/
-https://www.google.com/search?ei=JKnEX6ioDY-9lwSK5KyQDw&q=reader-monad-for-dependency-injection&oq=reader-monad-for-dependency-injection&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1DPC1jPC2C4DGgAcAJ4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwioypPv6KntAhWP3oUKHQoyC_IQ4dUDCA0&uact=5
+- https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/
+- http://anttih.com/articles/2018/07/05/purely-functional-di
+- https://medium.com/rahasak/dependency-injection-with-reader-monad-in-scala-fe05b29e04dd
+- https://softwaremill.com/reader-monad-constructor-dependency-injection-friend-or-foe/
+- https://www.google.com/search?ei=JKnEX6ioDY-9lwSK5KyQDw&q=reader-monad-for-dependency-injection&oq=reader-monad-for-dependency-injection&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1DPC1jPC2C4DGgAcAJ4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwioypPv6KntAhWP3oUKHQoyC_IQ4dUDCA0&uact=5
+- https://williamyaoh.com/posts/2020-07-19-deriving-reader-monad.html
