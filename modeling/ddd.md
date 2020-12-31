@@ -20,3 +20,5 @@ Code
 - [White label](https://github.com/stemmlerjs/white-label)
 
 Full Modular Monolith application with Domain-Driven Design approach.
+
+- [React](https://github.com/kgrzybek/modular-monolith-with-ddd-fe-react)
