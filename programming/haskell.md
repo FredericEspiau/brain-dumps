@@ -17,6 +17,7 @@ Article
 - [Haskell: The Bad Parts](https://www.snoyman.com/blog/2020/10/haskell-bad-parts-1)
 - [Monad transformers](http://book.realworldhaskell.org/read/monad-transformers.html)
 - [Naming conventions](https://kowainik.github.io/posts/naming-conventions)
+- [Linear types](https://news.ycombinator.com/item?id=24635141)
 
 ## Snippets
 
