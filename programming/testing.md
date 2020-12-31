@@ -13,6 +13,7 @@
 ## Cours
 
 - [Advanced Unit Testing](https://www.pluralsight.com/courses/advanced-unit-testing)
+- [jBrains](https://online-training.jbrains.ca/)
 
 ## Vidéo
 
