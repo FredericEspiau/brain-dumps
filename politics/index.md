@@ -11,3 +11,4 @@
 - [Conspiracy Watch](https://www.conspiracywatch.info/)
 - [Locked Up](https://theanarchistlibrary.org/library/alfredo-m-bonanno-locked-up)
 - [Théorie sociale Bourdieu](https://www.youtube.com/watch?v=coxcEYaFvJc)
+- [The Sum of Small Things](https://press.princeton.edu/books/paperback/9780691183176/the-sum-of-small-things)
