@@ -4,6 +4,10 @@
 - [Introduction to Dependency Injection](https://kariera.future-processing.pl/blog/introduction-to-dependency-injection/)
 - [DI Composition Models: A Primer](https://blogs.cuttingedge.it/steven/posts/2019/di-composition-models-primer/)
 
+## Articles
+
+- [Partial application is dependency injection](https://blog.ploeh.dk/2017/01/30/partial-application-is-dependency-injection/)
+
 ## Blog
 
 - [Blog with a lot of content about DI](https://blogs.cuttingedge.it/steven/)
