@@ -26,6 +26,7 @@
 - [Purely functional dependency injection in TypeScript](http://anttih.com/articles/2018/07/05/purely-functional-di)
 - [Monad transformers](http://book.realworldhaskell.org/read/monad-transformers.html)
 - [Simpler And Safer API Design Using GADTs](https://chrispenner.ca/posts/gadt-design)
+- [What I Didn't Know about Functional Programming until 2020](https://gist.github.com/melvic-ybanez/04638dfea49bd39b856562a7e393a573)
 
 ## Video
 
