@@ -54,7 +54,7 @@ Articles
 - [Layers, Onions, Ports, Adapters: it's all the same](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/)
 - [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
 
-Code
+## Code
 
 - [Matthew Renze](https://github.com/matthewrenze)
 - [C#](https://github.com/matthewrenze/clean-architecture-demo/tree/repo-and-uow)
@@ -70,9 +70,10 @@ Code
 - [Explicit architecture - PHP](https://github.com/hgraca/explicit-architecture-php)
 - [White label](https://github.com/stemmlerjs/white-label)
 
-Vidéo
+## Vidéos
 
 - [Je vous montre ce que j'apprends #01 : Architecture Hexagonale](https://www.youtube.com/watch?v=_jR8eUlNqK0)
+- [Vertical Slice Architecture](https://www.youtube.com/watch?v=5kOzZz2vj2o&feature=youtu.be)
 
 # Autre
 
