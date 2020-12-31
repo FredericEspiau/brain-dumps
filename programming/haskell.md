@@ -14,6 +14,10 @@
 
 - [Write Yourself a Scheme](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
 
+## Blogs
+
+- [Michael Snoyman](https://www.snoyman.com/)
+
 ## Article
 
 - [An opiniotated guide](https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/)
