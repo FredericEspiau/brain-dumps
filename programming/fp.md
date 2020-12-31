@@ -7,13 +7,13 @@
 - [Functional Christmas](https://functional.christmas/2020)
 - [Functional Programming Course](https://github.com/system-f/fp-course)
 
-JavaScript
+## JavaScript
 
 - [Comparaison entre Future et Promise](https://github.com/fluture-js/Fluture/wiki/Comparison-to-Promises)
 - [Awesome FP JS](https://github.com/stoeffel/awesome-fp-js#readme)
 - [QApp for PureScript](https://app.qvault.io/)
 
-Article
+## Article
 
 - [Kinds in Type Theory](http://blog.rcard.in/functional/programming/types/2019/02/17/it-s-a-kind-of-magic-kinds-in.i-type-theory.html)
 - [The Reader Monad — Part 1](https://medium.com/hackernoon/the-reader-monad-part-1-1e4d947983a8)
@@ -25,8 +25,9 @@ Article
 - [Polymorphic Effects in Scala](https://timwspence.github.io/blog/posts/2020-11-22-polymorphic-effects-in-scala.html)
 - [Purely functional dependency injection in TypeScript](http://anttih.com/articles/2018/07/05/purely-functional-di)
 - [Monad transformers](http://book.realworldhaskell.org/read/monad-transformers.html)
+- [Simpler And Safer API Design Using GADTs](https://chrispenner.ca/posts/gadt-design)
 
-Video
+## Video
 
 - [Thinking with Types](https://www.youtube.com/playlist?list=PLE-CSy3N6yEeYY5tx1u5IP3d_2xZOmpKO)
 - [Applied functional type theory](https://www.youtube.com/playlist?list=PLcoadSpY7rHXJWbUkjQ3P9MXBbXxLP8kV)
