@@ -13,6 +13,7 @@
 - [Introducing List Comprehension](https://itnext.io/introducing-list-comprehension-for-typescript-6204d9b1003e)
 - [Purely functional dependency injection](http://anttih.com/articles/2018/07/05/purely-functional-di)
 - [Performances](https://github.com/microsoft/TypeScript/wiki/Performance)
+- [Advanced Type Tricks](https://casualdeveloper.net/post/2020-12-21-advanced-typescript-type-tricks/)
 
 ## FP 
 
