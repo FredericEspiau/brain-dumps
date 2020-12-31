@@ -47,3 +47,7 @@ Zero-config CLI for TypeScript package development
 - [utility-types](https://github.com/piotrwitek/utility-types)
 
 - [Higher Type Safety](https://github.com/millsp/ts-toolbelt)
+
+## Code
+
+- [Architecture](https://github.com/jbreckmckye/node-typescript-architecture)
