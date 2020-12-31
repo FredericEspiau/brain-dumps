@@ -6,6 +6,10 @@
 - [Scala School](https://twitter.github.io/scala_school/)
 - [Scala with Cats](https://www.scalawithcats.com/)
 
+## Livres
+
+- [Hands-on Scala Programming](https://www.handsonscala.com/)
+
 ## Examples
 
 - [ScalaZ and Cats](https://github.com/fosskers/scalaz-and-cats)
