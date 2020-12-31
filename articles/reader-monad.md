@@ -646,3 +646,4 @@ C'est pareil, c'est juste caché
 - https://williamyaoh.com/posts/2020-07-19-deriving-reader-monad.html
 - https://github.com/monet/monet.js/blob/ecce6a5/docs/READER.md
 - https://github.com/monet/monet.js
+- https://gist.github.com/ruizb/554c17afb9cd3dedc76706862a9fa035
