@@ -12,3 +12,7 @@
 - [Locked Up](https://theanarchistlibrary.org/library/alfredo-m-bonanno-locked-up)
 - [Théorie sociale Bourdieu](https://www.youtube.com/watch?v=coxcEYaFvJc)
 - [The Sum of Small Things](https://press.princeton.edu/books/paperback/9780691183176/the-sum-of-small-things)
+
+## Articles
+
+- [Vaccin](https://m.facebook.com/story.php?story_fbid=431866641557294&id=108816580528970)
