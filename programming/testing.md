@@ -19,6 +19,7 @@
 
 - [Outside in TDD](https://www.youtube.com/watch?v=XHnuMjah6ps)
 - [TDD, where did it all go wrong](https://www.youtube.com/watch?v=HNjlJpuA5kQ)
+- [The Tale of the Old Bedouin Tribesman](https://www.youtube.com/watch?v=Jjpr0gmIWss)
 
 ## Article
 
