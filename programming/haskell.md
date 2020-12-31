@@ -18,6 +18,7 @@ Article
 - [Monad transformers](http://book.realworldhaskell.org/read/monad-transformers.html)
 - [Naming conventions](https://kowainik.github.io/posts/naming-conventions)
 - [Linear types](https://news.ycombinator.com/item?id=24635141)
+- [Fun with Haskell](https://pritesh-shrivastava.github.io/blog/2020/09/13/fun-with-haskell)
 
 ## Snippets
 
