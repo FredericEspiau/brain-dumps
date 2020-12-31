@@ -5,6 +5,7 @@
 - [The Science of Functional Programming](https://github.com/winitzki/sofp)
 - [Demistify FP (mostly F#/Clojure)](https://www.demystifyfp.com/)
 - [Functional Christmas](https://functional.christmas/2020)
+- [Functional Programming Course](https://github.com/system-f/fp-course)
 
 JavaScript
 
@@ -30,7 +31,6 @@ Video
 - [Thinking with Types](https://www.youtube.com/playlist?list=PLE-CSy3N6yEeYY5tx1u5IP3d_2xZOmpKO)
 - [Applied functional type theory](https://www.youtube.com/playlist?list=PLcoadSpY7rHXJWbUkjQ3P9MXBbXxLP8kV)
 - [FP to the max](https://www.youtube.com/watch?v=sxudIMiOo68)
-
 
 ## Optics.js
 
