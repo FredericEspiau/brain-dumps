@@ -11,6 +11,7 @@
 - [Protecting Your Domain-Driven Design from Anemia](https://dzone.com/articles/protecting-your-domain-driven-design-from-anemia)
 - [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
 - [CQRS, Fonctionnel, Event Sourcing & Domain Driven Design - Arnaud Lemaire](https://www.youtube.com/watch?v=qBLtZN3p3FU)
+- [DDD on a page](https://pbs.twimg.com/media/EqKaxdLW4AI191L.jpg)
 
 Code
 
