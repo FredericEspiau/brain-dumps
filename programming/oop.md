@@ -13,7 +13,8 @@
 
 ## Vidéos
 
-https://www.youtube.com/watch?v=KHowUWvhSws&list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hSNpe
+- https://www.youtube.com/watch?v=KHowUWvhSws&list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hSNpe
+- [Object-Oriented Programming is Bad](https://www.youtube.com/watch?v=QM1iUe6IofM)
 
 ## Livres
 
