@@ -4,6 +4,7 @@
 - [Scriptum](https://github.com/kongware/scriptum)
 - [The Science of Functional Programming](https://github.com/winitzki/sofp)
 - [Demistify FP (mostly F#/Clojure)](https://www.demystifyfp.com/)
+- [Functional Christmas](https://functional.christmas/2020)
 
 JavaScript
 
