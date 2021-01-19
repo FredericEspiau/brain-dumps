@@ -2,6 +2,10 @@
 
 Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que vous puissiez en profiter
 
+# Awesome
+
+- [Learn Awesome](https://learnawesome.org/)
+
 ## A trier
 
 - https://github.com/neoclide/coc.nvim
