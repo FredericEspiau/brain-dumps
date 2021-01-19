@@ -15,3 +15,5 @@ _ [The Map of Maths](https://www.quantamagazine.org/the-map-of-mathematics-20200
 - [Better Explained](https://betterexplained.com/)
 - [Interactive Mathematics](https://www.intmath.com/)
 - [What Gödel Discovered](https://stopa.io/post/269)
+- [Real Not Complex](https://realnotcomplex.com/)
+- [Free Maths Books](https://klkuttler.com/)
