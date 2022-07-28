@@ -48,3 +48,4 @@ Exemple:
 - https://khalilstemmler.com/articles/typescript-domain-driven-design/updating-aggregates-in-domain-driven-design/
 - https://www.youtube.com/watch?v=RHg53wMflCc
 - https://www.youtube.com/watch?v=Xf_aLAK1RfE
+- https://hermanpeeren.nl/varia/a-better-word-for-aggregate-root

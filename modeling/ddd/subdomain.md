@@ -1,0 +1,1 @@
+Almost every software Domain has multiple Subdomains. It really doesn’t matter whether the organization is huge and extremely complex or consists of just a few people and the software they use. There are different functions that make any business successful, so it’s advantageous to think about each of those business functions separately.
