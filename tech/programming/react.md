@@ -1,6 +1,6 @@
 # React
 
-- https://reesew.io/posts/react-algebraic-effects
+- <https://reesew.io/posts/react-algebraic-effects>
 
 Code
 

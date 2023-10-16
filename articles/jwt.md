@@ -14,5 +14,6 @@ Ne pas gérer les autorisations dans le token en revanche permet de modifier les
 Durée de vie courte pour un JWT: 1 heure
 
 Sources:
-- https://stackoverflow.com/questions/47224931/is-setting-roles-in-jwt-a-best-practice/53527119#53527119
-- https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/#silent_refresh
+
+- <https://stackoverflow.com/questions/47224931/is-setting-roles-in-jwt-a-best-practice/53527119#53527119>
+- <https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/#silent_refresh>

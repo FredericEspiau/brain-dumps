@@ -9,17 +9,16 @@ Rutger BREGMAN
 
 The images in this article are part of the project The Poverty Line by artist duo Chow and Lin. The Poverty Line uses the universal lens of food to examine daily choices we would face living on the breadline. Each country’s figure is based on the official poverty definition to derive a per-person, per-day rate. This image, for example, represents the poverty line in Thessaloniki, Greece, September 2018. Official definition of poverty per person, per day: €12.49; food: €4.02 ($4.68). You can read more about these images at the end of the article.
 
-
 The Correspondent
 Rutger Bregman – Poverty isn’t a lack of character. It’s a lack of cash
 
 Listen
- 
+
 Listen in the app
 SoundCloud
 On 13 November 1997, a new casino opened its doors just south of North Carolina’s Great Smoky Mountains in the US. Despite the dismal weather, a long line had formed at the entrance, and as people continued to arrive by the hundreds, the casino boss began advising folks to stay at home.
 
-Read this story in a minute. 
+Read this story in a minute.
 
 The widespread interest was hardly surprising. After all, it wasn’t just some shifty, mafia-run gambling den opening its doors that day. Harrah’s Cherokee Resort was and still is a massive luxury casino owned and operated by the Eastern Band of Cherokee Indians, and its opening marked the end of a 10-year-long political tug-of-war. One tribal leader had even  predicted   that “gambling would be the Cherokees’ damnation”, and North Carolina’s governor had tried to block the project at every turn.
 
@@ -27,11 +26,9 @@ Soon after the opening, it became apparent that the casino would bring the tribe
 
 As coincidence would have it, a Duke University professor by the name of Jane Costello had been researching the mental health of youngsters south of the Great Smoky Mountains since 1993. Every year, the 1,420 kids enrolled in her study took a psychiatric test. The cumulative results had already shown that those growing up in poverty were much more prone to behavioural problems than other children.
 
-This wasn’t exactly news, though. Correlations between poverty and mental illness had been drawn before by another academic, Edward Jarvis, in his famous paper Report on Insanity in Massachusetts, published in 1855. 
+This wasn’t exactly news, though. Correlations between poverty and mental illness had been drawn before by another academic, Edward Jarvis, in his famous paper Report on Insanity in Massachusetts, published in 1855.
 
 But the question still remained: which was the cause, and which the effect?
-
-
 
 Tokyo, Japan, February 2011. ¥1,679; ¥394 ($4.84, €3.51) for food. From the series The Poverty Line by Chow and Lin.
 The chicken or the egg
@@ -54,7 +51,6 @@ What, then, is the cause of mental health problems among poorer people? Nature o
 
 Genes can’t be undone. Poverty can.
 
-
 Getxo, Spain, October 2018. €23.35; €4.74 ($5.47) for food. From the series The Poverty Line by Chow and Lin.
 Why poor people do foolish things
 A world without poverty – it might be the oldest utopia around.
@@ -69,10 +65,9 @@ But is that all there is to it?
 
 What if the poor aren’t actually able to help themselves? What if all the incentives, all the information and education are like water off a duck’s back? And what if all those well-meant nudges only make the situation worse?
 
-
 Amsterdam, the Netherlands, April 2013. €32; €4.83 ($6.27) for food. From the series The Poverty Line by Chow and Lin.
 The power of context
-These are harsh questions, but then, it’s not just anybody asking them; it’s Eldar Shafir, a psychologist at Princeton University. He and Sendhil Mullainathan, an economist at Harvard, published a revolutionary theory on poverty in 2013. 
+These are harsh questions, but then, it’s not just anybody asking them; it’s Eldar Shafir, a psychologist at Princeton University. He and Sendhil Mullainathan, an economist at Harvard, published a revolutionary theory on poverty in 2013.
 
 The gist? It’s the context, stupid.
 
@@ -94,7 +89,6 @@ Questions such as "What’s for dinner?" and "How will I make it to the end of t
 
 There’s a key distinction though between people with busy lives and those living in poverty: you can’t take a break from poverty.
 
-
 Singapore, May 2013. S$18.33; S$2.22 ($1.79, €1.37) for food. From the series The Poverty Line by Chow and Lin.
 Just how much does poverty affect intelligence?
 “Our effects correspond to between 13 and 14 IQ points,” Shafir says. “That’s comparable to losing a night’s sleep or the effects of alcoholism.” What’s remarkable is that we could have figured all this out 30 years ago. Shafir and Mullainathan weren’t relying on anything so complicated as brain scans. “Economists have been studying poverty for years and psychologists have been studying cognitive limitations for years. We just put two and two together.”
@@ -110,7 +104,6 @@ Shafir found what he was looking for some 8,000 miles away in the districts of V
 So how did they do in the experiment?
 
 At the time when they were comparatively poor, they scored substantially worse on the cognitive tests. Not because they had become less intelligent people somehow – they were still the same Indian sugarcane farmers, after all – but purely and simply because their mental bandwidth was compromised.
-
 
 Hamburg, Germany, November 2011. €30.90; €4.82 ($6.61) for food. From the series The Poverty Line by Chow and Lin.
 How giving money away actually saves money

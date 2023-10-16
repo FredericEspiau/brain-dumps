@@ -183,9 +183,9 @@ The OO habit of successive forwarding from object to object moves the behavior t
 
 Notice in this example that I’ve shown nothing about how the objects are retrieved from, and written to, the database. This is for a couple of reasons. First, mapping a Domain Model to a database is always somewhat hard, so I’m chickening out and not providing an example. Second, in many ways the whole point of a Domain Model is to hide the database, both from upper layers and from people working the Domain Model itself. Thus, hiding it here reflects what it’s like to actually program in this environment.
 
-# Done 
+# Done
 
-- https://martinfowler.com/eaaCatalog/domainModel.html
+- <https://martinfowler.com/eaaCatalog/domainModel.html>
 
 ---
 

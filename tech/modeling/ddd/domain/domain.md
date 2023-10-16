@@ -1,6 +1,6 @@
 # Domain
 
-- https://medium.com/nick-tune-tech-strategy-blog/what-is-a-domain-99f658b22d7d
+- <https://medium.com/nick-tune-tech-strategy-blog/what-is-a-domain-99f658b22d7d>
 
 A Domain, in the broad sense, is what an organization does and the world it does it in. Businesses identify a market and sell products and services. Each kind of organization has its own unique realm of know-how and way of doing things. That realm of understanding and its methods for carrying out its operations is its Domain. When you develop software for an organization, you are working in its Domain. It should be pretty obvious to you what your Domain is. You work in it.
 
@@ -44,7 +44,7 @@ In software development, we typically deal with business domains. Areas of exper
 
 ---
 
-https://medium.com/nick-tune-tech-strategy-blog/domains-subdomain-problem-solution-space-in-ddd-clearly-defined-e0b49c7b586c
+<https://medium.com/nick-tune-tech-strategy-blog/domains-subdomain-problem-solution-space-in-ddd-clearly-defined-e0b49c7b586c>
 
 # Domains
 
@@ -152,8 +152,7 @@ Since a bounded context is a boundary for a model, it could include concepts fro
 
 [Subdomain vs bounded](./subdomain-vs-bounded-context.jpeg)
 
-
---- 
+---
 
 # Domain modeling
 

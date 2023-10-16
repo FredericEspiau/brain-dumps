@@ -12,13 +12,13 @@ Il faut un mécanisme pour passer l'identité d'un utilisateur d'un service à l
 
 - authentification
 
-vérifier l'identité d'une application ou d'un humain (on appelle cette identité le *principal*)
+vérifier l'identité d'une application ou d'un humain (on appelle cette identité le _principal_)
 
 - autorisation
 
 vérifier que le principal a le droit d'effectuer l'opération demandée sur les données demandées
 
-On utilise souvent une combinaison de rôles et d'ACL (*Access Control List*)
+On utilise souvent une combinaison de rôles et d'ACL (_Access Control List_)
 
 Les rôles permettent d'attribuer des permissions à des rôles pour invoquer certaines opérations
 
@@ -77,6 +77,7 @@ Exemple pour l'app, `getOrderDetails`, l'API gateway va gérer cette requête en
 Niveau sécu, `Order Service` n'autorise qu'un seul utilisateur à voir ses commandes, on a donc besoin d'authentification et d'autorisation
 
 Différences par rapport à un monolithe:
+
 - Pas de contexte en mémoire pour passer l'identité de l'utilisateur de service en service. Les services ne partagent pas de mémoire
 - Pas de session centralisée, une session en mémoire ne marche pas. En théorie, plusieurs services pourraient accéder à la session en base de données, sauf que ça viole le concept de couplage lâche
 
@@ -255,4 +256,3 @@ Chaque requête est géré par le API gateway et au moins un service
 Par exemple, et si on doit déterminer lequel de 6 services provoquent de la latence ?
 
 Imaginez si les logs sont dispersés entre 6 services
-

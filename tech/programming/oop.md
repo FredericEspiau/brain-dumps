@@ -9,17 +9,17 @@
 
 ## Blogs
 
-- https://www.yegor256.com/
+- <https://www.yegor256.com/>
 
 ## Vidéos
 
-- https://www.youtube.com/watch?v=KHowUWvhSws&list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hSNpe
+- <https://www.youtube.com/watch?v=KHowUWvhSws&list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hSNpe>
 - [Object-Oriented Programming is Bad](https://www.youtube.com/watch?v=QM1iUe6IofM)
 
 ## Livres
 
 - [99 Bottles of OOP](https://sandimetz.com/99bottles)
 
-99 Bottles of OOP is a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code. 
+99 Bottles of OOP is a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code.
 
 - [Elegant Objects](https://www.elegantobjects.org/)

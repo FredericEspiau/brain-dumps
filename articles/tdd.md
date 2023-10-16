@@ -12,6 +12,7 @@ expect(sum).toStrictEqual(0);
 ```
 
 Mais on peut pas comparer une `Fraction` et un `number`, du coup deux solutions en Java
+
 - générer la fonction `Equal` pour comparer une `Fraction` et un `number`
 - créer du code spécifiquement pour le test qui va permettre de récupérer la valeur du nombre dans une `Fraction``
 
@@ -84,10 +85,9 @@ Si en changeant le code les tests failent, alors on sait que le test fonctionne
 
 Test until fear becomes boredom -> une fois qu'on est sûr de notre code, pas besoin d'écrire les tests supplémentaires
 
-
 # Source 2
 
-https://app.pluralsight.com/guides/test-driven-development-research
+<https://app.pluralsight.com/guides/test-driven-development-research>
 
 Deux raisons pour ne pas utiliser TDD
 
@@ -118,7 +118,6 @@ les tests sont plus efficaces ?
 
 on délivre plus rapidement ?
 
-
 ## Types d'études
 
 - expériences contrôlées
@@ -143,4 +142,3 @@ Controlled: + pour test qualité et productivité
 Pilot: + pour external et test qualité
 Semi: + pour external et test qualité
 Industry: + internal, external et productivité sur le long terme
-

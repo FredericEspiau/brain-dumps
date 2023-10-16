@@ -6,7 +6,7 @@
 - [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/)
 - [Tutoriel](https://www.tutorialspoint.com/haskell/index.htm)
 - [Advent of Haskell](https://adventofhaskell.com/)
-- https://ihp.digitallyinduced.com/
+- <https://ihp.digitallyinduced.com/>
 - [Serokell Blog](https://serokell.io/blog)
 - [MOOC Functional Programming in Haskell: Supercharge Your Coding](https://www.futurelearn.com/courses/functional-programming-haskell)
 - [Pleins d'articles sur la conception en HK](https://github.com/graninas/software-design-in-haskell)
@@ -38,24 +38,25 @@
 
 There are lots of interesting introductory books. These days, the go-to one seems to be the Haskell Book. While I haven’t read it, I’ve seen that it’s written in a very welcoming style, and the highlights are Property Based Testing with the QuickCheck library, monad transformers, lambda calculus, with lots of examples and exercises.
 
-https://haskellbook.com/
+<https://haskellbook.com/>
 
 I remember reading somewhere that when it comes to intermediate or advanced Haskell, all knowledge is scattered around in blogposts. There are people working very hard to change this. But when it comes to blogposts on Haskell, content coming from these authors (in no particular order) has helped me understand things a little (actually, a lot) better:
 
-https://www.stephendiehl.com/
-http://www.haskellforall.com/
-https://www.parsonsmatt.org/
-https://kowainik.github.io/
-https://williamyaoh.com/
-https://lexi-lambda.github.io/
-https://chrispenner.ca/
-https://typeclasses.com/
+<https://www.stephendiehl.com/>
+<http://www.haskellforall.com/>
+<https://www.parsonsmatt.org/>
+<https://kowainik.github.io/>
+<https://williamyaoh.com/>
+<https://lexi-lambda.github.io/>
+<https://chrispenner.ca/>
+<https://typeclasses.com/>
 
 Podcasts are a great way to get into new programming stuff too, the ones I’m normally up to date with are:
 
-http://corecursive.com/
-https://haskellweekly.news/podcast.html
-http://www.haskellcast.com/
+<http://corecursive.com/>
+<https://haskellweekly.news/podcast.html>
+<http://www.haskellcast.com/>
 
 Sources:
-- https://gustavofranke.github.io/posts/2020-12-01-my-journey-into-haskell.html
+
+- <https://gustavofranke.github.io/posts/2020-12-01-my-journey-into-haskell.html>

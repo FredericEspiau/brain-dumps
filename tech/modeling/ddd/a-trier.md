@@ -1,8 +1,8 @@
-- https://medium.com/walmartglobaltech/building-domain-driven-microservices-af688aa1b1b8
-- https://blog.avanscoperta.it/2020/08/04/domain-driven-design-in-2020
-- https://medium.com/@naveennegi/thoughts-on-domain-driven-design-in-functional-languages-83c43ec518d
-- https://github.com/PacktPublishing/Hands-On-Domain-Driven-Design-with-.NET-Core
-- https://www.jamesmichaelhickey.com/domain-driven-design-aggregates/
-- https://www.tonymarston.net/php-mysql/dont-do-domain-driven-design.html#comment-4727181796
-- https://www.ouarzy.com/
-- https://www.ouarzy.com/make-the-implicit-explicit
+- <https://medium.com/walmartglobaltech/building-domain-driven-microservices-af688aa1b1b8>
+- <https://blog.avanscoperta.it/2020/08/04/domain-driven-design-in-2020>
+- <https://medium.com/@naveennegi/thoughts-on-domain-driven-design-in-functional-languages-83c43ec518d>
+- <https://github.com/PacktPublishing/Hands-On-Domain-Driven-Design-with-.NET-Core>
+- <https://www.jamesmichaelhickey.com/domain-driven-design-aggregates/>
+- <https://www.tonymarston.net/php-mysql/dont-do-domain-driven-design.html#comment-4727181796>
+- <https://www.ouarzy.com/>
+- <https://www.ouarzy.com/make-the-implicit-explicit>

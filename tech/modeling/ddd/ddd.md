@@ -1,6 +1,6 @@
 # Domain Driven Design
 
-- https://www.lilobase.me/le-domain-driven-design-est-il-adapte-a-tous-vos-projets/
+- <https://www.lilobase.me/le-domain-driven-design-est-il-adapte-a-tous-vos-projets/>
 - [If you're new to DDD and not sure where to start, this process will guide you step-by-step](https://github.com/ddd-crew/ddd-starter-modelling-process)
 - [Some design approaches to enforcing a business rule requiring no duplicates](https://github.com/ardalis/DDD-NoDuplicates)
 - [Strategic Domain-Driven Design](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design)
@@ -12,7 +12,7 @@
 - [Comparison of Domain-Driven Design and Clean Architecture Concepts](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/)
 - [CQRS, Fonctionnel, Event Sourcing & Domain Driven Design - Arnaud Lemaire](https://www.youtube.com/watch?v=qBLtZN3p3FU)
 - [DDD on a page](https://pbs.twimg.com/media/EqKaxdLW4AI191L.jpg)
-- https://medium.com/nick-tune-tech-strategy-blog/domains-subdomain-problem-solution-space-in-ddd-clearly-defined-e0b49c7b586c
+- <https://medium.com/nick-tune-tech-strategy-blog/domains-subdomain-problem-solution-space-in-ddd-clearly-defined-e0b49c7b586c>
 
 Code
 

@@ -35,17 +35,16 @@ Exemple:
 - Qualifier les associations en ajoutant des contraintes pour réduire la complexité technique
 - Faire en sorte d'avoir des agrégats plus petits afin de réduire le verrouillage des transactions et les complexités liées à la cohérence
 
-
 # Sources
 
-- https://martinfowler.com/bliki/DDD_Aggregate.html
-- https://blog.engineering.publicissapient.fr/2018/06/25/craft-les-patterns-tactiques-du-ddd/
-- https://dzone.com/articles/domain-driven-design-aggregate
+- <https://martinfowler.com/bliki/DDD_Aggregate.html>
+- <https://blog.engineering.publicissapient.fr/2018/06/25/craft-les-patterns-tactiques-du-ddd/>
+- <https://dzone.com/articles/domain-driven-design-aggregate>
 
 # A traiter
 
-- https://khalilstemmler.com/articles/typescript-domain-driven-design/aggregate-design-persistence/
-- https://khalilstemmler.com/articles/typescript-domain-driven-design/updating-aggregates-in-domain-driven-design/
-- https://www.youtube.com/watch?v=RHg53wMflCc
-- https://www.youtube.com/watch?v=Xf_aLAK1RfE
-- https://hermanpeeren.nl/varia/a-better-word-for-aggregate-root
+- <https://khalilstemmler.com/articles/typescript-domain-driven-design/aggregate-design-persistence/>
+- <https://khalilstemmler.com/articles/typescript-domain-driven-design/updating-aggregates-in-domain-driven-design/>
+- <https://www.youtube.com/watch?v=RHg53wMflCc>
+- <https://www.youtube.com/watch?v=Xf_aLAK1RfE>
+- <https://hermanpeeren.nl/varia/a-better-word-for-aggregate-root>

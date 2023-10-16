@@ -1,3 +1,3 @@
 # LISP
 
-- https://stopa.io/post/265
+- <https://stopa.io/post/265>

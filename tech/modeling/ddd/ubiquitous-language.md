@@ -8,11 +8,10 @@ By using the model-based language pervasively and not being satisfied until it f
 
 Domain experts should object to terms or structures that are awkward or inadequate to convey domain understanding; developers should watch for ambiguity or inconsistency that will trip up design.
 
-
 ## Ubiquitous language
 
 How ubiquitous is a "ubiquitous language"? It is only applicable within the boundaries of a model. That is why I use the word "model language" instead of the fancy expression. Something that can only be used within limits is a bit the opposite of "ubiquitous". It emphasises that the language is used by both the technical and non-technical modelers. But the use of that word is not very beneficial for the communication in my experience. We only have to convince the whole team to use a common model with a common model language. This language is only defined and applicable within the (domain) model. Our model is the context for our model language.
 
 # Done
 
-- https://martinfowler.com/bliki/UbiquitousLanguage.html
+- <https://martinfowler.com/bliki/UbiquitousLanguage.html>

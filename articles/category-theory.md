@@ -44,7 +44,6 @@ Le modèle mathématique le plus simple pour un type c'est un ensemble de valeur
 
 une fonction est un mapping entre ensembles: donne moi cet ensemble là, je te donne celui là en retour
 
-
-
 Source:
-- https://www.youtube.com/watch?v=JH_Ou17_zyU
+
+- <https://www.youtube.com/watch?v=JH_Ou17_zyU>

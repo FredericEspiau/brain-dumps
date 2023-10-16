@@ -6,4 +6,4 @@ A Traversal System allows you dive deeply into a piece of data and may allow you
 
 Livres
 
-- https://leanpub.com/optics-by-example
+- <https://leanpub.com/optics-by-example>

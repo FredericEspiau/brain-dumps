@@ -7,7 +7,7 @@ Il existe deux espèces de types
 
 # Notes
 
-# De http://blog.rcard.in/functional/programming/types/2019/02/17/it-s-a-kind-of-magic-kinds-in.i-type-theory.html
+# De <http://blog.rcard.in/functional/programming/types/2019/02/17/it-s-a-kind-of-magic-kinds-in.i-type-theory.html>
 
 En Java on peut définir un type (une calsse) qui prend un paramètre de type
 
@@ -140,7 +140,6 @@ C'est à ça que servent les genres, à simplifier la raisonnement sur les param
 
 Reprenont l'exemple de Functor
 
-
 ```scala
 class Functor f where  
   fmap :: (a -> b) -> f a -> f b 
@@ -173,8 +172,6 @@ instance Functor (Either a) where
 Certains types sont paramétriques
 
 On peut définir un type comme utilisant un paramètre de type comme `List[T]` où `T` peut être n'importe quel type concret
-
-
 
 # Autre source
 
@@ -345,6 +342,7 @@ Ces arguments sont eux-mêmes des valeurs
 On appelle souvent les `value constructor` des fonctions ou des méthodes
 
 On dit que ces constructeurs sont
+
 - polymorphiques parce qu'ils peuvent être utiliser pour construire des choses de différentes formes
 - des abstractions comme ils permettent de faire abstraction de ce qui change entre plusieurs différentes instanciations polymorphiques
 
@@ -364,7 +362,6 @@ Ces arguments sont eux-mêmes des types
 
 Un type constructor est un type qu'on peut appliquer pour typer les arguments pour construire un type
 
-
 Un value constructor est une valeur qu'on peut appliquer pour typer les arguments pour construire une valeur
 
 # DAns le livre
@@ -372,7 +369,6 @@ Un value constructor est une valeur qu'on peut appliquer pour typer les argument
 Les HKT permettent d'utiliser un constructeur de type comme paramètre de type
 
 On écrit ça `C[_]`
-
 
 ```scala
 trait Foo[C[_]] {
@@ -383,7 +379,6 @@ trait Foo[C[_]] {
 `List` est un constructeur de type car il prend un type (ici `Int`) et va construire un type `List[Int]`
 
 On peut ainsi implémenter `Foo` en utilisant `List`
-
 
 ```scala
 object FooList extends Foo[List] {
@@ -431,20 +426,19 @@ Tous les constructeur nullaires, et par conséquent tous les types monomorphique
 
 # A traiter
 
-- https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala
-- https://medium.com/@jnkrtech/what-is-higher-kinded-polymorphism-6fb2bff183f9
+- <https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala>
+- <https://medium.com/@jnkrtech/what-is-higher-kinded-polymorphism-6fb2bff183f9>
 - Programming with Types
-- https://medium.com/@patxi/intro-to-higher-kinded-types-in-haskell-df6b719e7a69
-- https://typelevel.org/blog/2016/08/21/hkts-moving-forward.html
-- https://adriaanm.github.io/files/higher.pdf
-- https://dotty.epfl.ch/docs/reference/contextual/type-classes.html
-- https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555#higher-kinded-type-hkt
+- <https://medium.com/@patxi/intro-to-higher-kinded-types-in-haskell-df6b719e7a69>
+- <https://typelevel.org/blog/2016/08/21/hkts-moving-forward.html>
+- <https://adriaanm.github.io/files/higher.pdf>
+- <https://dotty.epfl.ch/docs/reference/contextual/type-classes.html>
+- <https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555#higher-kinded-type-hkt>
 
+# Sources
 
-# Sources:
-
-- https://blog.rockthejvm.com/scala-types-kinds/
-- https://sobolevn.me/2020/10/higher-kinded-types-in-python
+- <https://blog.rockthejvm.com/scala-types-kinds/>
+- <https://sobolevn.me/2020/10/higher-kinded-types-in-python>
 - Functional Programming for Mortals
-- https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala
-- https://en.wikipedia.org/wiki/Kind_(type_theory)
+- <https://stackoverflow.com/questions/6246719/what-is-a-higher-kinded-type-in-scala>
+- <https://en.wikipedia.org/wiki/Kind_(type_theory)>

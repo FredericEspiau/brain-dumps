@@ -17,4 +17,5 @@ If you have a domain and a model of that domain, then what is that context in wh
 So we have a (domain) model and an outer model, called the (bounded) context. That outer model is used to define the boundaries of the inner model. Let's apply Occam's razor to clean this up a bit: if I define the boundaries of my domain model, I don't need a (bounded) context. I have a model and that model has boundaries. That's it. I can clearly communicate that to all stakeholders using the model. There is no advantage in using a  "bounded context" besides the domain model.
 
 # Done
-- https://hermanpeeren.nl/varia/why-i-dont-need-a-bounded-context
+
+- <https://hermanpeeren.nl/varia/why-i-dont-need-a-bounded-context>

@@ -28,11 +28,11 @@ Je suis perdu d'un coup là, peut être c'est différent en DDD que l'utilisatio
 
 ---
 
-En DDD, un repo prend des objets du domaine et retourne aussi l'objet du domaine. Après dans la vraie vie, tu vas voir des repos qui vont retourner des DTOs directement. (edited) 
+En DDD, un repo prend des objets du domaine et retourne aussi l'objet du domaine. Après dans la vraie vie, tu vas voir des repos qui vont retourner des DTOs directement. (edited)
 
 ---
 
-Eu coup côté persistance si c'est du SQL tu auras plusieurs table avec leurs relation qui sont tous dirigé de l'aggregate Root aux entités et VOs qu'il contient sinon avec une NOSQL, tu auras un document qui est créé à partir de cette Aggregate Root ? (edited) 
+Eu coup côté persistance si c'est du SQL tu auras plusieurs table avec leurs relation qui sont tous dirigé de l'aggregate Root aux entités et VOs qu'il contient sinon avec une NOSQL, tu auras un document qui est créé à partir de cette Aggregate Root ? (edited)
 
 ---
 
@@ -62,11 +62,11 @@ en terme d'organisation il faudrait donc mettre le repository (du moins l'interf
 
 L'interface c'est ton port donc dans le domaine oui
 
-
 # Auth
+
 Salut, j'aimerai avoir vos avis et votre point de vue sur l'organisation de plusieurs modules entre eux. J'ai un module authentication, qui a deux features : login et register.
 Ces deux features interagissent avec un utilisateur, cependant, je souhaiterai connaître les bonnes pratiques pour organiser  correctement  mon projet. Globalement, comment organisez-vous votre projet lorsque vous avez des éléments qui vont être utilisés dans plusieurs features ? Un dossier common par exemple ?
-La plupart des exemples pour l'authentification contiennent un module User (database entity, implémentation du repository, controller, etc)  et un module Auth  (edited) 
+La plupart des exemples pour l'authentification contiennent un module User (database entity, implémentation du repository, controller, etc)  et un module Auth  (edited)
 
 ---
 

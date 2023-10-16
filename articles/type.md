@@ -1,6 +1,6 @@
 # Type
 
-Permet d'attribuer des informations sur une donnée 
+Permet d'attribuer des informations sur une donnée
 
 Ces informations sont
 

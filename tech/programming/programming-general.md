@@ -1,4 +1,5 @@
 # Lié à la programmation
+
 - [Ingénieurerie logicielle](https://stevemcconnell.com/articles/)
 - [Flavio Copes](https://flaviocopes.com/)
 
@@ -10,7 +11,7 @@ Linux, JavaScript, Network
 
 - [HackDoor](https://www.hackdoor.io/)
 
-Partage de connaissances sur la programmation (JavaScript, Pattern Matching, etc) 
+Partage de connaissances sur la programmation (JavaScript, Pattern Matching, etc)
 
 - [Increment](https://increment.com/)
 
@@ -32,4 +33,4 @@ In imperative programming, the basic method of computation is changing stored va
 
 Haskell falls under a flavour of declarative programming where functions occupy the central role; as opposed to procedures or subroutines, like in imperative languages. A function is a binary relation between two sets that associates every element of the first set to exactly one element of the second set.
 
-Source: https://gustavofranke.github.io/posts/2020-12-01-my-journey-into-haskell.html
+Source: <https://gustavofranke.github.io/posts/2020-12-01-my-journey-into-haskell.html>

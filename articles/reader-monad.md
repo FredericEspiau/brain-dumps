@@ -1,6 +1,6 @@
 # The Reader Monad for Dependency Injection
 
-Source: https://www.youtube.com/watch?v=xPlsVVaMoB0
+Source: <https://www.youtube.com/watch?v=xPlsVVaMoB0>
 
 # Why dependency injection ?
 
@@ -521,7 +521,7 @@ class Users(env: Env) extends EnvController(env) {
 }
 ```
 
-Le vrai controller va étendre ce controller abstrait et va exécuter la fonction `run` 
+Le vrai controller va étendre ce controller abstrait et va exécuter la fonction `run`
 
 On n'élimine pas l'appel à `run` parce qu'on n'essaie pas d'avoir uniquement de la logique applicative dans le controller
 
@@ -539,7 +539,7 @@ object Global extends GlobalSettings {
 }
 ```
 
-on a juste à override `getControllerInstance` en utilisant la réflexion 
+on a juste à override `getControllerInstance` en utilisant la réflexion
 
 Dans les routes, on peut juste ajouter un `@` pour indiquer qu'il faut utiliser l'injection de dépendance
 
@@ -638,12 +638,12 @@ C'est pareil, c'est juste caché
 
 ## To read
 
-- https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/
-- http://anttih.com/articles/2018/07/05/purely-functional-di
-- https://medium.com/rahasak/dependency-injection-with-reader-monad-in-scala-fe05b29e04dd
-- https://softwaremill.com/reader-monad-constructor-dependency-injection-friend-or-foe/
-- https://www.google.com/search?ei=JKnEX6ioDY-9lwSK5KyQDw&q=reader-monad-for-dependency-injection&oq=reader-monad-for-dependency-injection&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1DPC1jPC2C4DGgAcAJ4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwioypPv6KntAhWP3oUKHQoyC_IQ4dUDCA0&uact=5
-- https://williamyaoh.com/posts/2020-07-19-deriving-reader-monad.html
-- https://github.com/monet/monet.js/blob/ecce6a5/docs/READER.md
-- https://github.com/monet/monet.js
-- https://gist.github.com/ruizb/554c17afb9cd3dedc76706862a9fa035
+- <https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/>
+- <http://anttih.com/articles/2018/07/05/purely-functional-di>
+- <https://medium.com/rahasak/dependency-injection-with-reader-monad-in-scala-fe05b29e04dd>
+- <https://softwaremill.com/reader-monad-constructor-dependency-injection-friend-or-foe/>
+- <https://www.google.com/search?ei=JKnEX6ioDY-9lwSK5KyQDw&q=reader-monad-for-dependency-injection&oq=reader-monad-for-dependency-injection&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1DPC1jPC2C4DGgAcAJ4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwioypPv6KntAhWP3oUKHQoyC_IQ4dUDCA0&uact=5>
+- <https://williamyaoh.com/posts/2020-07-19-deriving-reader-monad.html>
+- <https://github.com/monet/monet.js/blob/ecce6a5/docs/READER.md>
+- <https://github.com/monet/monet.js>
+- <https://gist.github.com/ruizb/554c17afb9cd3dedc76706862a9fa035>

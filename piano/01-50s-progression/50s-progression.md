@@ -17,4 +17,3 @@ Très associé à doo-wop
 - inverser vi et IV
 - I-V-vi-IV
 - I-vi-iv-V
-
