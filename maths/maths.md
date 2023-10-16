@@ -1,5 +1,8 @@
 # Mathématique
 
+- <https://infinitedescent.xyz/>
+- <https://www.math.cmu.edu/~jmackey/151_128/bws_book.pdf>
+- <https://news.ycombinator.com/item?id=36069847>
 - [Introduction to Sets](https://www.mathsisfun.com/sets/sets-introduction.html)
 - [Discussions HN pour apprendre les Maths](https://news.ycombinator.com/item?id=22401198)
 - [AlgebraicStructuresandDiscreteMathematics](http://nicolas.thiery.name/macs358/Notes/AlgebraicStructures.pdf)
@@ -11,7 +14,7 @@
 - [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
 - [HN: Self Studying the MIT Applied Math Curriculum](https://news.ycombinator.com/item?id=19811715)
 - [Set Theory and Foundations of Mathematics](http://settheory.net/)
-_ [The Map of Maths](https://www.quantamagazine.org/the-map-of-mathematics-20200213/)
+- [The Map of Maths](https://www.quantamagazine.org/the-map-of-mathematics-20200213/)
 - [Better Explained](https://betterexplained.com/)
 - [Interactive Mathematics](https://www.intmath.com/)
 - [What Gödel Discovered](https://stopa.io/post/269)

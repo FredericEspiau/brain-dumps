@@ -1,11 +1,11 @@
 # TypeScript
 
+- <https://gist.github.com/laughinghan/31e02b3f3b79a4b1d58138beff1a2a89>
+
 ## Articles
 
-- [When to use `never` and `unknown`](https://blog.logrocket.com/when-to-use-never-and-unknown-in-typescript-5e4d6c5799ad/)
-- [Using comme en C#](https://github.com/dsherret/using-statement/blob/master/src/using.ts)
-- [Using aussi](https://github.com/dsherret/using-statement)
-- [The never Type](https://mariusschulz.com/blog/the-never-type-in-typescript)
+- <https://deepkit.io/>
+
 - [Narrow Interface Type](https://jaketrent.com/post/narrow-interface-type-typescript/)
 - [Conditional Types](https://mariusschulz.com/blog/conditional-types-in-typescript)
 - [Monads simplified with Generators in TypeScript: Part 1](https://medium.com/flock-community/monads-simplified-with-generators-in-typescript-part-1-33486bf9d887)
@@ -15,9 +15,9 @@
 - [Performances](https://github.com/microsoft/TypeScript/wiki/Performance)
 - [Advanced Type Tricks](https://casualdeveloper.net/post/2020-12-21-advanced-typescript-type-tricks/)
 
-## FP 
+## FP
 
-- https://dev.to/gcanti
+- <https://dev.to/gcanti>
 - [Interoperability with non functional code using fp-ts](https://dev.to/gcanti/interoperability-with-non-functional-code-using-fp-ts-432e)
 - [Functional programming with fp-ts](https://hvalls.dev/posts/intro-functional-fpts)
 - [Learn fp-ts](https://zanza00.gitbook.io/learn-fp-ts/)
@@ -32,7 +32,7 @@
 
 ## Libraries
 
-- https://tsdx.io/
+- <https://tsdx.io/>
 
 Zero-config CLI for TypeScript package development
 

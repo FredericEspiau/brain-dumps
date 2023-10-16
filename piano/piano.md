@@ -1,7 +1,8 @@
 # Piano
 
-- https://pianowalk.com/how-to-learn-piano-scales/
-- https://www.tuneupgrade.com/
+- <https://www.basicmusictheory.com/>
+- <https://pianowalk.com/how-to-learn-piano-scales/>
+- <https://www.tuneupgrade.com/>
 - [HN: Advice on Getting Better from an Accomplished Piano Player (2011) (calnewport.com)](https://news.ycombinator.com/item?id=20185854)
 - [HN Music Theory: An Education from First Principles (lightnote.co)](https://news.ycombinator.com/item?id=12792063)
 - [HN Music theory for nerds](https://news.ycombinator.com/item?id=12528144)
@@ -11,7 +12,7 @@
 
 # How to learn ?
 
-![cover image](https://cdn-images-1.medium.com/max/2000/1*u5EHkZxhCp8SW4CAYCfD-Q.jpeg) 
+![cover image](https://cdn-images-1.medium.com/max/2000/1*u5EHkZxhCp8SW4CAYCfD-Q.jpeg)
 
 ## Why learn music theory?
 
@@ -26,6 +27,7 @@ Now I’m back at it and approaching it differently. And this time, I think, it 
 The “still interested in making music” is the answer to the title question — by understanding why something works and something else doesn’t I’m able to keep my frustration levels much lower. Obviously, I still make a lot of bad musical decisions but I’m able to analyze and fix them which turns potentially frustrating moments into exciting “aha!” moments.
 
 ### A living guide
+
 > Learning anything is a life-long journey which is a worn-out cliche. In this case, however, I’m still learning very actively and will update this guide as I go. So, make sure you bookmark it or follow me here or [on Twitter](https://twitter.com/ailon) to get notified of the new updates.
 
 ## A.I.R. — Absorb, Internalize, Reinforce
@@ -39,7 +41,8 @@ Absorb. The more you hear the same things repeated in different ways the more yo
 Internalize. Hearing the same things over and over again gives you a good outlook on the wide picture but whenever you start digging deeper you realize that your understanding is pretty shallow. You need to internalize the concepts you’ve learned.
 
 Reinforce. Music theory is only good if you can apply it in practice. You can practice as you go about making music but these are two different things that interfere with one another. You need to deliberately practice what you’ve learned to make your understanding applicable on autopilot whenever you actually make music.
-> I list these concepts in order but don’t think about them as stages. ***You have to be doing all three in parallel all the time***.
+
+> I list these concepts in order but don’t think about them as stages. **_You have to be doing all three in parallel all the time_**.
 
 In this guide, I’ll cover the techniques, tools, and resources that I think work the best for each activity.
 
@@ -54,7 +57,6 @@ Let’s cover both types…
 ### Free content
 
 If you want to learn just the basics and have only 30 minutes (or just 15 minutes at 2x speed), go no further than this video by Andrew Huang:
-
 
 You will not get a Ph.D. in music theory after watching it but it presents everything in a very approachable manner without dumbing it down like some other beginner videos I’ve watched.
 
@@ -84,7 +86,7 @@ It consists of 5 weeks of lectures plus a final exam. Each week is about an hour
 
 You can find quite a few expensive (I’m talking thousands of dollars) serious courses online but luckily there are very affordable options too.
 
-The niche between quick free videos and college-style courses is occupied by well thought out well-produced but fairly down-to-earth courses. There are plenty of options but I found my home for these for now at a quite unexpected place for many —[ LinkedIn Learning](https://linkedin.com/learning). It becomes less surprising once you know that LinkedIn acquired Lynda.com back in 2015 but that’s beside the point.
+The niche between quick free videos and college-style courses is occupied by well thought out well-produced but fairly down-to-earth courses. There are plenty of options but I found my home for these for now at a quite unexpected place for many —[LinkedIn Learning](https://linkedin.com/learning). It becomes less surprising once you know that LinkedIn acquired Lynda.com back in 2015 but that’s beside the point.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*s7lBkYSWBBcpG43mjP1PFw.png)
 
@@ -96,7 +98,7 @@ Here are the music theory-related LinkedIn Learning courses I went through:
 
 1. [Music Theory for Songwriters: The Fundamentals](https://www.linkedin.com/learning/music-theory-for-songwriters-the-fundamentals/) by Julian Velard. For a total newbie that I was when I first tried watching this years ago, it got overwhelming pretty quickly. But after I went through a couple of introductory things elsewhere it was quite useful. So don’t start with this if you know nothing yet, but come back to it later in your journey.
 
-1. [Music Theory for Songwriters: Harmony ](https://www.linkedin.com/learning/music-theory-for-songwriters-harmony/)by Julian Velard. A follow-up to the one above so the same applies. Julian covers interesting things but I think at times he forgets about the level of the target audience.
+1. [Music Theory for Songwriters: Harmony](https://www.linkedin.com/learning/music-theory-for-songwriters-harmony/)by Julian Velard. A follow-up to the one above so the same applies. Julian covers interesting things but I think at times he forgets about the level of the target audience.
 
 1. [Music Theory for Songwriters: Rhythm](https://www.linkedin.com/learning/music-theory-for-songwriters-rhythm/) by David Franz. This one was really good and to the point. Can recommend it for anyone.
 
@@ -133,6 +135,7 @@ Here are two books I can recommend (in order):
 **The so-so**: this book is probably what a “traditional” music theory book is — it relies heavily on stuff notation and I, honestly, for the most part, don’t see how this is beneficial. In my opinion, sheet reading/writing is a separate subject and here it just adds an extra concept that “dummies” like me can’t handle.
 
 **Verdict**: this was the book I’ve tried to read ~5 years ago and gave up. I found it much more valuable as I reread it now after the Nicolas Carter book. (P.S.: I have the 3rd edition and current is the 4th).
+
 > Pro tip:
 > In case you aren’t interested in reading a whole book (or a few books) on music theory, most of the good “learn to play piano” and alike books cover quite some ground of music theory. For example, I found an old book I bought many years ago for my daughter called “[The Complete Idiot’s Guide to Playing Piano](https://amzn.to/2uHYR9P)” and literally more than half of it is about music theory.
 > Pro tip 2:
@@ -160,12 +163,12 @@ So there you have it. This method of learning seems to be working for me and I h
 
 Like what you see here? Please help me get more exposure and motivate me to do more! Here’s how you can help:
 
-* Share this post on social media (the sharing tools are somewhere on the side or below)
+- Share this post on social media (the sharing tools are somewhere on the side or below)
 
-* Check out my [ReNoob YouTube channel](https://www.youtube.com/channel/UCWdQTQ7-O1vnYfTPcJVzMlA/)
+- Check out my [ReNoob YouTube channel](https://www.youtube.com/channel/UCWdQTQ7-O1vnYfTPcJVzMlA/)
 
-* Check out my other posts. For example, “[Do you really need an audio interface for your budget home studio?](https://medium.com/renoob/do-you-really-need-an-audio-interface-for-your-budget-home-studio-3b6f901285bf)”
+- Check out my other posts. For example, “[Do you really need an audio interface for your budget home studio?](https://medium.com/renoob/do-you-really-need-an-audio-interface-for-your-budget-home-studio-3b6f901285bf)”
 
-* Support [me on Patreon](https://www.patreon.com/ailonid). Here’s the direct [ReNoob tier link](https://www.patreon.com/join/ailonid/checkout?rid=4674511).
+- Support [me on Patreon](https://www.patreon.com/ailonid). Here’s the direct [ReNoob tier link](https://www.patreon.com/join/ailonid/checkout?rid=4674511).
 
 Thank you! 🙏

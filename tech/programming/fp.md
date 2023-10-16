@@ -9,6 +9,7 @@
 
 ## JavaScript
 
+- <https://github.com/getify/Functional-Light-JS/tree/master>
 - [Comparaison entre Future et Promise](https://github.com/fluture-js/Fluture/wiki/Comparison-to-Promises)
 - [Awesome FP JS](https://github.com/stoeffel/awesome-fp-js#readme)
 - [QApp for PureScript](https://app.qvault.io/)
@@ -36,5 +37,5 @@
 
 ## Optics.js
 
-- https://github.com/kutyel/optics.js
+- <https://github.com/kutyel/optics.js>
 - [Quick Introduction to Lenses with Optics.js](https://www.youtube.com/watch?v=vf3P_i1IMtU)

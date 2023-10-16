@@ -1,5 +1,8 @@
 # JavaScript/TypeScript
 
+- <https://github.com/evilsoft/crocks>
+- <https://github.com/fluture-js/Fluture>
+
 Blogs
 
 - [2ality](https://2ality.com/)
@@ -13,7 +16,6 @@ Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
 
 - [Type Fest](https://github.com/sindresorhus/type-fest)
 - [Higher Kinded Types in TS](https://dev.to/matechs/encoding-hkts-in-ts4-1-1fn2)
-
 
 Libraries
 

@@ -1,5 +1,6 @@
 # Testing
 
+- <https://www.youtube.com/watch?v=adaQ52DMitE>
 - [Advanced Unit Testing](https://app.pluralsight.com/library/courses/advanced-unit-testing)
 - [From Test Data Builders to the identity functor](https://blog.ploeh.dk/2017/08/14/from-test-data-builders-to-the-identity-functor/)
 - [Most Organizations are Overtesting Software — and Also Undertesting](https://thenewstack.io/most-organizations-are-overtesting-software-and-also-undertesting/)
@@ -23,13 +24,12 @@
 
 ## Article
 
-- https://mickalwegerich.medium.com/un-test-peut-en-cacher-un-autre-un-peu-de-th%C3%A9orie-6df532424edd
+- <https://mickalwegerich.medium.com/un-test-peut-en-cacher-un-autre-un-peu-de-th%C3%A9orie-6df532424edd>
 - [TDD or not TDD](https://www.linkedin.com/pulse/tdd-la-m%25C3%25A9thode-qui-promet-des-logiciels-de-meilleur-lenselle/?trackingId=nT4XviI2y1FVdswevM0Oyw%3D%3D)
 - [Test Heuristics Cheat Sheet](http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf)
 
 ## Improving your Test Driven Development in 45 minutes
 
-Source: https://www.youtube.com/watch?v=2vEoL3Irgiw&feature=youtu.be
+Source: <https://www.youtube.com/watch?v=2vEoL3Irgiw&feature=youtu.be>
 
 Voir "Does TDD really lead to good design ?"
-
