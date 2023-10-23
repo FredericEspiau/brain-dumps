@@ -1,6 +1,5 @@
 # Politique
 
-- [COVID](https://www.lemonde.fr/les-decodeurs/article/2020/11/13/pourquoi-pour-qui-nos-reponses-a-36-questions-tres-partagees-sur-la-crise-du-covid_6059644_4355770.html)
 - <https://people.howstuffworks.com/anarchism.htm>
 - <https://theanarchistlibrary.org/library/peter-gelderloos-anarchy-works/>
 - <https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships>

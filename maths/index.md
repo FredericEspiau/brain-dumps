@@ -20,3 +20,5 @@
 - [What Gödel Discovered](https://stopa.io/post/269)
 - [Real Not Complex](https://realnotcomplex.com/)
 - [Free Maths Books](https://klkuttler.com/)
+- <http://villemin.gerard.free.fr/Referenc/Outils/Outils/Structur/IndexSA.htm>
+-

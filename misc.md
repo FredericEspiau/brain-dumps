@@ -1,0 +1,3 @@
+# Misc
+
+- <https://emojipedia.org/>
