@@ -123,3 +123,4 @@ Au lieu de garder mes favoris dans mon coin, je les partage sur Github pour que 
 - <https://nodejs.org/en/docs/guides/dont-block-the-event-loop>
 - <https://github.com/goldbergyoni/nodebestpractices>
 - <https://icepanel.io/>
+- https://github.com/ZachGoldberg/Startup-CTO-Handbook
